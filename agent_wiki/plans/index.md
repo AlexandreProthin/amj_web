@@ -8,5 +8,11 @@ Use `type: Plan`. Set `stale_after` when a plan targets a date — an expired
 plan that still reads as current is worse than no plan. When a plan lands, mark
 it `deprecated` and link to what it produced rather than deleting it.
 
-* [GitHub-hosted static web page](github-pages-static-site.md) — initial
-  delivery target and the remaining implementation inputs.
+* [Public heritage publishing roadmap](github-pages-static-site.md) — root
+  roadmap linked to independently reviewable delivery branches.
+* [Foundation and GitHub Pages publishing](github-pages-foundation.md)
+* [Independent mobile experiences](independent-experiences.md)
+* [Interactive church map](interactive-church-map.md)
+* [Identity and attribution](identity-and-attribution.md)
+* [Quality assurance and public release](quality-and-public-release.md)
+* [QR codes and printed supports](qr-and-print-supports.md)

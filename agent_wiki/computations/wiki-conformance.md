@@ -13,6 +13,9 @@ executor:
 attester:
   resource: /references/attesters/command-equality.py
 generated: { by: codex/gpt-5, at: 2026-09-15T16:19:06Z }
+verified:
+  - by: human:alex
+    at: 2026-09-15T20:39:40Z
 sources:
   - id: okf-conformance
     resource: /references/okf-spec.md

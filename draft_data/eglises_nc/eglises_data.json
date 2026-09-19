@@ -1,0 +1,1942 @@
+[
+  {
+    "id": 1,
+    "commune": "Bélep",
+    "nom": "Église de Bélep",
+    "localisation": "Waala",
+    "date": "—",
+    "fait": "L'église diocésaine répertorie Bélep parmi ses communautés catholiques ; édifice inventorié à Waala.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm",
+      "https://diocese.ddec.nc/Sommaire.htm"
+    ],
+    "type": "église",
+    "lat": -19.709864,
+    "lon": 163.647196,
+    "precision": "précise",
+    "geocodage": "Église paroissiale de Waala",
+    "photo": null
+  },
+  {
+    "id": 2,
+    "commune": "Boulouparis",
+    "nom": "Église Sainte-Anne",
+    "localisation": "Bourg de Boulouparis",
+    "date": "—",
+    "fait": "Église catholique principale répertoriée dans le bourg.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "église",
+    "lat": -21.865738,
+    "lon": 166.047588,
+    "precision": "précise",
+    "geocodage": "Église Sainte-Anne",
+    "photo": null
+  },
+  {
+    "id": 3,
+    "commune": "Boulouparis",
+    "nom": "Chapelle Sainte-Thérèse-de-l'Enfant-Jésus",
+    "localisation": "Tomo",
+    "date": "—",
+    "fait": "Édifice également répertorié sous le nom de chapelle Sainte-Thérèse de Tomo.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "chapelle",
+    "lat": -21.958444,
+    "lon": 166.151048,
+    "precision": "précise",
+    "geocodage": "Tomo",
+    "photo": null
+  },
+  {
+    "id": 4,
+    "commune": "Boulouparis",
+    "nom": "Chapelle Saint-Joseph",
+    "localisation": "Ouinané-Nétéa",
+    "date": "—",
+    "fait": "Signalée dans l'inventaire territorial de Clochers.org.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "chapelle",
+    "lat": -21.920881,
+    "lon": 166.160461,
+    "precision": "précise",
+    "geocodage": "Ouinané-Nétéa",
+    "photo": null
+  },
+  {
+    "id": 5,
+    "commune": "Boulouparis",
+    "nom": "Chapelle du Sacré-Cœur",
+    "localisation": "Ouitchambo / Nassirah / Kouergoa",
+    "date": "—",
+    "fait": "Dessert les tribus de ce secteur.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "chapelle",
+    "lat": -21.862985,
+    "lon": 166.050959,
+    "precision": "commune",
+    "geocodage": "Boulouparis",
+    "photo": null
+  },
+  {
+    "id": 6,
+    "commune": "Boulouparis",
+    "nom": "Chapelle Notre-Dame-de-Lourdes",
+    "localisation": "Commune de Boulouparis",
+    "date": "—",
+    "fait": "Signalée dans l'inventaire des édifices à documenter.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "chapelle",
+    "lat": -21.859606,
+    "lon": 166.062534,
+    "precision": "précise",
+    "geocodage": "Décheterie de Boulouparis",
+    "photo": null
+  },
+  {
+    "id": 7,
+    "commune": "Bourail",
+    "nom": "Église du Sacré-Cœur",
+    "localisation": "Bourg de Bourail",
+    "date": "—",
+    "fait": "Église paroissiale ; la messe dominicale y est célébrée et la paroisse dessert aussi Ouaoué et Gouaro.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/bourail.htm"
+    ],
+    "type": "église",
+    "lat": -21.622317,
+    "lon": 167.953179,
+    "precision": "précise",
+    "geocodage": "Église de Medu",
+    "photo": null
+  },
+  {
+    "id": 8,
+    "commune": "Bourail",
+    "nom": "Église Saint-Pierre-Chanel",
+    "localisation": "Azareu",
+    "date": "—",
+    "fait": "Azareu est également identifié par le diocèse comme implantation catholique.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm",
+      "https://diocese.ddec.nc/Sommaire.htm"
+    ],
+    "type": "église",
+    "lat": -21.457133,
+    "lon": 165.473566,
+    "precision": "précise",
+    "geocodage": "Azareu",
+    "photo": null
+  },
+  {
+    "id": 9,
+    "commune": "Bourail",
+    "nom": "Chapelle de Néméara",
+    "localisation": "Néméara",
+    "date": "—",
+    "fait": "Chapelle recensée dans les deux inventaires consultés.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie",
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "chapelle",
+    "lat": -21.510382,
+    "lon": 165.480257,
+    "precision": "précise",
+    "geocodage": "Ferme de Néméara et Villa brousse",
+    "photo": null
+  },
+  {
+    "id": 10,
+    "commune": "Bourail",
+    "nom": "Chapelle de Borégaou",
+    "localisation": "Borégaou",
+    "date": "—",
+    "fait": "Signalée par l'inventaire Clochers ; localisation précise encore à documenter.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "chapelle",
+    "lat": -21.584295,
+    "lon": 165.494487,
+    "precision": "précise",
+    "geocodage": "la Néra (Nouvelle-Calédonie)",
+    "photo": null
+  },
+  {
+    "id": 11,
+    "commune": "Canala",
+    "nom": "Église Sainte-Thérèse / église de Canala",
+    "localisation": "Mission Sainte-Marie, Canala",
+    "date": "Bénie en 2002 (nouvelle église)",
+    "fait": "L'ancienne église ayant vieilli, un nouvel édifice a été construit ; bénédiction lors de l'Assomption le 15 août 2002.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/canala.htm"
+    ],
+    "type": "église",
+    "lat": -21.523556,
+    "lon": 165.956334,
+    "precision": "précise",
+    "geocodage": "Mission Ste Marie",
+    "photo": { "path": "assets/images/diocese-canala.jpg", "source": "https://diocese.ddec.nc/paroisses/canala.htm" }
+  },
+  {
+    "id": 12,
+    "commune": "Canala",
+    "nom": "Église Saint-Pierre-et-Saint-Paul",
+    "localisation": "Nakéty",
+    "date": "1883",
+    "fait": "Le diocèse donne explicitement 1883 pour l'église de Nakéty. La mission y a célébré son 150e anniversaire en 2016.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/canala.htm"
+    ],
+    "type": "église",
+    "lat": -21.545359,
+    "lon": 166.042035,
+    "precision": "précise",
+    "geocodage": "Église Saint-Pierre-et-Saint-Paul",
+    "photo": null
+  },
+  {
+    "id": 13,
+    "commune": "Canala",
+    "nom": "Chapelle de Nakéty",
+    "localisation": "Nakéty",
+    "date": "—",
+    "fait": "Une autre chapelle de Nakéty figure dans l'inventaire national des édifices.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "chapelle",
+    "lat": -21.531909,
+    "lon": 166.072006,
+    "precision": "précise",
+    "geocodage": "Route du Warf de Nakéty",
+    "photo": null
+  },
+  {
+    "id": 14,
+    "commune": "Dumbéa",
+    "nom": "Église du Sacré-Cœur",
+    "localisation": "Auteuil",
+    "date": "—",
+    "fait": "Église catholique d'Auteuil, rattachée au réseau paroissial du diocèse.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm",
+      "https://diocese.ddec.nc/Sommaire.htm"
+    ],
+    "type": "église",
+    "lat": -22.211918,
+    "lon": 166.477874,
+    "precision": "précise",
+    "geocodage": "Église du Sacré-Cœur d'Auteuil",
+    "photo": null
+  },
+  {
+    "id": 15,
+    "commune": "Dumbéa",
+    "nom": "Église Saint-Pierre-Chanel",
+    "localisation": "Dumbéa",
+    "date": "—",
+    "fait": "Édifice recensé à Dumbéa.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "église",
+    "lat": -22.167666,
+    "lon": 166.458012,
+    "precision": "précise",
+    "geocodage": "Dumbéa",
+    "photo": null
+  },
+  {
+    "id": 16,
+    "commune": "Dumbéa",
+    "nom": "Chapelle de Dumbéa-sur-Mer",
+    "localisation": "Apogoti",
+    "date": "2019 (implantation bénie)",
+    "fait": "Le diocèse mentionne la bénédiction d'Apogoti le 30 mai 2019.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm",
+      "https://diocese.ddec.nc/Sommaire.htm"
+    ],
+    "type": "chapelle",
+    "lat": -22.197837,
+    "lon": 166.442173,
+    "precision": "précise",
+    "geocodage": "Chapelle de Dumbéa-Sur-Mer",
+    "photo": null
+  },
+  {
+    "id": 17,
+    "commune": "Farino",
+    "nom": "Chapelle Saint-Padre-Pio",
+    "localisation": "Farino",
+    "date": "—",
+    "fait": "Petite chapelle dédiée à Padre Pio, canonisé en 2002 ; elle est signalée ouverte toute l'année en 2026.",
+    "sources": [
+      "https://www.nouvellecaledonie.travel/offres/chapelle-saint-padre-pio-de-farino-farino-fr-5899756/"
+    ],
+    "type": "chapelle",
+    "lat": -21.667869,
+    "lon": 165.775291,
+    "precision": "précise",
+    "geocodage": "Farino",
+    "photo": {
+      "path": "assets/images/chapelle-saint-padre-pio-f0dc312.jpg",
+      "source": "https://api.cloudly.space/resize/crop/1200/627/60/aHR0cHM6Ly9zdGF0aWMuYXBpZGFlLXRvdXJpc21lLmNvbS9maWxlc3RvcmUvb2JqZXRzLXRvdXJpc3RpcXVlcy9pbWFnZXMvODIvOTEvMTExNjQ0OTguanBn/image.jpg"
+    }
+  },
+  {
+    "id": 18,
+    "commune": "Farino",
+    "nom": "Chapelle Notre-Dame-de-la-Paix",
+    "localisation": "Farino",
+    "date": "—",
+    "fait": "Répertoriée dans l'inventaire des édifices catholiques.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "chapelle",
+    "lat": -21.667869,
+    "lon": 165.775291,
+    "precision": "précise",
+    "geocodage": "Farino",
+    "photo": null
+  },
+  {
+    "id": 19,
+    "commune": "Hienghène",
+    "nom": "Église Saint-Pierre",
+    "localisation": "Mission de Ouaré",
+    "date": "—",
+    "fait": "Signalée par l'inventaire territorial.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "église",
+    "lat": -20.640208,
+    "lon": 164.88251,
+    "precision": "précise",
+    "geocodage": "Les roches de la Ouaième",
+    "photo": null
+  },
+  {
+    "id": 20,
+    "commune": "Hienghène",
+    "nom": "Église de Tiendanite",
+    "localisation": "Tiendanite",
+    "date": "—",
+    "fait": "Église catholique répertoriée dans l'inventaire national.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "église",
+    "lat": -20.750147,
+    "lon": 164.89539,
+    "precision": "précise",
+    "geocodage": "Route de Tiendanite",
+    "photo": null
+  },
+  {
+    "id": 21,
+    "commune": "Hienghène",
+    "nom": "Église de Werap",
+    "localisation": "Werap",
+    "date": "—",
+    "fait": "Édifice catholique inventorié.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "église",
+    "lat": -20.721931,
+    "lon": 164.928124,
+    "precision": "précise",
+    "geocodage": "Commune de Werap",
+    "photo": null
+  },
+  {
+    "id": 22,
+    "commune": "Hienghène",
+    "nom": "Chapelle de Ganem",
+    "localisation": "Ganem",
+    "date": "—",
+    "fait": "Chapelle recensée mais encore indiquée « à géolocaliser » dans l'inventaire.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "chapelle",
+    "lat": -20.698192,
+    "lon": 164.93387,
+    "precision": "précise",
+    "geocodage": "Ganem",
+    "photo": null
+  },
+  {
+    "id": 23,
+    "commune": "Hienghène",
+    "nom": "Chapelle de Linderalique",
+    "localisation": "Linderalique",
+    "date": "—",
+    "fait": "Même situation : édifice identifié mais localisation exacte à compléter.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "chapelle",
+    "lat": -20.686207,
+    "lon": 164.980511,
+    "precision": "précise",
+    "geocodage": "Pont de Lindéralique",
+    "photo": null
+  },
+  {
+    "id": 24,
+    "commune": "Houaïlou",
+    "nom": "Église Saint-Laurent de Nindhia",
+    "localisation": "Nindhia",
+    "date": "Mission fondée en 1907",
+    "fait": "La paroisse Houaïlou-Nindhia est dédiée à saint Laurent et fondée en 1907.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/nindhia.htm"
+    ],
+    "type": "église",
+    "lat": -21.278703,
+    "lon": 165.627046,
+    "precision": "précise",
+    "geocodage": "Houaïlou",
+    "photo": { "path": "assets/images/diocese-nindhia.jpg", "source": "https://diocese.ddec.nc/paroisses/nindhia.htm" }
+  },
+  {
+    "id": 25,
+    "commune": "Houaïlou",
+    "nom": "Chapelle de Néouyo",
+    "localisation": "Néouyo",
+    "date": "—",
+    "fait": "Répertoriée parmi les chapelles catholiques.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "chapelle",
+    "lat": -22.221088,
+    "lon": 166.549733,
+    "precision": "précise",
+    "geocodage": "Route de Nekuya",
+    "photo": null
+  },
+  {
+    "id": 26,
+    "commune": "Île des Pins",
+    "nom": "Église Notre-Dame-de-l'Assomption",
+    "localisation": "Vao",
+    "date": "1860",
+    "fait": "Première église en pierre de l'île, bénie le 5 août 1860 ; elle constitue l'un des grands monuments religieux de Kunié.",
+    "sources": [],
+    "type": "église",
+    "lat": -22.66517,
+    "lon": 167.495819,
+    "precision": "précise",
+    "geocodage": "Vao",
+    "photo": {
+      "path": "assets/images/eglise-notre-dame-assomption-vao-commons.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Vao_Catholic_Church_(32130209258).jpg",
+      "credit": "David Stanley",
+      "licence": "CC BY 2.0"
+    }
+  },
+  {
+    "id": 27,
+    "commune": "Île des Pins",
+    "nom": "Chapelle de Vao",
+    "localisation": "Colline derrière l'église, Vao",
+    "date": "—",
+    "fait": "Chapelle située sur la hauteur derrière Notre-Dame-de-l'Assomption.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "chapelle",
+    "lat": -22.605091,
+    "lon": 167.468583,
+    "precision": "commune",
+    "geocodage": "Île des Pins",
+    "photo": null
+  },
+  {
+    "id": 28,
+    "commune": "Île des Pins",
+    "nom": "Chapelle de la Divine Providence",
+    "localisation": "Touété, secteur de la grotte de la Reine Hortense",
+    "date": "—",
+    "fait": "Signalée dans l'inventaire territorial.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "chapelle",
+    "lat": -22.58564,
+    "lon": 167.473796,
+    "precision": "précise",
+    "geocodage": "Grotte de la Reine Hortense",
+    "photo": null
+  },
+  {
+    "id": 29,
+    "commune": "Île des Pins",
+    "nom": "Chapelle Notre-Dame-de-la-Salette",
+    "localisation": "Île des Pins",
+    "date": "—",
+    "fait": "Chapelle répertoriée aux coordonnées 22.6693° S, 167.4869° E.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "chapelle",
+    "lat": -22.605091,
+    "lon": 167.468583,
+    "precision": "précise",
+    "geocodage": "Île des Pins",
+    "photo": null
+  },
+  {
+    "id": 30,
+    "commune": "Kaala-Gomen",
+    "nom": "Église Sainte-Thérèse",
+    "localisation": "Kaala-Gomen",
+    "date": "—",
+    "fait": "Église catholique recensée dans l'inventaire de terrain.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "église",
+    "lat": -20.667931,
+    "lon": 164.395997,
+    "precision": "précise",
+    "geocodage": "Kaala-Gomen",
+    "photo": null
+  },
+  {
+    "id": 31,
+    "commune": "Koné",
+    "nom": "Église Notre-Dame-de-l'Assomption",
+    "localisation": "Bourg de Koné",
+    "date": "1954",
+    "fait": "La paroisse catholique du village existe depuis 1891 ; l'actuelle église paroissiale a été construite en 1954.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Kon%C3%A9_%28Nouvelle-Cal%C3%A9donie%29"
+    ],
+    "type": "église",
+    "lat": -21.045991,
+    "lon": 164.843766,
+    "precision": "précise",
+    "geocodage": "RSMA de Nouvelle-Calédonie (Koné)",
+    "photo": null
+  },
+  {
+    "id": 32,
+    "commune": "Koné",
+    "nom": "Église Saint-Louis-de-Gonzague",
+    "localisation": "Tiaoué",
+    "date": "—",
+    "fait": "Église catholique de Tiaoué répertoriée dans l'inventaire national.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "église",
+    "lat": -21.045991,
+    "lon": 164.843766,
+    "precision": "précise",
+    "geocodage": "RSMA de Nouvelle-Calédonie (Koné)",
+    "photo": null
+  },
+  {
+    "id": 33,
+    "commune": "Kouaoua",
+    "nom": "Chapelle d'Ouerou-Pimet",
+    "localisation": "Tribu Ouerou-Pimet",
+    "date": "—",
+    "fait": "Chapelle de tribu signalée par l'inventaire Clochers.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "chapelle",
+    "lat": -21.396181,
+    "lon": 165.828447,
+    "precision": "commune",
+    "geocodage": "Kouaoua",
+    "photo": null
+  },
+  {
+    "id": 34,
+    "commune": "Kouaoua",
+    "nom": "Chapelle de Koh",
+    "localisation": "Tribu de Koh",
+    "date": "—",
+    "fait": "Également signalée ; documentation publique très limitée.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "chapelle",
+    "lat": -21.539492,
+    "lon": 165.836874,
+    "precision": "précise",
+    "geocodage": "Koh AB",
+    "photo": null
+  },
+  {
+    "id": 35,
+    "commune": "Koumac",
+    "nom": "Église Sainte-Jeanne-d'Arc",
+    "localisation": "Koumac",
+    "date": "Paroisse fondée en 1939",
+    "fait": "Église paroissiale de Koumac ; le diocèse indique la fondation de la paroisse en 1939.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/koumac.htm"
+    ],
+    "type": "église",
+    "lat": -20.561131,
+    "lon": 164.281772,
+    "precision": "précise",
+    "geocodage": "Église Sainte Jeanne d'Arc",
+    "photo": { "path": "assets/images/diocese-koumac.jpg", "source": "https://diocese.ddec.nc/paroisses/koumac.htm" }
+  },
+  {
+    "id": 36,
+    "commune": "Koumac / extrême Nord",
+    "nom": "Chapelle Saint-Joseph",
+    "localisation": "Arama",
+    "date": "Mission depuis 1860",
+    "fait": "Les missionnaires Gillibert et Gagnière débarquent à Arama le 21 septembre 1860 ; le 150e anniversaire a été célébré en 2010 après rénovation de la chapelle.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/koumac.htm"
+    ],
+    "type": "chapelle",
+    "lat": -20.56136,
+    "lon": 164.281171,
+    "precision": "commune",
+    "geocodage": "Koumac",
+    "photo": null
+  },
+  {
+    "id": 37,
+    "commune": "Koumac",
+    "nom": "Chapelle Notre-Dame de Tiébaghi",
+    "localisation": "Ancien village de Tiébaghi",
+    "date": "—",
+    "fait": "Chapelle catholique du secteur minier historique de Tiébaghi.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "chapelle",
+    "lat": -20.451788,
+    "lon": 164.213619,
+    "precision": "précise",
+    "geocodage": "Ancien village minier de Tiébaghi",
+    "photo": null
+  },
+  {
+    "id": 38,
+    "commune": "La Foa",
+    "nom": "Église Saint-Vincent-de-Paul",
+    "localisation": "Rue du RP Jan, La Foa",
+    "date": "1932",
+    "fait": "Inaugurée le 4 septembre 1932 devant une foule considérable ; le Père Jan annonçait dès 1930 qu'elle serait « la plus belle église » du territoire.",
+    "sources": [
+      "https://www.nouvellecaledonie.travel/offres/eglise-saint-vincent-de-paul-la-foa-fr-3915346/"
+    ],
+    "type": "église",
+    "lat": -21.701472,
+    "lon": 165.815374,
+    "precision": "précise",
+    "geocodage": "Direction du Développement Durable des Territoires - Subdivision La Foa",
+    "photo": {
+      "path": "assets/images/eglise-saint-vincent-de-paul-18fe6ab.jpg",
+      "source": "https://api.cloudly.space/resize/crop/1200/627/60/aHR0cHM6Ly9zdGF0aWMuYXBpZGFlLXRvdXJpc21lLmNvbS9maWxlc3RvcmUvb2JqZXRzLXRvdXJpc3RpcXVlcy9pbWFnZXMvMjgvODgvMTcxOTI5ODguanBn/image.jpg"
+    }
+  },
+  {
+    "id": 39,
+    "commune": "Le Mont-Dore",
+    "nom": "Église de la Conception",
+    "localisation": "La Conception",
+    "date": "Mission fondée en 1855",
+    "fait": "Importante rénovation 2007-2009 ; réouverture solennelle au culte le 1er août 2009.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/conception.htm"
+    ],
+    "type": "église",
+    "lat": -22.225439,
+    "lon": 166.499833,
+    "precision": "précise",
+    "geocodage": "Église de la Conception",
+    "photo": { "path": "assets/images/diocese-conception.jpg", "source": "https://diocese.ddec.nc/paroisses/conception.htm" }
+  },
+  {
+    "id": 40,
+    "commune": "Le Mont-Dore",
+    "nom": "Église Sainte-Cécile",
+    "localisation": "Saint-Louis",
+    "date": "Mission fondée en 1856",
+    "fait": "La mission de Saint-Louis est l'une des plus anciennes du territoire.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/st_louis.htm",
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "église",
+    "lat": -22.228385,
+    "lon": 166.543395,
+    "precision": "précise",
+    "geocodage": "Route de l'Église de Saint-Louis",
+    "photo": null
+  },
+  {
+    "id": 41,
+    "commune": "Le Mont-Dore",
+    "nom": "Église Sainte-Thérèse",
+    "localisation": "Mont-Dore / Vallon-Dore",
+    "date": "2006",
+    "fait": "Construction documentée en juin 2006 ; cloche bénie le 18 août et église bénie le 24 septembre 2006.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/st_louis.htm"
+    ],
+    "type": "église",
+    "lat": -22.265996,
+    "lon": 166.57255,
+    "precision": "précise",
+    "geocodage": "Vallon-Dore",
+    "photo": { "path": "assets/images/diocese-montdore.jpg", "source": "https://diocese.ddec.nc/paroisses/st_louis.htm" }
+  },
+  {
+    "id": 42,
+    "commune": "Le Mont-Dore",
+    "nom": "Chapelle Sainte-Thérèse",
+    "localisation": "Robinson",
+    "date": "—",
+    "fait": "Construite grâce notamment aux paroissiens wallisiens et futuniens ; des messes y sont toujours célébrées le dimanche.",
+    "sources": [
+      "https://www.nouvellecaledonie.travel/offres/chapelle-sainte-therese-de-robinson-mont-dore-fr-5899608/"
+    ],
+    "type": "chapelle",
+    "lat": -22.217594,
+    "lon": 166.510243,
+    "precision": "précise",
+    "geocodage": "Chapelle Sainte Thérèse",
+    "photo": {
+      "path": "assets/images/chapelle-sainte-therese-b8f73d2.jpg",
+      "source": "https://api.cloudly.space/resize/crop/1200/627/60/aHR0cHM6Ly9zdGF0aWMuYXBpZGFlLXRvdXJpc21lLmNvbS9maWxlc3RvcmUvb2JqZXRzLXRvdXJpc3RpcXVlcy9pbWFnZXMvMTg3Lzc0Lzg0NzMyNzUuanBn/image.jpg"
+    }
+  },
+  {
+    "id": 43,
+    "commune": "Le Mont-Dore",
+    "nom": "Chapelle Notre-Dame-de-la-Paix",
+    "localisation": "La Coulée",
+    "date": "2004",
+    "fait": "Bénie en 2004 ; sa cloche « Gabriel » a été bénie en mai 2008.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/st_louis.htm"
+    ],
+    "type": "chapelle",
+    "lat": -22.242948,
+    "lon": 166.576323,
+    "precision": "précise",
+    "geocodage": "Station Shell de le Coulée",
+    "photo": null
+  },
+  {
+    "id": 44,
+    "commune": "Le Mont-Dore",
+    "nom": "Chapelle Sainte-Jeanne-d'Arc",
+    "localisation": "Plum, rue Luc-Wadé",
+    "date": "—",
+    "fait": "Connue comme la « chapelle américaine » de Plum.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "chapelle",
+    "lat": -22.272514,
+    "lon": 166.640462,
+    "precision": "précise",
+    "geocodage": "Rue Luc Wadé",
+    "photo": null
+  },
+  {
+    "id": 45,
+    "commune": "Le Mont-Dore / Yaté",
+    "nom": "Église d'Ouara",
+    "localisation": "Île Ouen",
+    "date": "1864",
+    "fait": "Deuxième église de Nouvelle-Calédonie construite « en dur », après Vao ; édifice patrimonial classé.",
+    "sources": [
+      "https://www.sudtourisme.nc/app/uploads/nc-sud-tourism/2020/06/brochure-grand-sud-2019.pdf"
+    ],
+    "type": "église",
+    "lat": -22.43055,
+    "lon": 166.804958,
+    "precision": "précise",
+    "geocodage": "Île Ouen",
+    "photo": null
+  },
+  {
+    "id": 46,
+    "commune": "Lifou",
+    "nom": "Église Saint-François-Xavier",
+    "localisation": "Easo/Eacho",
+    "date": "Mission fondée en 1858",
+    "fait": "Construite sur le site de la première mission catholique de Lifou, établie par les PP. Montrouzier et Palazy.",
+    "sources": [
+      "https://www.nouvellecaledonie.travel/offres/eglise-saint-francois-xavier-lifou-fr-3915266/",
+      "https://diocese.ddec.nc/paroisses/lifou.htm"
+    ],
+    "type": "église",
+    "lat": -20.779195,
+    "lon": 167.131774,
+    "precision": "précise",
+    "geocodage": "Easo",
+    "photo": {
+      "path": "assets/images/eglise-saint-francois-xavier-a59b7b6.jpg",
+      "source": "https://api.cloudly.space/resize/crop/1200/627/60/aHR0cHM6Ly9zdGF0aWMuYXBpZGFlLXRvdXJpc21lLmNvbS9maWxlc3RvcmUvb2JqZXRzLXRvdXJpc3RpcXVlcy9pbWFnZXMvNjMvODIvMTk4Nzg0NjMuanBn/image.jpg"
+    }
+  },
+  {
+    "id": 47,
+    "commune": "Lifou",
+    "nom": "Église Saint-Jean-Baptiste",
+    "localisation": "Nathalo",
+    "date": "Mission fondée en 1858",
+    "fait": "Centre d'importantes célébrations du 150e anniversaire de l'arrivée de la mission catholique en 2008.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/lifou.htm"
+    ],
+    "type": "église",
+    "lat": -20.789344,
+    "lon": 167.254372,
+    "precision": "précise",
+    "geocodage": "Église Saint-Jean-Baptiste",
+    "photo": { "path": "assets/images/diocese-nathalo.jpg", "source": "https://diocese.ddec.nc/paroisses/lifou.htm" }
+  },
+  {
+    "id": 48,
+    "commune": "Lifou",
+    "nom": "Église Notre-Dame-de-l'Assomption",
+    "localisation": "Drueulu / Dueulu",
+    "date": "—",
+    "fait": "Toujours signalée par le diocèse comme lieu d'office dominical.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/lifou.htm"
+    ],
+    "type": "église",
+    "lat": -20.929184,
+    "lon": 167.081992,
+    "precision": "précise",
+    "geocodage": "Drueulu",
+    "photo": null
+  },
+  {
+    "id": 49,
+    "commune": "Lifou",
+    "nom": "Église / chapelle du Sacré-Cœur",
+    "localisation": "Qanono / Wé",
+    "date": "1896-1899",
+    "fait": "Construite en pierre par Wenatr Wenemechingo, dit « Frère César » ; centre du pèlerinage annuel du Sacré-Cœur.",
+    "sources": [
+      "https://www.nouvellecaledonie.travel/offres/eglise-du-sacre-coeur-de-we-lifou-fr-5899920/"
+    ],
+    "type": "chapelle",
+    "lat": -20.916274,
+    "lon": 167.264335,
+    "precision": "précise",
+    "geocodage": "Wé",
+    "photo": {
+      "path": "assets/images/eglise-chapelle-du-sacre-cur-1d924e6.jpg",
+      "source": "https://api.cloudly.space/resize/crop/1200/627/60/aHR0cHM6Ly9zdGF0aWMuYXBpZGFlLXRvdXJpc21lLmNvbS9maWxlc3RvcmUvb2JqZXRzLXRvdXJpc3RpcXVlcy9pbWFnZXMvNTcvODIvMTk4Nzg0NTcuanBn/image.jpg"
+    }
+  },
+  {
+    "id": 50,
+    "commune": "Lifou",
+    "nom": "Chapelle Sainte-Anne",
+    "localisation": "Inagod/Inagoj",
+    "date": "1866 selon les sources historiques",
+    "fait": "Église catholique de la tribu d'Inagod ; l'ancienne mission est documentée dès le XIXe siècle.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Chapelle_Sainte-Anne_d%27Inagoj",
+      "https://en.wikipedia.org/wiki/St._Anne_Chapel%2C_Inagoj"
+    ],
+    "type": "chapelle",
+    "lat": -20.932861,
+    "lon": 167.165785,
+    "precision": "commune",
+    "geocodage": "Lifou",
+    "photo": {
+      "path": "assets/images/chapelle-sainte-anne-inagoj-commons.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Chapelle_Saint-Anne_d%27Inagoj.jpg",
+      "credit": "Bwamalo",
+      "licence": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": 51,
+    "commune": "Lifou",
+    "nom": "Chapelle Notre-Dame-de-Lourdes",
+    "localisation": "secteur d'Easo",
+    "date": "—",
+    "fait": "Répertoriée dans l'inventaire national.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "chapelle",
+    "lat": -20.790372,
+    "lon": 167.123201,
+    "precision": "précise",
+    "geocodage": "Église Notre-Dame de Lourdes",
+    "photo": null
+  },
+  {
+    "id": 52,
+    "commune": "Maré",
+    "nom": "Église Notre-Dame-de-la-Visitation",
+    "localisation": "La Roche",
+    "date": "—",
+    "fait": "Principal édifice catholique répertorié à La Roche.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "église",
+    "lat": -21.472356,
+    "lon": 168.032417,
+    "precision": "précise",
+    "geocodage": "Église Notre-Dame-de-la-Visitation",
+    "photo": null
+  },
+  {
+    "id": 53,
+    "commune": "Maré",
+    "nom": "Église du Sacré-Cœur",
+    "localisation": "Medu",
+    "date": "—",
+    "fait": "Église catholique signalée à Medu.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "église",
+    "lat": -21.622317,
+    "lon": 167.953179,
+    "precision": "précise",
+    "geocodage": "Église de Medu",
+    "photo": null
+  },
+  {
+    "id": 54,
+    "commune": "Maré",
+    "nom": "Chapelle Saint-Joseph",
+    "localisation": "Tawainèdre",
+    "date": "—",
+    "fait": "Chapelle de tribu répertoriée par l'inventaire de terrain.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "chapelle",
+    "lat": -21.503421,
+    "lon": 168.085146,
+    "precision": "précise",
+    "geocodage": "Église de Tawainèdre",
+    "photo": null
+  },
+  {
+    "id": 55,
+    "commune": "Maré",
+    "nom": "Église de Tadine",
+    "localisation": "Tadine",
+    "date": "—",
+    "fait": "La communauté catholique de Tadine a célébré son centenaire en décembre 2022.",
+    "sources": [
+      "https://diocese.ddec.nc/Sommaire.htm"
+    ],
+    "type": "église",
+    "lat": -21.546276,
+    "lon": 167.882908,
+    "precision": "précise",
+    "geocodage": "cimetiere de tadine",
+    "photo": null
+  },
+  {
+    "id": 56,
+    "commune": "Moindou",
+    "nom": "Église de Moindou",
+    "localisation": "Moindou",
+    "date": "—",
+    "fait": "Édifice catholique répertorié dans l'inventaire national.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "église",
+    "lat": -21.692429,
+    "lon": 165.67702,
+    "precision": "précise",
+    "geocodage": "Moindou",
+    "photo": null
+  },
+  {
+    "id": 57,
+    "commune": "Nouméa",
+    "nom": "Cathédrale Saint-Joseph",
+    "localisation": "3 rue Frédéric-Surleau",
+    "date": "Paroisse fondée en 1885",
+    "fait": "Siège catholique de Nouméa ; en juin 2026, la cathédrale a accueilli l'ouverture du jubilé du 60e anniversaire du diocèse.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/cathedrale.htm",
+      "https://diocese.ddec.nc/Sommaire.htm"
+    ],
+    "type": "cathédrale",
+    "lat": -22.272789,
+    "lon": 166.444631,
+    "precision": "précise",
+    "geocodage": "Cathédrale Saint-Joseph",
+    "photo": {
+      "path": "cathedrale_de_noumea/assets/images/01_facade/facade.jpg",
+      "source": "https://diocese.ddec.nc/paroisses/cathedrale.htm"
+    }
+  },
+  {
+    "id": 58,
+    "commune": "Nouméa",
+    "nom": "Église Saint-Jean-Baptiste",
+    "localisation": "11 rue du Père-Roman, Vallée des Colons",
+    "date": "Paroisse fondée en 1903",
+    "fait": "Une des paroisses historiques de Nouméa.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/st_jean_vdc.htm"
+    ],
+    "type": "église",
+    "lat": -22.271591,
+    "lon": 166.452222,
+    "precision": "précise",
+    "geocodage": "École Saint Jean-Baptiste",
+    "photo": { "path": "assets/images/diocese-stjean.jpg", "source": "https://diocese.ddec.nc/paroisses/st_jean_vdc.htm" }
+  },
+  {
+    "id": 59,
+    "commune": "Nouméa",
+    "nom": "Église Sainte-Anne",
+    "localisation": "Magenta",
+    "date": "—",
+    "fait": "Rattachée au même ensemble pastoral que Saint-Jean-Baptiste et l'Espérance.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/st_jean_vdc.htm",
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "église",
+    "lat": -22.268703,
+    "lon": 166.472492,
+    "precision": "précise",
+    "geocodage": "Église Sainte-Anne",
+    "photo": null
+  },
+  {
+    "id": 60,
+    "commune": "Nouméa",
+    "nom": "Église de l'Espérance",
+    "localisation": "Magenta",
+    "date": "—",
+    "fait": "Le diocèse la mentionne explicitement comme l'une des églises du secteur Saint-Jean-Baptiste.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/st_jean_vdc.htm"
+    ],
+    "type": "église",
+    "lat": -22.256972,
+    "lon": 166.464549,
+    "precision": "précise",
+    "geocodage": "Église de l'Espérance",
+    "photo": { "path": "assets/images/diocese-esperance.jpg", "source": "https://diocese.ddec.nc/paroisses/st_jean_vdc.htm" }
+  },
+  {
+    "id": 61,
+    "commune": "Nouméa",
+    "nom": "Église du Bon-Pasteur",
+    "localisation": "Vallée du Tir",
+    "date": "—",
+    "fait": "Édifice paroissial recensé par le diocèse et l'inventaire patrimonial.",
+    "sources": [
+      "https://diocese.ddec.nc/Sommaire.htm",
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "église",
+    "lat": -22.261063,
+    "lon": 166.446813,
+    "precision": "précise",
+    "geocodage": "Église du Bon-Pasteur",
+    "photo": null
+  },
+  {
+    "id": 62,
+    "commune": "Nouméa",
+    "nom": "Église du Vœu",
+    "localisation": "secteur du Vœu",
+    "date": "—",
+    "fait": "Église catholique reconnue comme implantation propre par le diocèse.",
+    "sources": [
+      "https://diocese.ddec.nc/Sommaire.htm",
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "église",
+    "lat": -22.291121,
+    "lon": 166.445924,
+    "precision": "précise",
+    "geocodage": "Église du Vœu",
+    "photo": null
+  },
+  {
+    "id": 63,
+    "commune": "Nouméa",
+    "nom": "Église Notre-Dame-de-Lourdes",
+    "localisation": "Tina-sur-Mer",
+    "date": "2007-2008",
+    "fait": "Première pierre bénie le 28 avril 2007 ; église bénie le 26 juillet 2008.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/Lourdes-Tina.htm"
+    ],
+    "type": "église",
+    "lat": -22.245234,
+    "lon": 166.487454,
+    "precision": "précise",
+    "geocodage": "Tina-sur-Mer",
+    "photo": null
+  },
+  {
+    "id": 64,
+    "commune": "Nouméa",
+    "nom": "Église Mémorial",
+    "localisation": "Rivière-Salée",
+    "date": "—",
+    "fait": "Centre paroissial du secteur Rivière-Salée, répertorié séparément par le diocèse.",
+    "sources": [
+      "https://diocese.ddec.nc/Sommaire.htm"
+    ],
+    "type": "église",
+    "lat": -22.233868,
+    "lon": 166.466711,
+    "precision": "précise",
+    "geocodage": "Rivière Salée",
+    "photo": null
+  },
+  {
+    "id": 65,
+    "commune": "Nouméa",
+    "nom": "Église Saint-Michel",
+    "localisation": "Montravel",
+    "date": "—",
+    "fait": "Répertoriée dans l'inventaire des églises catholiques.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "église",
+    "lat": -22.250476,
+    "lon": 166.452625,
+    "precision": "précise",
+    "geocodage": "Église Saint Michel de Montravel",
+    "photo": null
+  },
+  {
+    "id": 66,
+    "commune": "Nouméa",
+    "nom": "Église / chapelle du Christ-Roi",
+    "localisation": "Communauté vietnamienne",
+    "date": "Communauté établie vers 1955",
+    "fait": "Le 50e anniversaire de la communauté vietnamienne du Christ-Roi a été célébré en 2005.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/50eme_Xst_Roi.htm"
+    ],
+    "type": "chapelle",
+    "lat": -22.248486,
+    "lon": 166.473893,
+    "precision": "précise",
+    "geocodage": "Accès Amicale Vietnamienne",
+    "photo": null
+  },
+  {
+    "id": 67,
+    "commune": "Nouméa",
+    "nom": "Église de l'Immaculée-Conception",
+    "localisation": "secteur Nouméa",
+    "date": "—",
+    "fait": "Répertoriée dans l'inventaire de terrain.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "église",
+    "lat": -22.262843,
+    "lon": 166.448212,
+    "precision": "précise",
+    "geocodage": "Église Évangélique Polynésie Française en Nouvelle-Calédonie",
+    "photo": null
+  },
+  {
+    "id": 68,
+    "commune": "Nouméa",
+    "nom": "Chapelle de la Sainte-Famille",
+    "localisation": "Yahoué",
+    "date": "—",
+    "fait": "Chapelle catholique recensée à Yahoué.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "chapelle",
+    "lat": -22.218123,
+    "lon": 166.486446,
+    "precision": "précise",
+    "geocodage": "Parc de Yahoué",
+    "photo": null
+  },
+  {
+    "id": 69,
+    "commune": "Nouméa",
+    "nom": "Chapelle Saint-Pierre-Chanel",
+    "localisation": "Ducos, rue de Papeete",
+    "date": "—",
+    "fait": "Signalée par l'inventaire de terrain.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "chapelle",
+    "lat": -22.243292,
+    "lon": 166.440012,
+    "precision": "précise",
+    "geocodage": "Rue de Papeete",
+    "photo": null
+  },
+  {
+    "id": 70,
+    "commune": "Nouméa",
+    "nom": "Chapelle Notre-Dame-Mère-de-la-Paix",
+    "localisation": "Logicoop",
+    "date": "—",
+    "fait": "Chapelle catholique de Logicoop.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "chapelle",
+    "lat": -22.235895,
+    "lon": 166.434233,
+    "precision": "précise",
+    "geocodage": "Logicoop",
+    "photo": null
+  },
+  {
+    "id": 71,
+    "commune": "Nouméa",
+    "nom": "Chapelle Sainte-Famille N'Du",
+    "localisation": "Ducos / N'Du",
+    "date": "—",
+    "fait": "Chapelle recensée à N'Du.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "chapelle",
+    "lat": -22.235187,
+    "lon": 166.433957,
+    "precision": "précise",
+    "geocodage": "Espace vert de la chapelle de Logicoop",
+    "photo": null
+  },
+  {
+    "id": 72,
+    "commune": "Nouméa",
+    "nom": "Chapelle de Kuendu Beach",
+    "localisation": "Nouville / Kuendu",
+    "date": "—",
+    "fait": "Répertoriée dans l'inventaire des édifices catholiques.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "chapelle",
+    "lat": -22.260884,
+    "lon": 166.389966,
+    "precision": "précise",
+    "geocodage": "Plage du Kuendu Beach",
+    "photo": null
+  },
+  {
+    "id": 73,
+    "commune": "Nouméa",
+    "nom": "Chapelle Saint-Thomas",
+    "localisation": "Île Nou / Nouville",
+    "date": "époque pénitentiaire",
+    "fait": "Ancienne chapelle liée au bagne de l'île Nou.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "chapelle",
+    "lat": -22.261965,
+    "lon": 166.400942,
+    "precision": "précise",
+    "geocodage": "Théâtre de l'Ile",
+    "photo": null
+  },
+  {
+    "id": 74,
+    "commune": "Nouméa",
+    "nom": "Ancienne chapelle Saint-Thomas",
+    "localisation": "Centre Raoul-Follereau",
+    "date": "—",
+    "fait": "Signalée comme ancienne chapelle à l'abandon dans l'inventaire 2025.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "chapelle",
+    "lat": -22.243373,
+    "lon": 166.41805,
+    "precision": "précise",
+    "geocodage": "Centre Médical Raoul Follereau",
+    "photo": null
+  },
+  {
+    "id": 75,
+    "commune": "Nouméa",
+    "nom": "Chapelle Saint-Michel",
+    "localisation": "Camp-Est, île Nou",
+    "date": "—",
+    "fait": "Chapelle d'aumônerie pénitentiaire signalée dans l'inventaire.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "chapelle",
+    "lat": -22.26499,
+    "lon": 166.401902,
+    "precision": "précise",
+    "geocodage": "Nouville",
+    "photo": null
+  },
+  {
+    "id": 76,
+    "commune": "Ouégoa",
+    "nom": "Église de la Sainte-Famille",
+    "localisation": "Ouégoa",
+    "date": "—",
+    "fait": "Église catholique répertoriée dans l'inventaire national.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "église",
+    "lat": -20.344958,
+    "lon": 164.438808,
+    "precision": "précise",
+    "geocodage": "Ouégoa",
+    "photo": null
+  },
+  {
+    "id": 77,
+    "commune": "Ouégoa",
+    "nom": "Église de Bondé",
+    "localisation": "Bondé",
+    "date": "Mission fondée en 1862",
+    "fait": "Le 150e anniversaire de la mission a été célébré en mai 2013 ; l'église avait alors été rénovée.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/bonde.htm"
+    ],
+    "type": "église",
+    "lat": -20.430112,
+    "lon": 164.431216,
+    "precision": "précise",
+    "geocodage": "Église de Bondé",
+    "photo": null
+  },
+  {
+    "id": 78,
+    "commune": "Ouvéa",
+    "nom": "Église Saint-Joseph",
+    "localisation": "nord d'Ouvéa",
+    "date": "Paroisse fondée en 1857",
+    "fait": "L'une des trois grandes communautés paroissiales catholiques de l'île.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/ouvea.htm"
+    ],
+    "type": "église",
+    "lat": -20.45106,
+    "lon": 166.595641,
+    "precision": "précise",
+    "geocodage": "Église de Saint Joseph",
+    "photo": null
+  },
+  {
+    "id": 79,
+    "commune": "Ouvéa",
+    "nom": "Église Saint-Michel",
+    "localisation": "Fayaoué",
+    "date": "1903",
+    "fait": "Église aux deux clochers rouges ; toujours connue pour sa grande messe dominicale et ses chants.",
+    "sources": [
+      "https://www.nouvellecaledonie.travel/offres/eglise-saint-michel-ouvea-fr-3915867/"
+    ],
+    "type": "église",
+    "lat": -20.647693,
+    "lon": 166.53877,
+    "precision": "précise",
+    "geocodage": "Église Saint Michel",
+    "photo": {
+      "path": "assets/images/eglise-saint-michel-b31e2ad.jpg",
+      "source": "https://api.cloudly.space/resize/crop/1200/627/60/aHR0cHM6Ly9zdGF0aWMuYXBpZGFlLXRvdXJpc21lLmNvbS9maWxlc3RvcmUvb2JqZXRzLXRvdXJpc3RpcXVlcy9pbWFnZXMvNzIvODIvMTk4Nzg0NzIuanBn/image.jpg"
+    }
+  },
+  {
+    "id": 80,
+    "commune": "Ouvéa",
+    "nom": "Église du Saint-Nom-de-Marie",
+    "localisation": "Mouli",
+    "date": "—",
+    "fait": "En juillet 2022, toutes les communautés catholiques d'Ouvéa s'y sont réunies pour des confirmations ; la foule était trop importante pour tenir dans l'église.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/ouvea.htm"
+    ],
+    "type": "église",
+    "lat": -20.700333,
+    "lon": 166.46982,
+    "precision": "précise",
+    "geocodage": "Plage du Pont de Mouli",
+    "photo": { "path": "assets/images/diocese-mouli.jpg", "source": "https://diocese.ddec.nc/paroisses/ouvea.htm" }
+  },
+  {
+    "id": 81,
+    "commune": "Païta",
+    "nom": "Église du Sacré-Cœur",
+    "localisation": "Bourg de Païta",
+    "date": "Paroisse fondée en 1875",
+    "fait": "Église paroissiale historique ; en 2013 la paroisse a participé à l'installation du Christ Rédempteur du mont Vive'te.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/paita.htm"
+    ],
+    "type": "église",
+    "lat": -22.130056,
+    "lon": 166.370501,
+    "precision": "précise",
+    "geocodage": "Dispensaire de Païta",
+    "photo": null
+  },
+  {
+    "id": 82,
+    "commune": "Païta",
+    "nom": "Église Saint-Michel",
+    "localisation": "Tontouta",
+    "date": "—",
+    "fait": "Édifice catholique répertorié à Tontouta.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "église",
+    "lat": -22.009193,
+    "lon": 166.22183,
+    "precision": "précise",
+    "geocodage": "Église de Jésus-Christ des saints des derniers jours",
+    "photo": null
+  },
+  {
+    "id": 83,
+    "commune": "Païta",
+    "nom": "Chapelle Saint-Joseph",
+    "localisation": "Païta",
+    "date": "—",
+    "fait": "Chapelle recensée dans l'inventaire territorial.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "chapelle",
+    "lat": -22.136521,
+    "lon": 166.420222,
+    "precision": "précise",
+    "geocodage": "Chapelle Saint Joseph",
+    "photo": null
+  },
+  {
+    "id": 84,
+    "commune": "Païta",
+    "nom": "Chapelle de Naniouni",
+    "localisation": "Naniouni",
+    "date": "2018",
+    "fait": "L'inventaire la désigne explicitement comme « chapelle 2018 ».",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "chapelle",
+    "lat": -22.125315,
+    "lon": 166.283251,
+    "precision": "précise",
+    "geocodage": "Cimetière de Naniouni",
+    "photo": null
+  },
+  {
+    "id": 85,
+    "commune": "Païta",
+    "nom": "Chapelle du séminaire Saint-Léon",
+    "localisation": "Saint-Léon",
+    "date": "—",
+    "fait": "Chapelle du site catholique de formation de Saint-Léon.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "chapelle",
+    "lat": -22.064188,
+    "lon": 166.267114,
+    "precision": "précise",
+    "geocodage": "Saint-Vincent",
+    "photo": null
+  },
+  {
+    "id": 86,
+    "commune": "Poindimié",
+    "nom": "Église du Sacré-Cœur",
+    "localisation": "Tyé",
+    "date": "—",
+    "fait": "Église catholique de Tyé, répertoriée dans l'inventaire national.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "église",
+    "lat": -20.904602,
+    "lon": 165.296453,
+    "precision": "précise",
+    "geocodage": "Église du Sacré-Cœur",
+    "photo": {
+      "path": "assets/images/eglise-sacre-coeur-tye-commons.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:%C3%89glise_du_Sacr%C3%A9-C%C5%93ur_de_Ty%C3%A9,_Poindimi%C3%A9_%E2%80%93_2015.jpg",
+      "credit": "gérard (Flickr)",
+      "licence": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": 87,
+    "commune": "Poindimié",
+    "nom": "Chapelle de Wagap",
+    "localisation": "Wagap",
+    "date": "—",
+    "fait": "Chapelle catholique inventoriée.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "chapelle",
+    "lat": -20.87801,
+    "lon": 165.272931,
+    "precision": "précise",
+    "geocodage": "Chapelle de Wagap",
+    "photo": null
+  },
+  {
+    "id": 88,
+    "commune": "Poindimié",
+    "nom": "Chapelle Sainte-Thérèse",
+    "localisation": "Amoa",
+    "date": "2007",
+    "fait": "L'inventaire de terrain indique explicitement « Sainte-Thérèse 2007 ».",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "chapelle",
+    "lat": -22.217594,
+    "lon": 166.510243,
+    "precision": "précise",
+    "geocodage": "Chapelle Sainte Thérèse",
+    "photo": null
+  },
+  {
+    "id": 89,
+    "commune": "Poindimié",
+    "nom": "Chapelle Saint-Pierre",
+    "localisation": "Ometteux",
+    "date": "—",
+    "fait": "Chapelle recensée à Ometteux.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "chapelle",
+    "lat": -20.985494,
+    "lon": 165.398979,
+    "precision": "précise",
+    "geocodage": "Chapelle d'Ometteux",
+    "photo": null
+  },
+  {
+    "id": 90,
+    "commune": "Poindimié",
+    "nom": "Église Saint-Paul",
+    "localisation": "Paabu / Pambou",
+    "date": "—",
+    "fait": "Église catholique recensée dans ce secteur.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "église",
+    "lat": -20.936936,
+    "lon": 165.334259,
+    "precision": "commune",
+    "geocodage": "Poindimié",
+    "photo": null
+  },
+  {
+    "id": 91,
+    "commune": "Ponérihouen",
+    "nom": "Église catholique",
+    "localisation": "Ponérihouen",
+    "date": "—",
+    "fait": "Édifice identifié par l'inventaire de terrain, mais dédicace non précisée.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "église",
+    "lat": -21.148249,
+    "lon": 165.481438,
+    "precision": "précise",
+    "geocodage": "Église de Monéo",
+    "photo": null
+  },
+  {
+    "id": 92,
+    "commune": "Pouébo",
+    "nom": "Église Saint-Austremoine",
+    "localisation": "Pouébo",
+    "date": "—",
+    "fait": "Église paroissiale répertoriée à Pouébo.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "église",
+    "lat": -20.39152,
+    "lon": 164.578021,
+    "precision": "précise",
+    "geocodage": "Église de Pouébo",
+    "photo": null
+  },
+  {
+    "id": 93,
+    "commune": "Pouébo",
+    "nom": "Église Saint-Denis",
+    "localisation": "Balade",
+    "date": "XIXe siècle / mission primitive",
+    "fait": "Balade est le lieu d'implantation de la première mission catholique de Nouvelle-Calédonie ; le site est également associé à la prise de possession française de 1853.",
+    "sources": [
+      "https://www.nouvellecaledonie.travel/offres/eglise-de-saint-denis-pouebo-fr-3914523/"
+    ],
+    "type": "église",
+    "lat": -20.309897,
+    "lon": 164.500056,
+    "precision": "précise",
+    "geocodage": "Église de Balade",
+    "photo": {
+      "path": "assets/images/eglise-saint-denis-04465af.jpg",
+      "source": "https://api.cloudly.space/resize/crop/1200/627/60/aHR0cHM6Ly9zdGF0aWMuYXBpZGFlLXRvdXJpc21lLmNvbS9maWxlc3RvcmUvb2JqZXRzLXRvdXJpc3RpcXVlcy9pbWFnZXMvMjM5LzQ5LzkzMTg4OTUuanBn/image.jpg"
+    }
+  },
+  {
+    "id": 94,
+    "commune": "Pouembout",
+    "nom": "Chapelle Sainte-Jeanne-d'Arc",
+    "localisation": "Paouta",
+    "date": "—",
+    "fait": "Chapelle recensée par l'inventaire territorial.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "chapelle",
+    "lat": -21.083765,
+    "lon": 164.982638,
+    "precision": "précise",
+    "geocodage": "Route de Paouta",
+    "photo": null
+  },
+  {
+    "id": 95,
+    "commune": "Poum",
+    "nom": "Église / chapelle Saint-Joseph d'Arama",
+    "localisation": "Arama",
+    "date": "Mission 1860",
+    "fait": "Arrivée des missionnaires le 21 septembre 1860 ; jubilé des 150 ans en 2010.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/koumac.htm",
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "chapelle",
+    "lat": -20.25038,
+    "lon": 164.20346,
+    "precision": "précise",
+    "geocodage": "Arama",
+    "photo": { "path": "assets/images/diocese-arama.jpg", "source": "https://diocese.ddec.nc/paroisses/koumac.htm" }
+  },
+  {
+    "id": 96,
+    "commune": "Poya",
+    "nom": "Église Sainte-Jeanne-d'Arc",
+    "localisation": "Poya",
+    "date": "—",
+    "fait": "Église principale de Poya recensée par le diocèse.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/poya.htm",
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "église",
+    "lat": -21.346328,
+    "lon": 165.159058,
+    "precision": "précise",
+    "geocodage": "Poya",
+    "photo": null
+  },
+  {
+    "id": 97,
+    "commune": "Poya",
+    "nom": "Église Sainte-Thérèse",
+    "localisation": "Nékliaï",
+    "date": "—",
+    "fait": "Nékliaï donne son nom à l'ensemble paroissial Nékliaï-Poya-Népoui.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/poya.htm",
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "église",
+    "lat": -21.297372,
+    "lon": 165.185854,
+    "precision": "précise",
+    "geocodage": "Église de Nekliai",
+    "photo": { "path": "assets/images/diocese-nekliai.jpg", "source": "https://diocese.ddec.nc/paroisses/poya.htm" }
+  },
+  {
+    "id": 98,
+    "commune": "Poya",
+    "nom": "Chapelle Saint-Pierre-Chanel",
+    "localisation": "Népoui",
+    "date": "—",
+    "fait": "Le diocèse y signale encore une messe dominicale.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/poya.htm"
+    ],
+    "type": "chapelle",
+    "lat": -21.319893,
+    "lon": 165.001951,
+    "precision": "précise",
+    "geocodage": "Route de Népoui",
+    "photo": { "path": "assets/images/diocese-nepoui.jpg", "source": "https://diocese.ddec.nc/paroisses/poya.htm" }
+  },
+  {
+    "id": 99,
+    "commune": "Poya",
+    "nom": "Chapelle de Gohapin",
+    "localisation": "Gohapin",
+    "date": "—",
+    "fait": "Répertoriée dans l'inventaire national.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "chapelle",
+    "lat": -21.228613,
+    "lon": 165.276103,
+    "precision": "précise",
+    "geocodage": "Route de Gohapin",
+    "photo": null
+  },
+  {
+    "id": 100,
+    "commune": "Sarraméa",
+    "nom": "Chapelle de Sarraméa",
+    "localisation": "Sarraméa",
+    "date": "—",
+    "fait": "Chapelle catholique identifiée, mais documentation publique limitée.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "chapelle",
+    "lat": -21.639991,
+    "lon": 165.853531,
+    "precision": "précise",
+    "geocodage": "Sarraméa",
+    "photo": null
+  },
+  {
+    "id": 101,
+    "commune": "Thio",
+    "nom": "Église Saint-François-de-Sales",
+    "localisation": "Thio-Mission",
+    "date": "Mission fondée en 1868",
+    "fait": "En 2004, une soixantaine de jeunes y ont été confirmés et deux nouveaux catéchistes institués.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/thio.htm"
+    ],
+    "type": "église",
+    "lat": -21.616832,
+    "lon": 166.233753,
+    "precision": "précise",
+    "geocodage": "Église de Saint-Philippo",
+    "photo": { "path": "assets/images/diocese-thio.jpg", "source": "https://diocese.ddec.nc/paroisses/thio.htm" }
+  },
+  {
+    "id": 102,
+    "commune": "Thio",
+    "nom": "Chapelle de Thio-Village",
+    "localisation": "Village de Thio",
+    "date": "—",
+    "fait": "Chapelle distincte de l'église de la Mission.",
+    "sources": [
+      "https://clochers.org/Base_de_donnees_consultation/ListesDep_Intentions/Intentions_988.htm"
+    ],
+    "type": "chapelle",
+    "lat": -21.615348,
+    "lon": 166.180917,
+    "precision": "précise",
+    "geocodage": "Mine de Thio",
+    "photo": null
+  },
+  {
+    "id": 103,
+    "commune": "Thio",
+    "nom": "Église de Nakéty",
+    "localisation": "secteur Nakéty",
+    "date": "—",
+    "fait": "Édifice supplémentaire répertorié administrativement sous la commune de Thio.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "église",
+    "lat": -21.611584,
+    "lon": 166.215552,
+    "precision": "commune",
+    "geocodage": "Thio",
+    "photo": null
+  },
+  {
+    "id": 104,
+    "commune": "Touho",
+    "nom": "Église du Saint-Nom-de-Marie",
+    "localisation": "Touho",
+    "date": "Mission fondée en 1853",
+    "fait": "Une des implantations catholiques les plus anciennes du territoire.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/touho.htm"
+    ],
+    "type": "église",
+    "lat": -20.803348,
+    "lon": 165.156236,
+    "precision": "précise",
+    "geocodage": "Touho",
+    "photo": { "path": "assets/images/diocese-touho.jpg", "source": "https://diocese.ddec.nc/paroisses/touho.htm" }
+  },
+  {
+    "id": 105,
+    "commune": "Touho",
+    "nom": "Chapelle Sainte-Anne",
+    "localisation": "Congouma",
+    "date": "reconstruite/rénovée 2024-2025",
+    "fait": "Incendiée en 2024 ; l'alerte donnée par le pasteur protestant voisin a permis de sauver le gros œuvre. La communauté l'a remise à neuf et y a de nouveau célébré Sainte-Anne en 2025.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/touho.htm"
+    ],
+    "type": "chapelle",
+    "lat": -20.803348,
+    "lon": 165.156236,
+    "precision": "précise",
+    "geocodage": "Touho",
+    "photo": null
+  },
+  {
+    "id": 106,
+    "commune": "Touho",
+    "nom": "Église de Koé",
+    "localisation": "Koé",
+    "date": "—",
+    "fait": "Église catholique répertoriée dans l'inventaire national.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "église",
+    "lat": -20.792611,
+    "lon": 165.257905,
+    "precision": "précise",
+    "geocodage": "Maison commune de Koe",
+    "photo": null
+  },
+  {
+    "id": 107,
+    "commune": "Touho",
+    "nom": "Église de Vieux-Touho",
+    "localisation": "Vieux-Touho",
+    "date": "—",
+    "fait": "Autre édifice catholique historique recensé sur la commune.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "église",
+    "lat": -20.768724,
+    "lon": 165.159141,
+    "precision": "précise",
+    "geocodage": "Vieux Touho",
+    "photo": null
+  },
+  {
+    "id": 108,
+    "commune": "Voh",
+    "nom": "Église Sainte-Marguerite-Marie",
+    "localisation": "Voh",
+    "date": "—",
+    "fait": "Église catholique répertoriée dans l'inventaire national.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "église",
+    "lat": -20.947301,
+    "lon": 164.688062,
+    "precision": "précise",
+    "geocodage": "Église Sainte-Marguerite-Marie",
+    "photo": null
+  },
+  {
+    "id": 109,
+    "commune": "Yaté",
+    "nom": "Église de la Nativité-de-Marie",
+    "localisation": "Touaourou",
+    "date": "Mission fondée en 1888",
+    "fait": "Le diocèse identifie Touaourou comme paroisse et y maintient un office dominical.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/yate.htm",
+      "https://fr.wikipedia.org/wiki/Liste_des_%C3%A9glises_de_la_Nouvelle-Cal%C3%A9donie"
+    ],
+    "type": "église",
+    "lat": -22.186527,
+    "lon": 166.974967,
+    "precision": "précise",
+    "geocodage": "Touaourou",
+    "photo": { "path": "assets/images/diocese-touaourou.jpg", "source": "https://diocese.ddec.nc/paroisses/yate.htm" }
+  },
+  {
+    "id": 110,
+    "commune": "Yaté",
+    "nom": "Église du Sacré-Cœur",
+    "localisation": "Tribu d'Unia",
+    "date": "—",
+    "fait": "Le diocèse indique une messe dominicale à Unia.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/yate.htm"
+    ],
+    "type": "église",
+    "lat": -22.111876,
+    "lon": 166.935408,
+    "precision": "précise",
+    "geocodage": "Route d'Unia",
+    "photo": { "path": "assets/images/diocese-unia.jpg", "source": "https://diocese.ddec.nc/paroisses/yate.htm" }
+  },
+  {
+    "id": 111,
+    "commune": "Yaté",
+    "nom": "Chapelle de Goro",
+    "localisation": "Goro",
+    "date": "—",
+    "fait": "Une messe y est également signalée le samedi soir par le diocèse.",
+    "sources": [
+      "https://diocese.ddec.nc/paroisses/yate.htm"
+    ],
+    "type": "chapelle",
+    "lat": -22.293302,
+    "lon": 167.012834,
+    "precision": "précise",
+    "geocodage": "Cascade de Wadiana",
+    "photo": null
+  }
+]

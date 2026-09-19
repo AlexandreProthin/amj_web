@@ -1,0 +1,311 @@
+﻿"resume";"detail";"source";"type_source";"niveau_confiance";"categorie"
+"Périmètre et sources";"Extraction de la conversation complète accessible, sans nouvelle recherche Web. Les faits ne sont pas revérifiés. Les URL originales ne sont pas exposées par la conversation récupérée. Les deux réponses historiques intégrales sont conservées en fin de fichier avec leurs marqueurs de citation.";"chatgpt-conversation://6aa53c9f-f604-83eb-8cc4-8aaaddfe0862";"Conversation";"Limite documentée";"methodologie"
+"Lecture des niveaux de confiance";"Rapporté — non revérifié : affirmation de la conversation attribuée à une source. Estimé / Hypothèse : inférence. Non établi : information manquante. Ces libellés ne constituent pas une validation indépendante.";"Conversation référencée";"Synthèse de conversation";"Convention de classement";"methodologie"
+"Dates et format";"Dates exactes en AAAA-MM-JJ ; mois en AAAA-MM ; années, périodes et approximations conservées en texte. CSV UTF-8 avec BOM, séparateur point-virgule, champs entre guillemets.";"Conversation référencée";"Synthèse de conversation";"Convention de classement";"methodologie"
+"Identification et adresse";"École Anne-Marie Javouhey, 2e Vallée-du-Tir, Nouméa, Nouvelle-Calédonie. Adresse rapportée : 5 rue Febvrier-Despointes. UAI : 9830211M.";"Annuaires locaux ; base Éducation nationale — URL non disponible";"Annuaire et administrative";"Rapporté — non revérifié";"identification"
+"1961 et 1972";"1961 correspond à la fondation historique rapportée par la DDEC. Le 17 août 1972 est une date administrative de la base nationale. L’hypothèse d’une entrée ou reconnaissance administrative reste sans texte réglementaire identifié.";"DDEC / diocèse ; base Éducation nationale — URL non disponible";"Institutionnelle et administrative";"Distinction rapportée ; explication de 1972 hypothétique";"distinction"
+"Fondation et construction";"Ne pas écrire que l’école a été construite en 1961. Les classes débutent dans un édifice préexistant. La construction des locaux ultérieurs, leur achèvement et leur inauguration ne sont pas datés avec certitude.";"DDEC / diocèse — URL non disponible";"Institutionnelle";"Date de construction non établie";"batiments"
+"Ancienne église non identifiée";"La source parle d’une ancienne église désaffectée. Aucun document retrouvé dans la conversation ne permet de l’identifier précisément avec la chapelle de 1926 ou l’église consacrée en 1948.";"DDEC ; Ville de Nouméa — URL non disponible";"Institutionnelle";"Non établi";"batiments"
+"Prudence sur les nouveaux locaux";"La première réponse affirme les locaux développés en 1967 ; la seconde envisage des locaux transitoires. La formule proposée au plus tard dans les années 1960 est donc trop affirmative et doit rester une piste.";"Conversation référencée";"Synthèse de conversation";"Hypothèse";"incertitude"
+"Effectifs ultérieurs";"Une notice historique mentionne 444 élèves, sans date précisée. La baisse après les plus de 650 élèves des années 1970 est attribuée à la création d’autres écoles voisines. Ne pas présenter 444 comme l’effectif actuel.";"Diocèse / DDEC — URL non disponible";"Institutionnelle";"Rapporté — non revérifié";"effectifs"
+"Quartier et diversité";"La documentation décrit le secteur comme le quartier du Nickel, ouvrier, populaire et cosmopolite. Plusieurs communautés et ethnies de Nouvelle-Calédonie se côtoient dans l’école.";"Diocèse / DDEC — URL non disponible";"Institutionnelle";"Rapporté — non revérifié";"contexte"
+"Importance locale de l’école";"La conversation interprète les effectifs comme le signe d’une grande école populaire de proximité dans les années 1960-1970. Il s’agit d’une synthèse, sans classement comparatif démontré.";"Conversation référencée";"Synthèse de conversation";"Interprétation";"contexte"
+"Formations au-delà du primaire";"Cours commercial, classes de certificat d’études et Centre de préparation à la vie (CPV) pour les jeunes filles accueillis dans les locaux neufs. La conversation rapproche cet épisode du développement du lycée professionnel Saint-Joseph-de-Cluny.";"DDEC et sources sur l’enseignement professionnel — URL non disponible";"Institutionnelle";"Rapporté — non revérifié";"enseignements"
+"Subvention de 1973";"La décision cite Anne Marie Javouhey, Vallée du Tir à Nouméa parmi les centres d’enseignement ménager bénéficiaires. Le million de francs concerne le Conseil d’administration de l’enseignement catholique. Le lien précis entre ce dispositif et le CPV est un rapprochement de la conversation.";"JONC du 6 avril 1973 ; DDEC — URL non disponible";"Officielle et synthèse";"Rapporté — non revérifié";"distinction"
+"Directions manquantes";"La première directrice de 1961 et la succession entre 1961 et environ 1989 ne sont pas identifiées. Les changements éventuels après 2015 et la direction en 2026 restent à vérifier.";"Conversation référencée";"Synthèse de conversation";"Non établi";"direction"
+"Directrice laïque anonyme";"Une notice, rédigée lorsque l’école comptait 444 élèves, mentionne une directrice laïque sans la nommer. Date de rédaction et identité non établies.";"Diocèse / DDEC — URL non disponible";"Institutionnelle";"Identité et date non établies";"personnes"
+"Marie-Chanel Ukajo";"Directrice des deux écoles, citée en 2004 et retraitée fin 2014 après 26 ans. Début vers 1989 selon l’estimation de la conversation, à confirmer par les archives.";"Les Nouvelles Calédoniennes — URL non disponible";"Presse";"Période de début estimée";"personnes"
+"Thérèse Pham";"Ancienne adjointe, succède à Marie-Chanel Ukajo et effectue sa première rentrée comme directrice en février 2015. Aucune preuve fournie d’un mandat continu jusqu’en 2026.";"Presse locale citée — URL non disponible";"Presse";"Rapporté — non revérifié";"personnes"
+"Sœur Myriam Huckett";"Associée à la direction du cours commercial, passé momentanément par Anne-Marie-Javouhey. Cela ne permet pas de l’inscrire parmi les directrices de l’école primaire.";"Source historique diocésaine citée — URL non disponible";"Institutionnelle";"Fonctions à distinguer";"personnes"
+"Père Bichon";"Curé du Bon-Pasteur, initiateur de la demande d’ouverture de l’école. Actif dans le développement paroissial et les activités des jeunes.";"DDEC ; Ville de Nouméa ; témoignage de Jean Lèques — URL non disponible";"Institutionnelle et témoignage";"Rapporté — non revérifié";"personnes"
+"Jean Lèques";"Ancien maire de Nouméa et enfant de la Vallée-du-Tir. Son témoignage évoque le père Bichon, le patronage et les excursions des années 1940-1950.";"Témoignage de Jean Lèques cité — URL non disponible";"Témoignage";"Rapporté — non revérifié";"personnes"
+"La Bichonnette";"Le père Bichon possédait une petite décapotable ayant appartenu à un officier américain et l’avait surnommée Bichonnette.";"Musée de la Ville de Nouméa — URL non disponible";"Patrimoniale";"Rapporté — non revérifié";"anecdote"
+"Patronage et camps";"Après l’ouverture, patronage le jeudi après-midi, alors jour sans classe, et camps annuels pour les enfants du quartier. Leur disparition est attribuée au changement du jour de repos scolaire et au renforcement des normes de sécurité ; aucune date précise.";"DDEC / diocèse — URL non disponible";"Institutionnelle";"Rapporté — non revérifié";"activites"
+"Anne-Marie Javouhey et la congrégation";"L’école rend hommage à Anne-Marie Javouhey, fondatrice des Sœurs de Saint-Joseph de Cluny. La congrégation développe une activité missionnaire et scolaire sur plusieurs continents.";"Diocèse, historique de la congrégation — URL non disponible";"Institutionnelle";"Rapporté — non revérifié";"personnes"
+"Présence des Sœurs en Nouvelle-Calédonie";"Depuis 1860, elles interviennent dans les hôpitaux, les orphelinats, le pénitencier et l’enseignement. Ce contexte est antérieur à la fondation de l’école.";"Historiques cités — URL non disponible";"Institutionnelle";"Rapporté — non revérifié";"contexte"
+"Lien avec Bon-Pasteur";"Anne-Marie-Javouhey et l’école maternelle du Bon-Pasteur fonctionnent étroitement ensemble, notamment par une direction commune et des associations de parents communes.";"Presse ; déclarations associatives — URL non disponible";"Presse et officielle";"Rapporté — non revérifié";"organisation"
+"Premier comité de parents publié en 1976";"Michel Capart : président ; Raymonde Benegig : vice-présidente ; Mme Saminadin : secrétaire ; Carmen Courtois : trésorière. Membres : Arlette Rosemina, Mme Belpatrone, M. Cuer, Mme Mouniama, Mme Wakeli, M. Komorniki. Orthographes reprises sans vérification.";"JONC du 3 septembre 1976 — URL non disponible";"Officielle";"Rapporté — non revérifié";"personnes"
+"Continuité des associations";"Ancienne association déclarée en 1976, dissoute en 2023, puis nouvelle association en septembre 2023. La durée exacte et la continuité juridique ne sont pas documentées par les textes reproduits.";"Déclarations officielles citées — URL non disponible";"Officielle";"Rapporté — non revérifié";"associations"
+"Archives de la DDEC";"Consulter dossiers de personnel, registres et annuaires de l’enseignement catholique pour reconstituer la liste des directions.";"Conversation référencée";"Piste proposée";"À rechercher";"piste_recherche"
+"Archives de l’archevêché et de la congrégation";"Chercher dossiers de l’école, de la paroisse et des Sœurs de Saint-Joseph de Cluny pour les premières directrices, les bâtiments et les photographies.";"Conversation référencée";"Piste proposée";"À rechercher";"piste_recherche"
+"Archives de Nouvelle-Calédonie";"Consulter dossiers de l’enseignement privé et anciens annuaires administratifs. Aucun dossier ou cote précise n’a été identifié dans la conversation.";"Conversation référencée";"Piste proposée";"À rechercher";"piste_recherche"
+"Archives municipales et permis";"Rechercher permis de construire, plans, dates d’achèvement et d’inauguration. Termes proposés : Anne-Marie Javouhey, Bon Pasteur, permis de construire, enseignement privé.";"Conversation référencée";"Piste proposée";"À rechercher";"piste_recherche"
+"Presse et Journaux officiels";"Explorer les anciens numéros de la presse calédonienne et du JONC, notamment pour 1961-1990. Les textes administratifs trouvés parlent surtout des établissements, subventions et gestionnaires, rarement de la direction.";"Conversation référencée";"Piste proposée";"À rechercher";"piste_recherche"
+"Article de Sylvette Boubin-Boyer";"Consulter L’Espérance, n° 10, septembre 2012. Le texte de la DDEC serait repris de cet article historique.";"DDEC, attribution rapportée — URL non disponible";"Article historique";"À consulter";"piste_recherche"
+"Photographies anciennes";"La brochure de la Ville cite les Archives de Nouvelle-Calédonie, l’archevêché et les collections du Musée de la Ville, notamment Vautrin. Aucune photographie librement accessible de l’école dans les années 1960 n’a été identifiée avec certitude.";"Brochure patrimoniale de Nouméa — URL non disponible";"Photographique";"Identification de l’école non établie";"piste_recherche"
+"Illustration de quartier";"La seconde réponse inclut une vue du quartier sous forme de carrousel. L’image et son URL ne sont pas fournies par la récupération de conversation ; elle ne constitue pas une photographie identifiée de l’école.";"Conversation référencée";"Illustration référencée";"Non vérifiable dans l’extraction";"photographies"
+"Réponse historique intégrale 1";"J’ai retrouvé plusieurs éléments solides sur **l’école Anne-Marie Javouhey de la 2e Vallée du Tir, à Nouméa**, en croisant la DDEC/diocèse, *Les Nouvelles Calédoniennes*, le Journal officiel de Nouvelle-Calédonie, la Ville de Nouméa et quelques sources historiques secondaires.
+
+Un point important : **1961 est bien la date d’ouverture de l’école**, mais je n’ai pas trouvé de source fiable donnant une date unique de « construction » du bâtiment actuel. L’établissement a justement commencé dans un bâtiment déjà existant, une ancienne église. Il faut donc distinguer la **fondation de l’école** de la **construction ultérieure de ses locaux scolaires**.
+
+## Histoire de l'école Anne-Marie Javouhey
+
+L’école s’inscrit dans une histoire beaucoup plus ancienne de l’enseignement des **Sœurs de Saint-Joseph de Cluny en Nouvelle-Calédonie**. Quatre religieuses de cette congrégation arrivent à Port-de-France, futur Nouméa, le **26 août 1860**, à l’origine pour travailler à l’hôpital militaire. Très rapidement, elles commencent aussi à faire la classe. Une première école communale confiée aux sœurs ouvre à Nouméa en **1864**. citeturn565899view1turn565899view3
+
+L’école Anne-Marie Javouhey elle-même apparaît presque un siècle plus tard dans un contexte très différent : le développement des quartiers populaires et ouvriers de Nouméa.
+
+### 1961 : naissance dans une ancienne église
+
+La source historique du diocèse est très précise : à la demande du **Père Bichon**, curé de la paroisse du Bon Pasteur, l’école Anne-Marie Javouhey ouvre à la **2e Vallée du Tir en 1961**.
+
+Son premier local n’est pas un bâtiment scolaire construit pour elle : les classes sont installées dans **l’ancienne église du quartier, alors désaffectée**. citeturn499780search0turn499780search2
+
+Cela répond donc partiellement à ta question sur la construction :
+
+> **Date de fondation / ouverture : 1961.**  
+> **Bâtiment d'origine : une ancienne église déjà existante, et non une école nouvellement construite.**
+
+Je n’ai trouvé aucune source suffisamment sûre donnant l’année exacte de construction des bâtiments scolaires qui ont ensuite remplacé ou complété cette ancienne église. La DDEC évoque seulement des **« locaux neufs »** ultérieurs. citeturn475129search2
+
+On sait toutefois que des **classes commerciales sont ouvertes à Anne-Marie Javouhey en 1967**. Les nouveaux locaux étaient donc manifestement déjà suffisamment développés à cette époque pour accueillir d’autres formations en plus du primaire. citeturn475129search3
+
+Je déconseillerais donc d'écrire « l'école a été construite en 1961 ». La formulation historiquement la plus exacte serait :
+
+**« L'école Anne-Marie Javouhey a été fondée en 1961 et installée initialement dans l'ancienne église désaffectée de la 2e Vallée du Tir. Des bâtiments scolaires neufs ont été aménagés ou construits par la suite ; leur date précise de construction reste à documenter. »**
+
+## Une croissance extrêmement rapide
+
+Le succès de l'école semble avoir été immédiat. Elle accueille **plus d'une centaine d'élèves dès son ouverture**.
+
+Au cours des années 1970, elle dépasse **650 élèves**. C'est considérable pour une école primaire de quartier. La création progressive d'autres écoles alentour fait ensuite diminuer ses effectifs. Une notice historique du diocèse mentionnait ultérieurement **444 élèves**. citeturn352624search0
+
+Cette évolution dit quelque chose de l'histoire de la Vallée du Tir. Le texte diocésain décrit le secteur comme le **« quartier du Nickel »** et souligne le caractère très mélangé de sa population. L'école accueille ainsi des enfants de différentes communautés et ethnies de Nouvelle-Calédonie. citeturn335037search3
+
+C'est probablement l'un des aspects les plus intéressants de son histoire : AMJ n'était pas seulement une école catholique ; elle était une importante école de proximité dans un quartier ouvrier et particulièrement multiculturel.
+
+## L'école a accueilli autre chose que des classes primaires
+
+Autre élément assez méconnu : l'établissement a servi momentanément à des formations allant au-delà de l'école primaire.
+
+La documentation de la DDEC indique que ses nouveaux locaux ont accueilli notamment :
+
+- un **cours commercial** ;
+- des classes préparant au **certificat d'études** ;
+- un **CPV, Centre de préparation à la vie**, destiné aux jeunes filles. citeturn499780search2
+
+D'autres sources permettent de préciser qu'en **1967**, des classes commerciales étaient bien présentes à l'école Anne-Marie Javouhey. Ces formations constituent une partie de l'histoire qui conduira par la suite au développement de l'enseignement professionnel catholique, notamment autour du lycée professionnel Saint-Joseph-de-Cluny. citeturn472779search69
+
+C'est un détail intéressant si tu réalises une exposition ou un historique de l'établissement : **AMJ n'a pas toujours été uniquement l'école primaire que l'on connaît aujourd'hui.**
+
+## Les directeurs et directrices
+
+C'est la partie pour laquelle les archives disponibles en ligne sont les plus lacunaires. Je préfère ne pas inventer une liste : **je n'ai pas trouvé de registre public permettant d'établir tous les directeurs depuis 1961**.
+
+En revanche, quelques noms et périodes peuvent être établis avec beaucoup plus de certitude.
+
+| Période | Direction connue | Ce que l'on peut établir |
+|---|---|---|
+| **1961 – années 1980** | **à compléter** | Les sources historiques consultées ne donnent pas la succession complète des premières responsables. L'établissement appartient alors à l'œuvre des Sœurs de Saint-Joseph de Cluny. |
+| **vers 1989 – 2014** | **Marie-Chanel Ukajo** | *Les Nouvelles Calédoniennes* indiquent qu'à son départ à la retraite elle avait passé **26 ans à la tête des deux écoles Anne-Marie-Javouhey et Bon-Pasteur**. Cela place le début de sa direction vers 1989. citeturn472779search4 |
+| **à partir de 2015** | **Thérèse Pham** | Ancienne adjointe, elle effectue sa première rentrée comme directrice en février 2015 et succède à Marie-Chanel Ukajo. citeturn335037search10 |
+
+Marie-Chanel Ukajo apparaît d'ailleurs déjà dans la presse en **2004** comme directrice des écoles Anne-Marie-Javouhey et Bon-Pasteur. citeturn472779search1
+
+Pour **Thérèse Pham**, j'ai une preuve certaine de sa prise de fonction en 2015, mais je n'ai pas trouvé une source publique suffisamment récente permettant d'affirmer qu'elle est encore directrice en 2026. Je préfère donc écrire **« à partir de 2015 »**, et non « 2015-2026 ».
+
+### Ce qu'il manque
+
+Il reste donc principalement à retrouver les directions de la période **1961-vers 1989** et à vérifier les éventuels changements **après 2015**.
+
+C'est très probablement dans :
+les registres de la DDEC, les archives de la congrégation de Saint-Joseph de Cluny, les archives diocésaines ou les anciens annuaires scolaires, plutôt que sur le Web actuel.
+
+À noter qu'une source historique du diocèse, rédigée à une époque où l'école comptait 444 élèves, indique seulement que l'école était alors dirigée par **« une directrice laïque »**, sans la nommer. citeturn499780search0
+
+## Anne-Marie Javouhey et les Sœurs de Cluny
+
+Le nom de l'école rend hommage à **Anne-Marie Javouhey**, fondatrice de la congrégation des Sœurs de Saint-Joseph de Cluny. La congrégation prend officiellement ce nom à Cluny en **1812** et développe ensuite une importante activité missionnaire et scolaire sur plusieurs continents. citeturn565899view1
+
+Les Sœurs ont joué un rôle particulièrement long en Nouvelle-Calédonie : leur présence commence en **1860** et touche les hôpitaux, les orphelinats, le pénitencier ainsi que l'enseignement. citeturn565899view2turn565899view3
+
+Une page historique du diocèse précise que la congrégation décide en **2015 de son retrait définitif de Nouvelle-Calédonie**. L'école, elle, continue naturellement à fonctionner dans le réseau de l'enseignement catholique. citeturn565899view1
+
+## Quelques anecdotes et faits intéressants
+
+**Une école née dans une église.** L'un des éléments les plus remarquables est évidemment que les premiers élèves de 1961 faisaient classe dans **l'ancienne église du Bon Pasteur devenue inutilisée**. L'école n'est donc pas née autour d'un bâtiment scolaire classique. citeturn499780search0
+
+**Un patronage le jeudi après-midi.** Dès les débuts, les responsables organisent également un **patronage pour les enfants du quartier le jeudi après-midi** — qui était alors le jour sans classe — ainsi que **des camps de vacances chaque année**. Le changement ultérieur du jour de repos scolaire et le renforcement des normes de sécurité ont fini par faire disparaître ces activités. citeturn352624search0
+
+**Plus de 650 élèves dans les années 1970.** L'école connaît donc son apogée démographique environ dix ans seulement après sa création. citeturn335037search3
+
+**Un lien historique très étroit avec Bon-Pasteur.** Au fil du temps, Anne-Marie-Javouhey et l'école maternelle du Bon-Pasteur fonctionnent étroitement ensemble. Marie-Chanel Ukajo dirigeait d'ailleurs simultanément les deux établissements. citeturn472779search4 En 2023, une nouvelle **Association des parents d'élèves des écoles Bon Pasteur et Anne-Marie Javouhey** a été officiellement déclarée, avec son siège au 5 rue Febvrier-Despointes. citeturn475129search65
+
+**L'adresse actuelle correspond toujours à la 2e Vallée du Tir.** Les annuaires locaux situent l'établissement au **5 rue Febvrier-Despointes, Vallée du Tir, Nouméa**. citeturn475129search4turn475129search9
+
+**Des élèves participent toujours à la vie municipale.** Pour le Conseil municipal junior 2026-2027 de Nouméa, l'école Anne-Marie-Javouhey dispose encore de jeunes représentants élus, ce qui montre la continuité de son inscription dans la vie du quartier et de la ville. citeturn335037search11
+
+## Une chronologie provisoire
+
+- **1860** : arrivée des premières Sœurs de Saint-Joseph de Cluny à Port-de-France. citeturn565899view2
+- **1864** : ouverture à Nouméa d'une première école communale confiée aux Sœurs de Cluny. citeturn565899view3
+- **1961** : ouverture de l'école Anne-Marie Javouhey à la 2e Vallée du Tir, dans l'ancienne église désaffectée, à la demande du Père Bichon. Plus d'une centaine d'élèves dès le début. citeturn499780search0
+- **1967** : présence attestée de classes commerciales à Anne-Marie-Javouhey. citeturn472779search69
+- **années 1970** : l'établissement dépasse **650 élèves**. citeturn335037search3
+- **vers 1989** : début probable de la direction de **Marie-Chanel Ukajo**, d'après ses 26 années de direction annoncées lors de son départ fin 2014. citeturn472779search4
+- **2014** : départ à la retraite de Marie-Chanel Ukajo. citeturn472779search4
+- **2015** : **Thérèse Pham**, jusqu'alors adjointe, prend la direction. citeturn335037search10
+- **2015** : décision de retrait définitif de Nouvelle-Calédonie de la congrégation des Sœurs de Saint-Joseph de Cluny. citeturn565899view1
+- **2023** : création officielle d'une association commune de parents d'élèves pour Bon-Pasteur et Anne-Marie-Javouhey. citeturn475129search65
+- **2026** : l'école est toujours active et représentée notamment au Conseil municipal junior de Nouméa. citeturn335037search11
+
+### Ce que je considérerais comme encore à rechercher
+
+Le principal « trou » historique est maintenant très clair : **la date exacte de construction des bâtiments scolaires et la liste des premières directrices de 1961 à environ 1989**. Les sources Internet ordinaires ne permettent pas encore de répondre sérieusement à ces deux questions.
+
+Il faudrait pour cela remonter aux **archives anciennes de la DDEC, aux archives diocésaines, aux archives de la congrégation Saint-Joseph de Cluny et aux anciens numéros de la presse calédonienne**. Le texte de la DDEC que j'ai trouvé est d'ailleurs lui-même tiré d'un article de l'historienne **Sylvette Boubin-Boyer paru dans *L'Espérance*, n°10, septembre 2012**, ce qui constitue une piste particulièrement intéressante. citeturn499780search2
+
+Si tu veux, je peux faire une **deuxième phase de recherche beaucoup plus poussée spécifiquement sur 1961-1990**, pour essayer de retrouver **les noms des premières sœurs/directrices, la date de construction des nouveaux bâtiments et éventuellement de vieilles photos de l'école et de l'ancienne église**.";"chatgpt-conversation://6aa53c9f-f604-83eb-8cc4-8aaaddfe0862";"Transcription de conversation";"Propos originaux non revérifiés";"transcription_integrale"
+"Réponse historique intégrale 2";"Oui. Cette deuxième recherche apporte quelques éléments nouveaux, surtout sur **les bâtiments et les années 1970**, mais elle confirme aussi que la liste complète des premières directrices n’est pas publiée sur le Web.
+
+## 1. Ce que l’on peut maintenant préciser sur les bâtiments
+
+L’école **ouvre bien en 1961**, à la demande du père Bichon, curé du Bon-Pasteur, et ses premières classes sont installées dans une **ancienne église désaffectée de la 2e Vallée-du-Tir**. Elle compte déjà plus d’une centaine d’élèves au début. citeturn411788search4turn506476search0
+
+La DDEC ajoute une information importante : après ces débuts dans l’église, **des « locaux neufs » sont construits ou aménagés**, et ces nouveaux locaux accueillent non seulement l’école primaire, mais également un cours commercial, des classes de certificat d’études et un **Centre de préparation à la vie (CPV) destiné aux filles**. citeturn506476search0
+
+En revanche, je n’ai toujours pas trouvé **le permis de construire ni une date précise d’inauguration de ces nouveaux bâtiments**. On peut néanmoins resserrer la période : les classes commerciales sont attestées à Anne-Marie-Javouhey dès **1967**. Les nouveaux locaux existaient donc vraisemblablement **au plus tard en 1967**, sauf si ces formations utilisaient encore des locaux transitoires. citeturn837848search69
+
+### Un point à ne pas confondre : 1961 ou 1972 ?
+
+Les bases actuelles de l’Éducation nationale indiquent une « date d’ouverture » administrative au **17 août 1972** pour l’établissement portant aujourd’hui le code UAI **9830211M**. citeturn837848search10
+
+Mais cela **ne signifie pas que l’école a été créée en 1972** : les sources historiques contemporaines de la DDEC établissent sans ambiguïté sa fondation en **1961**. Le 17 août 1972 correspond très probablement à une entrée ou une reconnaissance dans le système administratif dont est issue l’actuelle base nationale, mais je n’ai pas trouvé le texte réglementaire permettant de dire exactement ce qui s’est produit ce jour-là. citeturn411788search4turn837848search10
+
+Pour un historique, je te conseille donc d’écrire :
+
+> **Fondée en 1961, l’école Anne-Marie Javouhey est d’abord installée dans une ancienne église désaffectée de la 2e Vallée-du-Tir. De nouveaux locaux scolaires sont ensuite édifiés ou aménagés, au plus tard dans les années 1960. L’établissement apparaît dans les bases administratives actuelles avec une date d’ouverture au 17 août 1972, qui ne correspond pas à sa création historique.**
+
+## 2. Quelle était cette « ancienne église » ?
+
+La recherche sur l’histoire du quartier donne un contexte intéressant.
+
+Une première chapelle du **Bon-Pasteur** est construite à la 2e Vallée-du-Tir en **1926**, par le père Mulsant. Les messes dominicales y sont célébrées régulièrement à partir du 10 janvier 1928, d’abord par le père Bussy puis par le père Bichon. Un cyclone endommage ou détruit cette première chapelle et une nouvelle église du Bon-Pasteur est consacrée le **30 mars 1948**. citeturn202498view0
+
+Le père Bichon joue alors un rôle considérable dans le développement paroissial du quartier. Les documents de la Ville de Nouméa montrent qu’il cherchait dès **1943** à acquérir un terrain pour développer l’ensemble paroissial. La municipalité lui accorde une partie du terrain en 1947 puis en 1949 ; les travaux de terrassement sont documentés au début des années 1950 et un permis de construire pour **un presbytère, une salle paroissiale et un préau** est délivré le **14 décembre 1955**. citeturn484990search65
+
+Il subsiste toutefois une petite difficulté historique : les documents que j’ai trouvés ne disent pas explicitement **quel bâtiment religieux précis est devenu l’école en 1961**. La source DDEC se contente de parler de « l’ancienne église désaffectée ». citeturn411788search4
+
+Il serait donc risqué d’affirmer sans document supplémentaire que le bâtiment scolaire de 1961 était exactement la chapelle de 1926 ou l'église consacrée en 1948.
+
+## 3. Le père Bichon : personnage central de la naissance de l’école
+
+La recherche permet de mieux comprendre pourquoi son nom revient dans la création d’Anne-Marie-Javouhey.
+
+Un témoignage de **Jean Lèques**, ancien maire de Nouméa et enfant de la Vallée-du-Tir, décrit le père Bichon comme une personnalité particulièrement marquante du quartier dans les années 1940-1950. Il raconte notamment le patronage organisé pour les jeunes et les excursions auxquelles le prêtre emmenait les enfants. citeturn484990search67
+
+Le témoignage rejoint directement l’histoire de l’école : après l’ouverture d’Anne-Marie-Javouhey, un **patronage le jeudi après-midi** et des **camps de vacances annuels** sont organisés pour les enfants du quartier. citeturn411788search4
+
+Une anecdote conservée par le Musée de la Ville concerne aussi la voiture du père Bichon : il possédait une petite décapotable ayant appartenu à un officier américain et l’avait surnommée **« Bichonnette »**. citeturn202498view0
+
+Cela donne une image assez vivante du contexte dans lequel l’école est née : son initiateur n'était pas seulement le curé de la paroisse, mais quelqu’un de très investi dans les activités destinées aux enfants et aux adolescents du quartier.
+
+## 4. L’école connaît une croissance spectaculaire
+
+La progression des effectifs est remarquable :
+
+**plus de 100 élèves dès 1961**, puis **plus de 650 élèves dans les années 1970**. La création ultérieure d’autres écoles dans les quartiers voisins fait ensuite diminuer les effectifs. citeturn411788search4
+
+Le quartier est présenté par la documentation historique comme le **« quartier du Nickel »**, particulièrement cosmopolite. La DDEC souligne que les différentes communautés de Nouvelle-Calédonie se côtoient au sein de l’école. citeturn411788search4
+
+Cette dimension n’est pas anecdotique : Anne-Marie-Javouhey semble avoir constitué pendant les années 1960-1970 l’une des grandes écoles populaires de cette partie de Nouméa.
+
+## 5. Une découverte intéressante : l’enseignement ménager en 1973
+
+Le **Journal officiel de la Nouvelle-Calédonie du 6 avril 1973** apporte une preuve extérieure aux sources diocésaines.
+
+Une décision du **27 mars 1973** accorde une subvention d’un million de francs au Conseil d’administration de l’enseignement catholique pour **l’enseignement ménager**, et cite expressément parmi les centres bénéficiaires :
+
+**« Anne Marie Javouhey, Vallée du Tir à Nouméa »**. citeturn506476search68
+
+Cela confirme officiellement que l’établissement ne se limitait pas au primaire. Il accueillait également une forme de formation pratique destinée notamment aux jeunes filles, ce qui correspond au CPV et aux enseignements évoqués par la DDEC. citeturn506476search0turn506476search68
+
+C’est, à mon avis, un des faits historiques les plus intéressants à ajouter à une présentation de l’école.
+
+## 6. Une association de parents dès 1976
+
+J’ai également retrouvé dans le **Journal officiel du 3 septembre 1976** la déclaration officielle de l’**Association des parents d’élèves des écoles Anne-Marie Javouhey et Bon Pasteur**.
+
+Elle avait son siège à l’école Anne-Marie-Javouhey et avait été officiellement déclarée le **25 août 1976**. Le premier comité publié était composé de :
+
+- **Michel Capart**, président ;
+- **Raymonde Benegig**, vice-présidente ;
+- **Mme Saminadin**, secrétaire ;
+- **Carmen Courtois**, trésorière ;
+- Arlette Rosemina, Mme Belpatrone, M. Cuer, Mme Mouniama, Mme Wakeli et M. Komorniki comme membres. citeturn411788search25
+
+C’est une très bonne illustration de l’implication des familles dans la vie de l’école dès les années 1970.
+
+Cette association a existé pendant plusieurs décennies avant d’être dissoute en 2023. Une nouvelle association commune aux écoles Bon-Pasteur et Anne-Marie-Javouhey a ensuite été créée en septembre 2023. citeturn411788search0turn411788search24
+
+## 7. Les directrices : où en est-on ?
+
+C’est malheureusement le point le plus difficile.
+
+### Marie-Chanel Ukajo : environ 1989-2014
+
+La presse locale permet d’établir avec une assez bonne sécurité **Marie-Chanel Ukajo**. Lors de son départ en 2014, *Les Nouvelles Calédoniennes* indiquent qu’elle avait passé **26 ans à la tête des écoles Anne-Marie-Javouhey et Bon-Pasteur**. Cela situe sa prise de fonction aux alentours de **1989**. citeturn484990search4
+
+Donc :
+
+**vers 1989 – fin 2014 : Marie-Chanel Ukajo**
+
+### Avant 1989
+
+Malgré les recherches sur différentes orthographes du nom de l’école, dans la presse indexée, les Journaux officiels, les pages de la congrégation et les documents de la Ville, je n’ai pas trouvé de document en ligne donnant le nom de la première directrice en **1961**, ni une succession fiable pour les années **1960, 1970 et 1980**.
+
+Une source historique indique seulement qu'à une date ultérieure l'école était dirigée par **« une directrice laïque »**, sans la nommer. citeturn375448search0
+
+Je ne voudrais surtout pas confondre avec **Sœur Myriam Huckett**, dont le nom apparaît dans l'histoire de l'enseignement catholique : elle dirigeait principalement le **cours commercial**, qui a transité pendant un temps par Anne-Marie-Javouhey, mais cela ne permet pas de dire qu'elle était directrice de l'école primaire Anne-Marie-Javouhey. citeturn375448search0
+
+C'est une distinction importante.
+
+## 8. Pourquoi les noms des premières directrices sont difficiles à retrouver
+
+Les documents administratifs publiés des années 1960-1980 mentionnent surtout **l'établissement, les subventions ou les organismes gestionnaires**, mais rarement le nom du chef d'établissement.
+
+À mon avis, la liste complète existe très probablement dans l'un de ces quatre fonds :
+
+1. **Archives de la DDEC**, notamment dossiers du personnel et annuaires de l'enseignement catholique ;
+2. **archives de l'archevêché de Nouméa** ;
+3. **archives de la congrégation des Sœurs de Saint-Joseph de Cluny** ;
+4. **Archives de la Nouvelle-Calédonie**, notamment les dossiers relatifs à l'enseignement privé et éventuellement les anciens annuaires administratifs.
+
+Le Musée de la Ville de Nouméa possède également des documents photographiques sur le Bon-Pasteur et la Vallée-du-Tir. Sa brochure historique cite comme provenances **les Archives de la Nouvelle-Calédonie, l'archevêché et les collections du Musée de la Ville**. citeturn246760view1
+
+## 9. Des photos anciennes existent
+
+La brochure patrimoniale de la Ville de Nouméa contient notamment des photographies de **l'église du Bon-Pasteur vers 1945**, provenant des collections Vautrin et de l'archevêché. citeturn202498view0
+
+Je n'ai toutefois pas encore retrouvé en accès libre une photographie légendée **« école Anne-Marie Javouhey, années 1960 »** dont l'identification soit incontestable.
+
+Une vue du quartier permet néanmoins de replacer l'établissement dans son environnement historique :
+
+image_group{""layout"":""carousel"",""aspect_ratio"":""1:1"",""image_refs"":[""turn231311image1""]}
+
+## 10. Chronologie enrichie
+
+Voici la chronologie que je considère actuellement comme la plus solide :
+
+| Date | Événement |
+|---|---|
+| **1926** | Construction d'une chapelle à la 2e Vallée-du-Tir par le père Mulsant. citeturn202498view0 |
+| **1928** | Début régulier des messes dominicales ; le père Bichon sera ensuite l'un des prêtres du lieu. citeturn202498view0 |
+| **1948** | Nouvelle église du Bon-Pasteur consacrée le 30 mars. citeturn202498view0 |
+| **1955** | Permis de construire pour des installations paroissiales : presbytère, salle paroissiale et préau. citeturn484990search65 |
+| **1961** | Fondation de l'école Anne-Marie Javouhey dans une ancienne église désaffectée. Plus de 100 élèves dès le début. citeturn411788search4 |
+| **années 1960** | Construction/aménagement de nouveaux locaux. citeturn506476search0 |
+| **1967** | Présence de classes commerciales à Anne-Marie-Javouhey. citeturn837848search69 |
+| **années 1970** | L'école dépasse **650 élèves**. citeturn411788search4 |
+| **17 août 1972** | Date d'ouverture figurant dans l'actuelle base administrative de l'Éducation nationale — à distinguer de la fondation historique de 1961. citeturn837848search10 |
+| **1973** | Anne-Marie-Javouhey reçoit une subvention territoriale au titre de l'**enseignement ménager**. citeturn506476search68 |
+| **25 août 1976** | Création officielle de l'association des parents d'élèves Anne-Marie-Javouhey / Bon-Pasteur. citeturn411788search25 |
+| **vers 1989** | Début estimé de la direction de **Marie-Chanel Ukajo**. citeturn484990search4 |
+| **2014** | Retraite de Marie-Chanel Ukajo après 26 ans à la tête des deux écoles. citeturn484990search4 |
+
+### Le résultat le plus important de cette deuxième recherche
+
+On peut désormais dire avec davantage de précision que **1961 est la véritable date de naissance historique**, que l'école a d'abord occupé **un ancien bâtiment religieux**, puis qu'elle a connu **une phase de construction ou d'extension dans les années 1960**, avant de devenir un établissement important de plus de 650 élèves accueillant aussi des formations commerciales et ménagères.
+
+En revanche, **la date exacte d'achèvement des nouveaux bâtiments et les noms des directrices entre 1961 et environ 1989 restent introuvables dans les sources publiques que j'ai pu retrouver en ligne**. Ces deux informations nécessiteront probablement une consultation d'archives non numérisées.
+
+Je peux poursuivre encore d'un cran : rechercher maintenant **dans les catalogues des Archives de Nouvelle-Calédonie, les anciens Journaux officiels et les documents municipaux avec les termes “permis de construire”, “enseignement privé”, “Anne-Marie Javouhey”, “Bon Pasteur”, etc.**, afin d'essayer d'identifier **l'année précise des bâtiments et le nom de la toute première directrice**.";"chatgpt-conversation://6aa53c9f-f604-83eb-8cc4-8aaaddfe0862";"Transcription de conversation";"Propos originaux non revérifiés";"transcription_integrale"

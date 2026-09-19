@@ -6,6 +6,9 @@ resource: https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/main
 tags: [meta, okf, specification]
 status: stable
 generated: { by: codex/gpt-5, at: 2026-09-15T16:19:06Z }
+verified:
+  - by: human:alex
+    at: 2026-09-15T20:39:53Z
 sources:
   - id: okf-spec
     resource: https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/main/SPEC.md

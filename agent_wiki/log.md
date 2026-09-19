@@ -2,6 +2,21 @@
 
 ## 2026-09-15
 
+* **Implementation plan**: Expanded the approved [public heritage publishing
+  roadmap](/plans/github-pages-static-site.md) into six linked, reviewable
+  branches: foundation, content, map, identity, release and printed QR supports.
+* **Maintenance**: Added the owner-and-agent maintenance model to the [public heritage portal requirements](/specs/public-heritage-portal.md), with owner-requested and agent-prepared updates plus readable separation of content, data, images and interface code.
+* **Print requirement**: Recorded A4 and compact cartel versions for each QR-code support in the [public heritage portal requirements](/specs/public-heritage-portal.md).
+* **Decision**: Chose an [embedded patrimonial
+  basemap](/decisions/embedded-patrimonial-basemap.md), avoiding external road-map dependencies for the core experience.
+* **Decision**: Selected [Leaflet for the interactive map](/decisions/leaflet-for-interactive-map.md), retaining a lightweight static site and a search/list fallback.
+* **Scope change**: Replaced the shared home page and one QR code with three
+  independent QR-code destinations in the [public heritage portal
+  requirements](/specs/public-heritage-portal.md).
+* **Specification**: Added the [public heritage portal
+  requirements](/specs/public-heritage-portal.md) and updated the
+  [GitHub Pages delivery target](/plans/github-pages-static-site.md) with the
+  confirmed scope and remaining dependencies.
 * **Initialization**: Created the bundle as an Open Knowledge Format v0.2 tree —
   `architecture/`, `components/`, `specs/`, `decisions/`, `plans/`, `issues/`,
   `computations/`, `references/` — each with an `index.md`, plus this log.

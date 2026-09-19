@@ -5,6 +5,9 @@ description: How this wiki is written, linked, validated, and kept honest over t
 tags: [meta, conventions, okf]
 status: stable
 generated: { by: codex/gpt-5, at: 2026-09-15T16:19:06Z }
+verified:
+  - by: human:alex
+    at: 2026-09-15T20:39:32Z
 sources:
   - id: okf-spec
     resource: /references/okf-spec.md

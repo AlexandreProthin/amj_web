@@ -6,6 +6,9 @@ resource: /references/tools/okf.py
 tags: [meta, tooling, okf]
 status: stable
 generated: { by: codex/gpt-5, at: 2026-09-15T16:19:06Z }
+verified:
+  - by: human:alex
+    at: 2026-09-15T20:39:36Z
 sources:
   - id: okf-reference-agent
     resource: https://github.com/GoogleCloudPlatform/open-knowledge-format/tree/main/src/reference_agent

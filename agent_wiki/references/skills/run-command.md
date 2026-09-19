@@ -5,6 +5,9 @@ description: Run instructions for a runtime `shell` computation, and the receipt
 tags: [meta, executor, okf]
 status: stable
 generated: { by: codex/gpt-5, at: 2026-09-15T16:19:06Z }
+verified:
+  - by: human:alex
+    at: 2026-09-15T20:39:45Z
 ---
 
 # When this applies
