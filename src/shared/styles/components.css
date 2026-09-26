@@ -214,6 +214,120 @@
   background: var(--color-primary-soft);
 }
 
+/* ---------- Chips (toggles and filters) ---------- */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+}
+
+.chip {
+  min-height: var(--touch-min);
+  padding: var(--space-2) var(--space-4);
+  border: 2px solid var(--color-line);
+  border-radius: 999px;
+  background: var(--color-surface);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.chip[aria-pressed='true'] {
+  border-color: var(--color-primary);
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.chip[aria-pressed='true']::before {
+  content: '✓ ';
+}
+
+.chip[disabled] {
+  cursor: default;
+}
+
+
+/* ---------- Kicker (small label above a title) ---------- */
+.kicker {
+  margin-bottom: var(--space-2);
+  color: #8a5a0c;
+  font-size: var(--text-sm);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* ---------- In-page navigation (under the header) ---------- */
+.page-nav {
+  padding-bottom: var(--space-2);
+}
+
+.page-nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-1);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.25rem;
+  padding: 0 var(--space-2);
+  border-radius: 999px;
+  color: var(--color-ink-soft);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media (min-width: 30rem) {
+  .page-nav ul {
+    justify-content: center;
+    gap: var(--space-2);
+  }
+
+  .page-nav a {
+    padding: 0 var(--space-4);
+  }
+}
+
+.page-nav a:hover {
+  background: var(--color-primary-soft);
+}
+
+.page-nav a[aria-current] {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+/* ---------- Page sections ---------- */
+.section {
+  padding-block: var(--space-7);
+}
+
+.section--tinted {
+  background: #f6eee0;
+}
+
+@media (min-width: 64rem) {
+  .section {
+    padding-block: var(--space-8);
+  }
+}
+
+/* ---------- Disclosure (details/summary) ---------- */
+details summary {
+  min-height: var(--touch-min);
+  display: flex;
+  align-items: center;
+  color: var(--color-primary);
+  font-weight: 700;
+  cursor: pointer;
+}
+
 /* ---------- Feedback / reveal ---------- */
 .feedback {
   margin-top: var(--space-3);

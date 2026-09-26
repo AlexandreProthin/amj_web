@@ -6,6 +6,7 @@ import { h } from '@shared/js/dom.js';
 import { setupInfoDialog } from '@shared/js/info-dialog.js';
 import { picture } from '@shared/js/picture.js';
 import { createQuiz } from '@shared/js/quiz.js';
+import { watchSections } from '@shared/js/scroll-spy.js';
 import { buildActivity } from './activities.js';
 import { credits, quiz, steps } from './content.js';
 
@@ -75,24 +76,6 @@ function renderNav() {
   );
 }
 
-/** Highlights the step currently on screen in the navigation. */
-function watchProgress() {
-  const links = new Map([...document.querySelectorAll('.steps-nav__link')].map((link) => [link.hash.slice(1), link]));
-  const visible = new Map();
-  const observer = new IntersectionObserver(
-    (entries) => {
-      for (const entry of entries) visible.set(entry.target.id, entry.isIntersecting);
-      const current = [...links.keys()].filter((id) => visible.get(id)).at(-1) ?? null;
-      for (const [id, link] of links) {
-        if (id === current) link.setAttribute('aria-current', 'step');
-        else link.removeAttribute('aria-current');
-      }
-    },
-    { rootMargin: '-45% 0px -50% 0px' },
-  );
-  for (const id of links.keys()) observer.observe(document.getElementById(id));
-}
-
 function totalMinutes() {
   const minutes = steps.reduce((sum, step) => sum + (step.activity?.minutes ?? 0), 0);
   return Math.max(5, Math.round(minutes / 5) * 5);
@@ -104,7 +87,7 @@ document.querySelector('#hero-lead').textContent =
 document.querySelector('#steps').replaceChildren(...steps.map(renderStep));
 document.querySelector('#quiz-list').replaceChildren(createQuiz(quiz));
 renderNav();
-watchProgress();
+watchSections(document.querySelectorAll('.steps-nav__link'));
 setupInfoDialog({
   title: TITLE,
   sources: steps.map((step) => step.sources),

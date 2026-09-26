@@ -6,7 +6,7 @@ own QR code:
 | Experience | Local URL (dev) | Status |
 |---|---|---|
 | La cathédrale Saint-Joseph de Nouméa | `/cathedrale_de_noumea/` | first version |
-| L'histoire de l'école Anne-Marie Javouhey | `/histoire_ecole_amj/` | to do |
+| L'histoire de l'école Anne-Marie Javouhey | `/histoire_ecole_amj/` | first version |
 | Les églises de Nouvelle-Calédonie (carte) | `/eglises_nc/` | to do |
 
 Project memory (requirements, decisions, plans, known issues) lives in
@@ -28,6 +28,15 @@ the optimized production build instead.
 Equivalent npm scripts: `npm run dev`, `npm run dev:lan`, `npm run build`,
 `npm run preview:lan`.
 
+## Test it
+
+```bash
+npm test
+```
+
+Builds the site and checks every experience on phone, tablet and desktop
+sizes with Playwright (first time on a machine: `npx playwright install chromium`).
+
 ## Folder layout
 
 ```
@@ -46,6 +55,7 @@ amj_web/
 │   ├── shared/styles/    tokens.css (visual identity), base.css, components.css
 │   ├── shared/js/        Shared components: quiz, choices, « Informations », images
 │   └── build/            Build plugins (CSV → data)
+├── tests/                Playwright checks and screenshot helper
 ├── draft/                Original standalone drafts — reference only
 ├── agent_wiki/           Project knowledge base (OKF)
 └── dist/                 Build output (generated, not versioned)

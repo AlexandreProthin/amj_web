@@ -13,6 +13,7 @@ const TODO = 'à compléter';
  *   URLs or free-text references; duplicates are removed.
  * @param {{ subject: string, author?: string, licence?: string, url?: string }[]} [page.credits]
  *   One entry per image; a missing author or licence shows « à compléter ».
+ *   An empty list states that the page has no photograph.
  * @param {Node[]} [page.extra]               Extra sections appended at the end.
  */
 export function setupInfoDialog({ title, sources = [], credits = [], extra = [] }) {
@@ -97,7 +98,7 @@ function readableUrl(url) {
 }
 
 function creditList(credits) {
-  if (!credits.length) return h('p', {}, todo());
+  if (!credits.length) return h('p', {}, 'Cette page ne contient pas de photographie. Les dessins sont réalisés pour le site.');
   return h(
     'ul',
     {},
