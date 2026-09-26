@@ -5,6 +5,9 @@ description: « L'histoire de l'école Anne-Marie Javouhey » — story chapters
 tags: [experience, school-history, timeline, quiz]
 status: stable
 generated: { by: claude-code/claude-opus-5-5, at: 2026-09-26T23:30:00Z }
+verified:
+  - by: human:alex
+    at: 2026-09-26T21:38:06Z
 resource: /pages/histoire_ecole_amj/
 ---
 

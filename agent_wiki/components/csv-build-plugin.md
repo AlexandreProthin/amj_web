@@ -5,6 +5,9 @@ description: Vite plugin that turns an imported CSV file into an array of row ob
 tags: [build, csv, data]
 status: stable
 generated: { by: claude-code/claude-opus-5-5, at: 2026-09-26T21:30:00Z }
+verified:
+  - by: human:alex
+    at: 2026-09-26T21:37:42Z
 resource: /src/build/csv-plugin.js
 ---
 

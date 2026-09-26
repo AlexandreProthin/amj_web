@@ -5,6 +5,9 @@ description: Playwright checks of every experience on phone, tablet and desktop 
 tags: [testing, playwright, quality]
 status: stable
 generated: { by: claude-code/claude-opus-5-5, at: 2026-09-26T23:30:00Z }
+verified:
+  - by: human:alex
+    at: 2026-09-26T21:36:31Z
 resource: /tests/
 ---
 

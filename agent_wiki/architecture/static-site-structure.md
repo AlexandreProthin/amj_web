@@ -5,6 +5,9 @@ description: How owner data, page source and shared code combine into the static
 tags: [architecture, vite, github-pages, build]
 status: stable
 generated: { by: claude-code/claude-opus-5-5, at: 2026-09-26T21:30:00Z }
+verified:
+  - by: human:alex
+    at: 2026-09-26T21:37:21Z
 resource: /README.md
 ---
 

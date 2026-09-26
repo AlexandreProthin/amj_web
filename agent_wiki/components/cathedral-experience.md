@@ -5,6 +5,9 @@ description: « La cathédrale Saint-Joseph de Nouméa » — eight illustrated 
 tags: [experience, cathedral, quiz]
 status: stable
 generated: { by: claude-code/claude-opus-5-5, at: 2026-09-26T21:30:00Z }
+verified:
+  - by: human:alex
+    at: 2026-09-26T21:40:04Z
 resource: /pages/cathedrale_de_noumea/
 ---
 

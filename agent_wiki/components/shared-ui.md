@@ -5,6 +5,9 @@ description: Design tokens, base styles and reusable components used by every ex
 tags: [ui, design-system, accessibility]
 status: stable
 generated: { by: claude-code/claude-opus-5-5, at: 2026-09-26T21:30:00Z }
+verified:
+  - by: human:alex
+    at: 2026-09-26T21:37:54Z
 resource: /src/shared/
 ---
 
