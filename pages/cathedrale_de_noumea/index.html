@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>La cathédrale Saint-Joseph de Nouméa — Patrimoine catholique de la Nouvelle-Calédonie</title>
+    <meta name="description" content="Découvre la cathédrale Saint-Joseph de Nouméa en 8 étapes, avec des jeux et un quiz." />
+    <meta name="theme-color" content="#fffaf0" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%230d4f78' d='M4 30V10l3-6 3 6v4l6-5 6 5v-4l3-6 3 6v20z'/%3E%3C/svg%3E" />
+    <script type="module" src="./main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+    <header class="site-header">
+      <div class="container site-header__bar">
+        <a class="brand" href="#haut">
+          <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M4 30V10l3-6 3 6v4l6-5 6 5v-4l3-6 3 6v20h-9v-7a3 3 0 0 0-6 0v7z" /></svg>
+          <span class="brand__text">Cathédrale Saint-Joseph<small>Patrimoine catholique de la Nouvelle-Calédonie</small></span>
+        </a>
+        <div class="site-header__actions">
+          <button type="button" class="button button--quiet button--info" data-open-info>
+            <svg class="button__icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2" /><path d="M12 11v6M12 7.5v.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" /></svg>
+            <span class="button__label">Informations</span>
+            <span class="visually-hidden">(auteurs, sources et crédits)</span>
+          </button>
+        </div>
+      </div>
+      <nav class="container steps-nav" aria-label="Étapes de la visite">
+        <ol class="steps-nav__list" id="steps-nav"></ol>
+      </nav>
+    </header>
+
+    <main id="contenu">
+      <section class="hero" id="haut">
+        <div class="container hero__inner">
+          <div class="hero__text">
+            <p class="hero__kicker">Nouméa · Visite découverte</p>
+            <h1>Découvre la cathédrale Saint-Joseph</h1>
+            <p class="hero__lead" id="hero-lead">Un grand monument de Nouméa à explorer étape par étape, avec des jeux et un quiz à la fin.</p>
+            <a class="button button--large" href="#etape-1">Commencer la visite ↓</a>
+          </div>
+          <svg class="hero__art" viewBox="0 0 240 220" aria-hidden="true">
+            <path d="M20 220V80l20-44 20 44v40l60-50 60 50V80l20-44 20 44v140h-70v-50a30 30 0 0 0-60 0v50z" />
+            <circle cx="120" cy="120" r="14" class="hero__rose" />
+          </svg>
+        </div>
+      </section>
+
+      <div id="steps"></div>
+
+      <section class="quiz-section container" id="quiz" aria-labelledby="quiz-title">
+        <p class="step__kicker">Pour finir</p>
+        <h2 id="quiz-title">Le quiz de la cathédrale</h2>
+        <p>As-tu bien tout retenu ? Touche la bonne réponse à chaque question.</p>
+        <div id="quiz-list"></div>
+      </section>
+
+      <noscript><p class="noscript container">Cette page a besoin de JavaScript pour afficher la visite. Active-le dans ton navigateur.</p></noscript>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p><strong>Patrimoine catholique de la Nouvelle-Calédonie</strong></p>
+        <p><button type="button" class="link-button" data-open-info>Informations, sources et crédits</button> · <a href="#haut">Revenir en haut</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,509 @@
+/*
+ * « La cathédrale Saint-Joseph de Nouméa » — page layout.
+ * Phone first; wider layouts from 48rem (tablet) and 64rem (computer).
+ */
+
+/* ---------- Step navigation (under the header) ---------- */
+.steps-nav {
+  padding-bottom: var(--space-2);
+}
+
+.steps-nav__list {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-1);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.steps-nav__link {
+  display: grid;
+  place-items: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  border: 2px solid var(--color-line);
+  border-radius: 50%;
+  background: var(--color-surface);
+  color: var(--color-ink-soft);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.steps-nav__link:hover {
+  border-color: var(--color-primary);
+}
+
+.steps-nav__link[aria-current='step'] {
+  border-color: var(--color-primary);
+  background: var(--color-primary);
+  color: #fff;
+}
+
+@media (min-width: 48rem) {
+  .steps-nav__list {
+    justify-content: center;
+    gap: var(--space-3);
+  }
+
+  .steps-nav__link {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+
+/* ---------- Hero ---------- */
+.hero {
+  padding-block: var(--space-7) var(--space-8);
+  background:
+    radial-gradient(circle at 85% 20%, rgb(201 138 34 / 0.18), transparent 45%),
+    linear-gradient(160deg, var(--color-primary-soft), var(--color-paper) 70%);
+}
+
+.hero__inner {
+  display: grid;
+  gap: var(--space-6);
+  align-items: center;
+}
+
+.hero__kicker,
+.step__kicker {
+  margin-bottom: var(--space-2);
+  color: var(--color-accent);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero__kicker {
+  color: #8a5a0c;
+}
+
+.hero__lead {
+  max-width: var(--prose-max);
+  font-size: var(--text-lg);
+}
+
+.hero__art {
+  display: none;
+  fill: var(--color-primary);
+}
+
+.hero__rose {
+  fill: var(--color-accent);
+}
+
+@media (min-width: 48rem) {
+  .hero__inner {
+    grid-template-columns: 1.4fr 1fr;
+  }
+
+  .hero__art {
+    display: block;
+    width: 100%;
+    max-width: 22rem;
+    justify-self: center;
+    opacity: 0.9;
+  }
+}
+
+/* ---------- Steps ---------- */
+.step {
+  padding-block: var(--space-7);
+}
+
+.step--flip {
+  background: #f6eee0;
+}
+
+.step__grid {
+  display: grid;
+  grid-template-areas:
+    'head'
+    'media'
+    'body'
+    'activity';
+  gap: var(--space-5);
+}
+
+.step__head {
+  grid-area: head;
+}
+
+.step__head h2 {
+  margin: 0;
+}
+
+.step__media {
+  grid-area: media;
+  display: grid;
+  gap: var(--space-4);
+}
+
+.step__body {
+  grid-area: body;
+  max-width: var(--prose-max);
+}
+
+.step__text {
+  font-size: var(--text-lg);
+}
+
+.activity {
+  grid-area: activity;
+  min-width: 0;
+  padding: var(--space-5) var(--space-4);
+  border-top: 6px solid var(--color-accent);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  box-shadow: var(--shadow);
+}
+
+.activity__label {
+  margin-bottom: var(--space-1);
+  color: #8a5a0c;
+  font-size: var(--text-sm);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.activity__question {
+  font-family: var(--font-body);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.activity__hint {
+  color: var(--color-ink-soft);
+  font-size: var(--text-sm);
+}
+
+.activity__detail {
+  margin-top: var(--space-3);
+}
+
+/* Tablet: pairs of photos side by side, activity breathing room. */
+@media (min-width: 48rem) {
+  .step__media--pair {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+
+  .activity {
+    padding: var(--space-5) var(--space-6);
+  }
+}
+
+/* Computer: photo on one side, text and activity on the other. */
+@media (min-width: 64rem) {
+  .step {
+    padding-block: var(--space-8);
+  }
+
+  .step__grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+    grid-template-rows: auto auto 1fr;
+    grid-template-areas:
+      'media head'
+      'media body'
+      'media activity';
+    column-gap: var(--space-7);
+    align-items: start;
+  }
+
+  .step--flip .step__grid {
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+    grid-template-areas:
+      'head media'
+      'body media'
+      'activity media';
+  }
+
+  .step--no-media .step__grid,
+  .step--no-media.step--flip .step__grid {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      'head'
+      'body'
+      'activity';
+  }
+
+  .step__media {
+    position: sticky;
+    top: calc(var(--header-height) + 4.5rem);
+  }
+}
+
+/* ---------- Figures ---------- */
+.figure__frame {
+  width: fit-content;
+  max-width: 100%;
+  margin-inline: auto;
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+  background: var(--color-stone);
+  box-shadow: var(--shadow);
+}
+
+.figure .figure__frame img {
+  width: auto;
+  max-width: 100%;
+  max-height: min(65vh, 34rem);
+  border-radius: 0;
+  box-shadow: none;
+  transition: transform 0.8s ease, filter 0.8s ease;
+}
+
+.figure figcaption {
+  text-align: center;
+}
+
+.figure--crop .figure__frame img,
+.is-mystery .figure__frame img {
+  transform: scale(var(--zoom, 1));
+  transform-origin: var(--x, 50%) var(--y, 50%);
+}
+
+/* Towers as a dark silhouette until the reveal. */
+.is-mystery .figure__frame img {
+  filter: grayscale(1) invert(1) contrast(4) brightness(0.8);
+}
+
+.is-mystery figcaption {
+  visibility: hidden;
+}
+
+/* ---------- Activity: plan of the cathedral ---------- */
+.plan-layout {
+  display: grid;
+  gap: var(--space-4);
+  align-items: start;
+}
+
+@media (min-width: 30rem) {
+  .plan-layout {
+    grid-template-columns: minmax(8rem, 12rem) 1fr;
+  }
+}
+
+.plan {
+  width: 100%;
+  max-width: 12rem;
+  margin-inline: auto;
+  overflow: visible;
+}
+
+.plan__part {
+  cursor: pointer;
+}
+
+.plan__part path,
+.plan__part rect {
+  fill: var(--color-stone);
+  stroke: var(--color-ink);
+  stroke-width: 2;
+  stroke-dasharray: 6 4;
+  transition: fill 0.3s;
+}
+
+.plan__part text {
+  fill: #fff;
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 700;
+  text-anchor: middle;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.plan__part.is-on path,
+.plan__part.is-on rect {
+  fill: var(--color-primary);
+  stroke-dasharray: none;
+}
+
+.plan__part.is-on text {
+  opacity: 1;
+}
+
+.plan.is-complete .plan__part path,
+.plan.is-complete .plan__part rect {
+  fill: var(--color-accent);
+  stroke: var(--color-accent);
+}
+
+.plan__entry {
+  fill: var(--color-ink-soft);
+  font-family: var(--font-body);
+  font-size: 13px;
+  text-anchor: middle;
+}
+
+/* ---------- Activity: stained-glass saints ---------- */
+.saint-cards {
+  display: grid;
+  gap: var(--space-4);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.saint-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas:
+    'image clue'
+    'image choices';
+  column-gap: var(--space-4);
+  align-items: start;
+  padding: var(--space-3);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius);
+}
+
+/* Tablet and up: the three saints side by side, image on top. */
+@media (min-width: 48rem) {
+  .saint-cards {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .saint-card {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'image'
+      'clue'
+      'choices';
+    row-gap: var(--space-3);
+    justify-items: stretch;
+  }
+
+  .saint-card__image {
+    justify-self: center;
+  }
+}
+
+.saint-card__image {
+  grid-area: image;
+}
+
+.saint-card__image img {
+  width: 4.75rem;
+  border-radius: var(--radius-sm);
+}
+
+.saint-card__clue {
+  grid-area: clue;
+  margin-bottom: var(--space-2);
+  font-weight: 700;
+}
+
+.saint-card__clue span {
+  display: block;
+  color: var(--color-ink-soft);
+  font-size: var(--text-sm);
+  font-weight: 400;
+}
+
+.saint-card .choice-group {
+  grid-area: choices;
+}
+
+.saint-card .choice {
+  min-height: var(--touch-min);
+  padding-block: var(--space-2);
+}
+
+/* ---------- Activity: woods ---------- */
+.wood__detail {
+  margin: var(--space-2) 0 0;
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-sm);
+  background: var(--color-accent-soft);
+}
+
+/* ---------- Activity: organ ---------- */
+.organ-player {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-4);
+  margin-bottom: var(--space-4);
+}
+
+.organ-player .activity__hint {
+  margin: var(--space-2) 0 0;
+}
+
+.pipes {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+  height: 5rem;
+  padding: 0 var(--space-2);
+  border-bottom: 6px solid #6b4423;
+}
+
+.pipes i {
+  width: 0.6rem;
+  height: var(--h);
+  border-radius: 0.3rem 0.3rem 0 0;
+  background: linear-gradient(90deg, #a8761b, #f1cf73 45%, #a8761b);
+  transform-origin: bottom;
+}
+
+.pipes.is-playing i {
+  animation: pipe 0.7s ease-in-out var(--d) infinite alternate;
+}
+
+@keyframes pipe {
+  to {
+    transform: scaleY(1.12);
+    filter: brightness(1.25);
+  }
+}
+
+/* ---------- Activity: mission chips ---------- */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+}
+
+.chip {
+  min-height: var(--touch-min);
+  padding: var(--space-2) var(--space-4);
+  border: 2px solid var(--color-line);
+  border-radius: 999px;
+  background: var(--color-surface);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.chip[aria-pressed='true'] {
+  border-color: var(--color-primary);
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.chip[aria-pressed='true']::before {
+  content: '✓ ';
+}
+
+.chip[disabled] {
+  cursor: default;
+}
+
+/* ---------- Quiz ---------- */
+.quiz-section {
+  padding-block: var(--space-7);
+}
+
+.quiz-section > p:not(.step__kicker) {
+  max-width: var(--prose-max);
+}
