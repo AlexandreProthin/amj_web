@@ -26,5 +26,8 @@ First run on a new machine: `npx playwright install chromium`.
 * « Informations » opens and closes.
 * The quiz gives feedback.
 * Cathedral: eight steps, each with an activity. School history: the ordering game completes.
+* Church map (`tests/map.spec.js`): search by name, Enter, pin tap, cluster zoom,
+  deep link with photo, legend filter, phone list round trip, list fallback when
+  the map code is blocked.
 
 Supports the [quality plan](/plans/quality-and-public-release.md).

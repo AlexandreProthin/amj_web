@@ -13,7 +13,9 @@ verified:
 # Progress
 
 * 2026-09-26 — Playwright set up with phone, tablet and desktop projects; see
-  [automated tests](/references/automated-tests.md). Map tests still to add.
+  [automated tests](/references/automated-tests.md).
+* 2026-09-27 — Map tests added (search, touch selection, clusters, deep links,
+  filters, list fallback). 52 checks pass. Next: tests on real phones over Wi-Fi.
 
 # Work
 

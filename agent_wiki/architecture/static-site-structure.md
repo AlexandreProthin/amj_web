@@ -22,7 +22,7 @@ QR code; there is no router and no shared runtime state.
 | Owner data | `data/` | CSV, JSON and images — the only place content is edited. |
 | Page source | `pages/<experience>/` | Page shell, rendering script, page configuration and styles. |
 | Shared code | `src/shared/` | Design tokens, base styles, reusable components. See [shared UI](/components/shared-ui.md). |
-| Build plugins | `src/build/` | [CSV import plugin](/components/csv-build-plugin.md). |
+| Build plugins | `src/build/` | [CSV import plugin](/components/csv-build-plugin.md), [GeoJSON plugin](/components/geo-build-plugin.md). |
 | Output | `dist/` | Generated, not versioned; this is what GitHub Pages will serve. |
 | Reference | `draft/` | Original standalone drafts, never served. |
 | Tests | `tests/` | [Automated browser tests](/references/automated-tests.md). |

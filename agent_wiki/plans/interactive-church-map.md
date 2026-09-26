@@ -26,6 +26,15 @@ map through reliable touch controls.
    results list.
 6. Keep the searchable list functional when map rendering is unavailable.
 
+# Progress
+
+* 2026-09-27 — First version: [church map experience](/components/church-map-experience.md).
+  Steps 1–6 done, with the existing geocoded dataset kept as is (see
+  [data pipeline issue](/issues/church-data-pipeline-outdated.md)) and layers
+  lightened by the [geo plugin](/components/geo-build-plugin.md). Automated
+  checks pass at phone, tablet and desktop sizes; manual checks on real phones
+  still to do.
+
 # Checks
 
 * A known church can be searched, selected and inspected on a phone.

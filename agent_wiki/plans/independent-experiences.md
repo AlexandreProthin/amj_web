@@ -36,6 +36,8 @@ Suggested order, simplest first: cathedral, school history, church map.
 * 2026-09-26 — [School history experience](/components/school-history-experience.md)
   first version; automated checks at three sizes pass. Open:
   [no photographs](/issues/school-history-images-missing.md); director list to be completed by the owner.
+* 2026-09-27 — [Church map experience](/components/church-map-experience.md) first version.
+  All three experiences now exist; printable views not ported.
 
 # Checks
 

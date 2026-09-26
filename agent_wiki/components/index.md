@@ -12,3 +12,5 @@ Use `type: Component`.
 * [CSV import plugin](csv-build-plugin.md) — CSV to data at build time.
 * [Cathedral experience](cathedral-experience.md) — eight steps, activities and quiz.
 * [School history experience](school-history-experience.md) — story, ordering game, timeline, people, quiz.
+* [Church map experience](church-map-experience.md) — search, clustered pins, detail sheet, list fallback.
+* [GeoJSON build plugin](geo-build-plugin.md) — rounds and simplifies map layers at build time.

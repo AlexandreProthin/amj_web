@@ -15,6 +15,9 @@ verified:
 Most cathedral photographs bear the watermark « Jeff VERGNE ». No licence or
 permission is recorded. The church map images come from various sources
 (some from Wikimedia Commons) whose licences are not yet recorded either.
+On the map, 3 of the 27 photos have a recorded author and licence (Wikimedia
+Commons); the others come from the diocese website and a tourism image
+service, with no licence recorded.
 
 # Impact
 

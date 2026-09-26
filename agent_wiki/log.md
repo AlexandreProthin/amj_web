@@ -1,5 +1,16 @@
 # Wiki Update Log
 
+## 2026-09-27
+
+* **Church map**: added the [church map experience](/components/church-map-experience.md)
+  (Leaflet, local basemap, clustered pins, search, list fallback, deep links) and the
+  [GeoJSON build plugin](/components/geo-build-plugin.md).
+* **Issues**: [church data pipeline outdated](/issues/church-data-pipeline-outdated.md);
+  map photo licences added to [image rights](/issues/image-rights-unconfirmed.md).
+* **Plans**: progress on the [map](/plans/interactive-church-map.md),
+  [experiences](/plans/independent-experiences.md) and [quality](/plans/quality-and-public-release.md) plans.
+* **Tests**: map checks added to the [automated tests](/references/automated-tests.md).
+
 ## 2026-09-26
 
 * **School history**: added the [school history experience](/components/school-history-experience.md),
