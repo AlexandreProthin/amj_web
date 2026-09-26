@@ -1,5 +1,28 @@
 # Wiki Update Log
 
+## 2026-09-26
+
+* **Owner answers**: labels and sources only under « Informations »; publish
+  everything; agent chooses a documented folder layout; always version
+  control, owner decides when to go live; `html/frise_nc_eu_amj` out of scope;
+  layouts must apply automatically per device. Recorded in the
+  [spec](/specs/public-heritage-portal.md) and the
+  [content decision](/decisions/owner-csv-as-content-source.md).
+* **Maintenance**: replaced `draft_data/` references with `data/` and `draft/`
+  after the owner's reorganization.
+* **Architecture**: added [static site structure](/architecture/static-site-structure.md).
+* **Decisions**: [owner CSV as content source](/decisions/owner-csv-as-content-source.md),
+  [pages/ source and dist/ output](/decisions/pages-source-dist-output.md),
+  [CSS breakpoints for device layouts](/decisions/css-breakpoints-for-device-layouts.md).
+* **Components**: [shared interface](/components/shared-ui.md),
+  [CSV plugin](/components/csv-build-plugin.md),
+  [cathedral experience](/components/cathedral-experience.md).
+* **Issues**: [cathedral image gaps](/issues/cathedral-image-gaps.md),
+  [image rights not confirmed](/issues/image-rights-unconfirmed.md).
+* **Plans**: progress on [foundation](/plans/github-pages-foundation.md) and
+  [independent experiences](/plans/independent-experiences.md).
+* **Reference**: [local development server](/references/local-dev-server.md).
+
 ## 2026-09-15
 
 * **Implementation plan**: Expanded the approved [public heritage publishing

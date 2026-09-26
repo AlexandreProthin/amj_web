@@ -10,7 +10,7 @@ verified:
     at: 2026-09-15T20:47:00Z
 sources:
   - id: leaflet-evaluation
-    resource: /draft_data/eglises_nc/eglises_nc.html
+    resource: /draft/eglises_nc/eglises_nc.html
     title: Existing custom SVG map prototype
 ---
 

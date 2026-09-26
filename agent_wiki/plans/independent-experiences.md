@@ -25,6 +25,15 @@ URL and work without a shared home page.
    or request approval for any intentional reduction.
 6. Add useful in-page navigation and a visible « Informations » entry point.
 
+# Progress
+
+Suggested order, simplest first: cathedral, school history, church map.
+
+* 2026-09-26 — [Cathedral experience](/components/cathedral-experience.md)
+  first version, checked at 375, 768 and 1600 px wide. The draft's raw data
+  tables are intentionally dropped ([content decision](/decisions/owner-csv-as-content-source.md));
+  the printable A4 view is not yet ported. Open: [image gaps](/issues/cathedral-image-gaps.md).
+
 # Checks
 
 * Every experience opens from a fresh direct link.

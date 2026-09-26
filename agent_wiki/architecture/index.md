@@ -9,4 +9,4 @@ Use `type: Architecture`. Link down into [components/](../components/) for the
 pieces and across to [decisions/](../decisions/) for why the shape is what it
 is.
 
-*Empty. Nothing has been written here yet.*
+* [Static site structure and build](static-site-structure.md) — data, page source, shared code and output.

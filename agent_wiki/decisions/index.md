@@ -13,3 +13,7 @@ mark it `status: deprecated` and have the replacement link back to it.
   mobile-ready library.
 * [Embed a simple patrimonial basemap](embedded-patrimonial-basemap.md) — keeps
   the map independent from external road-tile services.
+* [Owner CSV files are the content source](owner-csv-as-content-source.md) —
+  text read at build time; labels and sources only in « Informations ».
+* [Page source in pages/, generated site in dist/](pages-source-dist-output.md)
+* [Device layouts through CSS breakpoints](css-breakpoints-for-device-layouts.md)

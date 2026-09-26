@@ -9,6 +9,10 @@ executors, and attesters point in here.
 * [Wiki maintenance protocol](wiki-protocol.md) - How this wiki is written, linked, validated, and kept honest over time.
 * [Open Knowledge Format v0.2](okf-spec.md) - The specification this wiki conforms to, and the parts of it that matter here.
 
+# Project
+
+* [Local development server](local-dev-server.md) - Serve the site and test it on phones over Wi-Fi.
+
 # Machinery
 
 * [skills/](skills/) - Run instructions an executor follows.

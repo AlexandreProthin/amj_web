@@ -8,4 +8,6 @@ tracks.
 
 Use `type: Component`.
 
-*Empty. Nothing has been written here yet.*
+* [Shared interface](shared-ui.md) — tokens, styles, quiz, choices, « Informations ».
+* [CSV import plugin](csv-build-plugin.md) — CSV to data at build time.
+* [Cathedral experience](cathedral-experience.md) — eight steps, activities and quiz.

@@ -21,16 +21,16 @@ propre QR code.
 Le public principal est le grand public. Le langage et les interactions doivent
 rester accessibles aux élèves.
 
-[`draft_data/`](/draft_data/):
-La première version publie exactement les trois contenus de
-[`draft_data/`](/draft_data/), chacun comme destination autonome :
-[`draft_data/`](/draft_data/):
+La première version publie exactement les trois contenus préparés dans
+`data/` (sources) et `draft/` (maquettes de référence), chacun comme
+destination autonome :
 
 1. l'histoire de l'école Anne-Marie Javouhey ;
 2. la carte des églises catholiques de Nouvelle-Calédonie ;
 3. la découverte de la cathédrale Saint-Joseph de Nouméa.
 
-Une page d'accueil commune n'est pas requise.
+Une page d'accueil commune n'est pas requise. La frise
+`html/frise_nc_eu_amj` reste hors périmètre.
 
 # Expérience visiteur
 
@@ -39,7 +39,20 @@ associé.
 
 Le site est optimisé en priorité pour les téléphones : interface tactile,
 contenu lisible et aucune navigation horizontale. Il reste utilisable sur
-tablette et ordinateur.
+tablette et ordinateur. L'ordre de priorité est : téléphone, tablette,
+ordinateur (écran 16:9). La mise en page adaptée à l'appareil s'applique
+automatiquement ([choix technique](/decisions/css-breakpoints-for-device-layouts.md)).
+
+## Présentation du contenu
+
+* Le texte reste compréhensible par un enfant d'environ 10 ans.
+* Les consignes destinées aux enseignants ne sont pas affichées.
+* Les niveaux de fiabilité et les sources apparaissent uniquement dans
+  « Informations », jamais dans le récit principal.
+* Toutes les informations disponibles sont publiées, y compris celles qui ne
+  sont pas encore revérifiées.
+* Les contenus restent modifiables dans les fichiers de `data/`
+  ([choix technique](/decisions/owner-csv-as-content-source.md)).
 
 ## Carte des églises
 
@@ -73,7 +86,9 @@ afin de rendre les corrections et mises à jour sûres.
 # Publication et QR code
 
 Le site est hébergé publiquement avec GitHub Pages depuis un dépôt GitHub
-public, à son adresse standard `github.io`. Le nom du compte et le nom du dépôt
+public, à son adresse standard `github.io`. Le propriétaire décide seul de la
+mise en ligne, après implémentation et tests complets ; d'ici là, le site est
+testé localement. Le nom du compte et le nom du dépôt
 restent à fournir avant le déploiement.
 
 Après validation du site à son adresse définitive, les livrables QR sont, dans

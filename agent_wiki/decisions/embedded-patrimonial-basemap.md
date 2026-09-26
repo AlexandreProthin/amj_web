@@ -10,7 +10,7 @@ verified:
     at: 2026-09-15T20:42:53Z
 sources:
   - id: map-draft
-    resource: /draft_data/eglises_nc/eglises_nc.html
+    resource: /draft/eglises_nc/eglises_nc.html
     title: Existing locally embedded geographic layers
 ---
 
