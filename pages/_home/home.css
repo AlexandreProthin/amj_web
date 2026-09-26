@@ -1,0 +1,39 @@
+/* Simple list of the experiences. Each experience is normally reached directly by its QR code. */
+.home {
+  padding-block: var(--space-7);
+}
+
+.home__list {
+  display: grid;
+  gap: var(--space-4);
+  padding: 0;
+  list-style: none;
+}
+
+@media (min-width: 48rem) {
+  .home__list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.home__card {
+  display: grid;
+  gap: var(--space-2);
+  height: 100%;
+  padding: var(--space-5);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  box-shadow: var(--shadow);
+  color: inherit;
+  text-decoration: none;
+}
+
+.home__card strong {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  line-height: 1.2;
+}
+
+.home__card:hover strong {
+  color: var(--color-primary);
+}

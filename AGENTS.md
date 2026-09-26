@@ -7,4 +7,6 @@ project changes, read its maintenance protocol and record durable requirements,
 decisions, and implementation plans there. Keep the wiki validated and its
 visualization current when it is changed.
 
-The starting draft materials are in `draft_data/`.
+Source content (CSV, JSON, images) is in `data/`; the original standalone
+drafts are in `draft/` (reference only). See `README.md` for the layout and
+how to run the site.
