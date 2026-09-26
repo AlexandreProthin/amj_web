@@ -12,6 +12,7 @@ executors, and attesters point in here.
 # Project
 
 * [Local development server](local-dev-server.md) - Serve the site and test it on phones over Wi-Fi.
+* [Automated browser tests](automated-tests.md) - Playwright checks at phone, tablet and desktop sizes.
 
 # Machinery
 

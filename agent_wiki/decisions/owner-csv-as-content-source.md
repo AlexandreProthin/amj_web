@@ -5,6 +5,9 @@ description: Pages read visitor-facing text from the owner's CSV files at build 
 tags: [content, data, maintenance, csv]
 status: stable
 generated: { by: claude-code/claude-opus-5-5, at: 2026-09-26T21:30:00Z }
+verified:
+  - by: human:alex
+    at: 2026-09-26T21:26:02Z
 sources:
   - id: owner-2026-09-26
     resource: /log.md

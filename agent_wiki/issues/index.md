@@ -9,3 +9,4 @@ what fixed them; that record is why the next person does not reintroduce it.
 
 * [Cathedral images mislabelled or missing](cathedral-image-gaps.md)
 * [Image rights not confirmed](image-rights-unconfirmed.md) — blocks public release.
+* [School history page has no photographs](school-history-images-missing.md)

@@ -22,6 +22,7 @@ QR code; there is no router and no shared runtime state.
 | Build plugins | `src/build/` | [CSV import plugin](/components/csv-build-plugin.md). |
 | Output | `dist/` | Generated, not versioned; this is what GitHub Pages will serve. |
 | Reference | `draft/` | Original standalone drafts, never served. |
+| Tests | `tests/` | [Automated browser tests](/references/automated-tests.md). |
 
 # Data flow
 

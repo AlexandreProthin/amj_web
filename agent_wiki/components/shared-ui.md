@@ -14,7 +14,7 @@ resource: /src/shared/
 |---|---|
 | `styles/tokens.css` | The visual identity: palette, fonts, sizes, spacing. Temporary until the [identity](/plans/identity-and-attribution.md) arrives. |
 | `styles/base.css` | Reset, typography, bundled fonts, [breakpoints](/decisions/css-breakpoints-for-device-layouts.md), reduced motion. |
-| `styles/components.css` | Header, buttons, choices, feedback, callout, figures, quiz, dialog, footer. |
+| `styles/components.css` | Header, in-page nav, sections, kicker, buttons, choices, chips, feedback, callout, figures, details, quiz, dialog, footer. |
 
 # Scripts
 
@@ -24,6 +24,7 @@ resource: /src/shared/
 | `js/picture.js` | `picture(meta, {alt, sizes})` builds a responsive `<picture>` from an `as=picture` image import. |
 | `js/choice.js` | Single-answer question with immediate feedback and retry; locks on the right answer. |
 | `js/quiz.js` | Quiz from `{question, options, answer, explanation}`; `answer` is the right option's text. Counts first-try successes. |
+| `js/scroll-spy.js` | `watchSections(links)` marks the in-page link whose section is on screen with `aria-current`. |
 | `js/info-dialog.js` | « Informations » dialog opened by any `[data-open-info]`: authors and privacy from `data/site/site.json`, page sources, image credits. Missing values show « à compléter ». |
 
 # Fonts

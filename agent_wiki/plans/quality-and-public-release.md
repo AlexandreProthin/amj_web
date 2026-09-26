@@ -10,6 +10,11 @@ verified:
     at: 2026-09-15T20:45:21Z
 ---
 
+# Progress
+
+* 2026-09-26 — Playwright set up with phone, tablet and desktop projects; see
+  [automated tests](/references/automated-tests.md). Map tests still to add.
+
 # Work
 
 1. Add automated checks for direct URLs on phone, tablet and desktop viewports.

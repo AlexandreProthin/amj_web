@@ -2,6 +2,14 @@
 
 ## 2026-09-26
 
+* **School history**: added the [school history experience](/components/school-history-experience.md),
+  a new agent-written `04_recit_ecole.csv` for the story chapters, and the issue
+  [no photographs](/issues/school-history-images-missing.md).
+* **Testing**: added [automated browser tests](/references/automated-tests.md)
+  (Playwright, phone/tablet/desktop); progress noted in the [quality plan](/plans/quality-and-public-release.md).
+* **Shared UI**: scroll-spy, in-page nav, chips and sections moved into the
+  [shared interface](/components/shared-ui.md).
+
 * **Owner answers**: labels and sources only under « Informations »; publish
   everything; agent chooses a documented folder layout; always version
   control, owner decides when to go live; `html/frise_nc_eu_amj` out of scope;

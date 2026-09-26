@@ -11,3 +11,4 @@ Use `type: Component`.
 * [Shared interface](shared-ui.md) — tokens, styles, quiz, choices, « Informations ».
 * [CSV import plugin](csv-build-plugin.md) — CSV to data at build time.
 * [Cathedral experience](cathedral-experience.md) — eight steps, activities and quiz.
+* [School history experience](school-history-experience.md) — story, ordering game, timeline, people, quiz.

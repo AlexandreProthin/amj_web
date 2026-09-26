@@ -7,7 +7,7 @@ status: draft
 generated: { by: codex/gpt-5, at: 2026-09-15T16:35:00Z }
 verified:
   - by: human:alex
-    at: 2026-09-15T20:46:34Z
+    at: 2026-09-26T21:23:15Z
 ---
 
 # Objet

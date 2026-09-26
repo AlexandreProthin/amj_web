@@ -5,6 +5,9 @@ description: How to serve the site locally and test it on real phones and tablet
 tags: [tooling, dev, testing]
 status: stable
 generated: { by: claude-code/claude-opus-5-5, at: 2026-09-26T21:30:00Z }
+verified:
+  - by: human:alex
+    at: 2026-09-26T21:26:33Z
 resource: /../tools/serve_amj_web.py
 ---
 

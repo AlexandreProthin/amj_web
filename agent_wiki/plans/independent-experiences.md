@@ -7,7 +7,7 @@ status: draft
 generated: { by: codex/gpt-5, at: 2026-09-15T17:05:00Z }
 verified:
   - by: human:alex
-    at: 2026-09-15T20:46:42Z
+    at: 2026-09-26T21:23:04Z
 ---
 
 # Outcome
@@ -33,6 +33,9 @@ Suggested order, simplest first: cathedral, school history, church map.
   first version, checked at 375, 768 and 1600 px wide. The draft's raw data
   tables are intentionally dropped ([content decision](/decisions/owner-csv-as-content-source.md));
   the printable A4 view is not yet ported. Open: [image gaps](/issues/cathedral-image-gaps.md).
+* 2026-09-26 — [School history experience](/components/school-history-experience.md)
+  first version; automated checks at three sizes pass. Open:
+  [no photographs](/issues/school-history-images-missing.md); director list to be completed by the owner.
 
 # Checks
 
