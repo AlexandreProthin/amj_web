@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Les églises de Nouvelle-Calédonie — Patrimoine catholique de la Nouvelle-Calédonie</title>
+    <meta name="description" content="Carte des églises et chapelles catholiques de Nouvelle-Calédonie : recherche par nom et exploration." />
+    <meta name="theme-color" content="#fffaf0" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%230d4f78' d='M16 2a9 9 0 0 0-9 9c0 7 9 19 9 19s9-12 9-19a9 9 0 0 0-9-9z'/%3E%3C/svg%3E" />
+    <script type="module" src="./main.js"></script>
+  </head>
+  <body class="map-page">
+    <a class="skip-link" href="#recherche">Aller à la recherche</a>
+
+    <header class="site-header">
+      <div class="container site-header__bar">
+        <a class="brand" href="./">
+          <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 2a9 9 0 0 0-9 9c0 7 9 19 9 19s9-12 9-19a9 9 0 0 0-9-9zm-1 4h2v3h3v2h-3v6h-2v-6h-3V9h3z" /></svg>
+          <span class="brand__text"><span id="page-title">Les églises de Nouvelle-Calédonie</span><small>Patrimoine catholique de la Nouvelle-Calédonie</small></span>
+        </a>
+        <div class="site-header__actions">
+          <button type="button" class="button button--quiet button--info" data-open-info>
+            <svg class="button__icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2" /><path d="M12 11v6M12 7.5v.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" /></svg>
+            <span class="button__label">Informations</span>
+            <span class="visually-hidden">(auteurs, sources et crédits)</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="explorer" id="explorer" data-view="map">
+      <h1 class="visually-hidden">Les églises de Nouvelle-Calédonie</h1>
+      <aside class="panel" aria-label="Recherche et liste des lieux">
+        <div class="panel__top">
+          <div class="search">
+            <label class="visually-hidden" for="recherche">Rechercher une église, une chapelle ou une commune</label>
+            <svg class="search__icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2" /><path d="M15.5 15.5L21 21" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" /></svg>
+            <input id="recherche" class="search__input" type="search" placeholder="Église, chapelle, commune…" autocomplete="off" enterkeyhint="search" aria-controls="results" />
+            <button type="button" class="search__clear" id="clear-search" hidden aria-label="Effacer la recherche">✕</button>
+          </div>
+          <div class="view-switch" role="group" aria-label="Affichage">
+            <button type="button" data-view="map" aria-pressed="true">Carte</button>
+            <button type="button" data-view="list" aria-pressed="false">Liste</button>
+          </div>
+        </div>
+        <p class="panel__count" id="count" aria-live="polite"></p>
+        <div class="results" id="results"></div>
+        <section class="detail" id="detail" hidden tabindex="-1" aria-labelledby="detail-title"></section>
+      </aside>
+
+      <div class="map-area">
+        <div class="map" id="map" role="region" aria-label="Carte des églises. Utilise aussi la recherche ou la liste."></div>
+        <button type="button" class="legend-toggle" id="legend-toggle" aria-expanded="false" aria-controls="legend">Légende</button>
+        <div class="legend" id="legend" hidden></div>
+      </div>
+    </main>
+
+    <noscript><p class="noscript container">Cette carte a besoin de JavaScript. Active-le dans ton navigateur.</p></noscript>
+  </body>
+</html>

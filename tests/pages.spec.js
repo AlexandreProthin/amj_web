@@ -3,6 +3,7 @@ import { expect, test } from '@playwright/test';
 const PAGES = [
   { path: 'cathedrale_de_noumea/', title: /cathédrale Saint-Joseph/ },
   { path: 'histoire_ecole_amj/', title: /école Anne-Marie Javouhey/ },
+  { path: 'eglises_nc/', title: /églises de Nouvelle-Calédonie/, noQuiz: true },
 ];
 
 for (const page of PAGES) {
@@ -32,6 +33,7 @@ for (const page of PAGES) {
     });
 
     test('quiz gives feedback', async ({ page: browser }) => {
+      test.skip(Boolean(page.noQuiz), 'No quiz on this page.');
       await browser.goto(page.path);
       const first = browser.locator('.quiz__question').first();
       await first.locator('.choice').first().click();

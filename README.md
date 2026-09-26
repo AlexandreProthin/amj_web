@@ -7,7 +7,7 @@ own QR code:
 |---|---|---|
 | La cathédrale Saint-Joseph de Nouméa | `/cathedrale_de_noumea/` | first version |
 | L'histoire de l'école Anne-Marie Javouhey | `/histoire_ecole_amj/` | first version |
-| Les églises de Nouvelle-Calédonie (carte) | `/eglises_nc/` | to do |
+| Les églises de Nouvelle-Calédonie (carte) | `/eglises_nc/` | first version |
 
 Project memory (requirements, decisions, plans, known issues) lives in
 [`agent_wiki/`](agent_wiki/index.md).
@@ -54,7 +54,7 @@ amj_web/
 ├── src/
 │   ├── shared/styles/    tokens.css (visual identity), base.css, components.css
 │   ├── shared/js/        Shared components: quiz, choices, « Informations », images
-│   └── build/            Build plugins (CSV → data)
+│   └── build/            Build plugins (CSV → data, GeoJSON lightening)
 ├── tests/                Playwright checks and screenshot helper
 ├── draft/                Original standalone drafts — reference only
 ├── agent_wiki/           Project knowledge base (OKF)
