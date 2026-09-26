@@ -1,0 +1,459 @@
+/*
+ * « L'histoire de l'école Anne-Marie Javouhey » — page layout.
+ * Phone first; wider layouts from 48rem (tablet) and 64rem (computer).
+ */
+
+.section > p:not(.kicker),
+.section .container > p:not(.kicker) {
+  max-width: var(--prose-max);
+}
+
+/* ---------- Hero ---------- */
+.hero {
+  padding-block: var(--space-7) var(--space-8);
+  background:
+    radial-gradient(circle at 80% 30%, rgb(201 138 34 / 0.2), transparent 45%),
+    linear-gradient(160deg, var(--color-primary-soft), var(--color-paper) 70%);
+}
+
+.hero__inner {
+  display: grid;
+  gap: var(--space-6);
+  align-items: center;
+}
+
+.hero__lead {
+  max-width: var(--prose-max);
+  font-size: var(--text-lg);
+}
+
+.hero__badge {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  justify-self: center;
+  width: 8.5rem;
+  aspect-ratio: 1;
+  border: 6px solid var(--color-accent);
+  border-radius: 50%;
+  background: var(--color-surface);
+  box-shadow: var(--shadow-lg);
+  text-align: center;
+}
+
+.hero__year {
+  color: var(--color-primary);
+  font-family: var(--font-display);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.hero__caption {
+  max-width: 8rem;
+  margin-top: var(--space-2);
+  color: var(--color-ink-soft);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+@media (min-width: 48rem) {
+  .hero__inner {
+    grid-template-columns: 1.5fr 1fr;
+  }
+
+  .hero__badge {
+    width: 15rem;
+  }
+
+  .hero__year {
+    font-size: 4.25rem;
+  }
+}
+
+/* ---------- Story chapters: a path of stops ---------- */
+.chapters {
+  position: relative;
+  display: grid;
+  gap: var(--space-5);
+  margin: var(--space-6) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* The path line. */
+.chapters::before {
+  content: '';
+  position: absolute;
+  top: 1.5rem;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  width: 4px;
+  border-radius: 2px;
+  background: linear-gradient(var(--color-accent), var(--color-primary));
+  transform: translateX(-50%);
+}
+
+.chapter {
+  position: relative;
+  display: grid;
+  grid-template-columns: 3rem minmax(0, 1fr);
+  gap: var(--space-3);
+  align-items: start;
+}
+
+.chapter__marker {
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: 3rem;
+  height: 3rem;
+  border: 3px solid var(--color-accent);
+  border-radius: 50%;
+  background: var(--color-surface);
+  color: var(--color-primary);
+}
+
+.chapter__icon {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.chapter__card {
+  padding: var(--space-4);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  box-shadow: var(--shadow);
+}
+
+.chapter__card > p:last-child {
+  margin-bottom: 0;
+}
+
+.chapter__period {
+  margin-bottom: var(--space-1);
+  color: var(--color-primary);
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.mystery {
+  margin-top: var(--space-4);
+  padding: var(--space-3) var(--space-4);
+  border: 2px dashed #8b6bb0;
+  border-radius: var(--radius);
+  background: #f3eefa;
+}
+
+.mystery__title {
+  display: block;
+  margin-bottom: var(--space-1);
+  color: #5d3f86;
+  font-size: var(--text-sm);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.mystery__title::before {
+  content: '? ';
+}
+
+.mystery p {
+  margin: 0;
+}
+
+@media (min-width: 48rem) {
+  .chapter {
+    grid-template-columns: 4rem minmax(0, 1fr);
+    gap: var(--space-4);
+  }
+
+  .chapters::before {
+    left: 2rem;
+  }
+
+  .chapter__marker {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .chapter__icon {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+
+  .chapter__card {
+    padding: var(--space-5) var(--space-6);
+  }
+}
+
+/* Computer: the path runs down the middle, chapters alternate sides. */
+@media (min-width: 64rem) {
+  .chapters::before {
+    left: 50%;
+  }
+
+  .chapter {
+    grid-template-columns: minmax(0, 1fr) 4rem minmax(0, 1fr);
+    gap: var(--space-5);
+  }
+
+  .chapter__marker {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .chapter__card {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .chapter--flip .chapter__card {
+    grid-column: 3;
+  }
+
+  .chapters {
+    gap: var(--space-2);
+  }
+
+  /* Cards sit on alternate sides, so each can start beside the previous one. */
+  .chapter + .chapter {
+    margin-top: -4rem;
+  }
+}
+
+/* ---------- Order game ---------- */
+.order-game__cards {
+  display: grid;
+  gap: var(--space-2);
+  max-width: 44rem;
+  margin: var(--space-4) 0;
+  padding: 0;
+  list-style: none;
+}
+
+.order-card {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  width: 100%;
+  min-height: 3.25rem;
+  padding: var(--space-3) var(--space-4);
+  border: 2px solid var(--color-line);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.15s, background-color 0.15s;
+}
+
+.order-card:hover:not([disabled]) {
+  border-color: var(--color-primary);
+}
+
+.order-card__badge {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: var(--color-stone);
+  color: var(--color-ink-soft);
+}
+
+.order-card__body {
+  display: grid;
+}
+
+.order-card__when {
+  color: var(--color-success);
+  font-size: var(--text-sm);
+}
+
+.order-card.is-placed {
+  border-color: var(--color-success);
+  background: var(--color-success-soft);
+  cursor: default;
+}
+
+.order-card.is-placed .order-card__badge {
+  background: var(--color-success);
+  color: #fff;
+}
+
+.order-card.is-shaking {
+  animation: shake 0.4s;
+}
+
+@keyframes shake {
+  25% {
+    transform: translateX(-6px);
+  }
+
+  75% {
+    transform: translateX(6px);
+  }
+}
+
+.order-game__feedback {
+  max-width: 44rem;
+  margin-bottom: var(--space-3);
+}
+
+/* ---------- Timeline ---------- */
+.periods {
+  display: grid;
+  gap: var(--space-6);
+  margin-top: var(--space-5);
+}
+
+.period {
+  --period-color: var(--color-accent);
+}
+
+.period--ecole {
+  --period-color: var(--color-primary);
+}
+
+.period--recent {
+  --period-color: var(--color-success);
+}
+
+.period__title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-1) var(--space-3);
+  padding-bottom: var(--space-2);
+  border-bottom: 4px solid var(--period-color);
+}
+
+.period__title small {
+  color: var(--color-ink-soft);
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: 700;
+}
+
+.events {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.event {
+  position: relative;
+  padding: var(--space-3) 0 var(--space-3) var(--space-5);
+  border-left: 3px solid var(--color-line);
+}
+
+/* A dot on the line for each event. */
+.event::before {
+  content: '';
+  position: absolute;
+  top: 1.15rem;
+  left: -0.5rem;
+  width: 0.85rem;
+  height: 0.85rem;
+  border: 3px solid var(--period-color);
+  border-radius: 50%;
+  background: var(--color-paper);
+}
+
+.event__date {
+  margin-bottom: var(--space-1);
+  color: var(--period-color);
+  font-weight: 700;
+}
+
+.event__text {
+  margin-bottom: 0;
+}
+
+.event__note p {
+  margin: 0 0 var(--space-2);
+  color: var(--color-ink-soft);
+}
+
+.event--key {
+  margin-block: var(--space-2);
+  padding-right: var(--space-3);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  background: var(--color-accent-soft);
+}
+
+.event--key::before {
+  background: var(--period-color);
+}
+
+.event--key .event__text {
+  font-weight: 700;
+}
+
+/* Computer: the three periods side by side. */
+@media (min-width: 64rem) {
+  .periods {
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    align-items: start;
+  }
+}
+
+/* ---------- People ---------- */
+.people {
+  display: grid;
+  gap: var(--space-4);
+  margin: var(--space-5) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.person {
+  display: flex;
+  gap: var(--space-4);
+  align-items: flex-start;
+  padding: var(--space-4);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  box-shadow: var(--shadow);
+}
+
+.person h3 {
+  margin-bottom: var(--space-2);
+  font-size: var(--text-lg);
+}
+
+.person p {
+  margin: 0;
+}
+
+.person__avatar {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 3.25rem;
+  height: 3.25rem;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+@media (min-width: 48rem) {
+  .people {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 64rem) {
+  .people {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

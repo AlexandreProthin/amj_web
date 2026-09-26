@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>L’histoire de l’école Anne-Marie Javouhey — Patrimoine catholique de la Nouvelle-Calédonie</title>
+    <meta name="description" content="De l’arrivée des Sœurs de Cluny en 1860 à aujourd’hui : l’histoire de l’école Anne-Marie Javouhey, à la 2e Vallée-du-Tir (Nouméa)." />
+    <meta name="theme-color" content="#fffaf0" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%230d4f78' d='M4 30V14l12-8 12 8v16h-8v-8h-8v8z'/%3E%3C/svg%3E" />
+    <script type="module" src="./main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+    <header class="site-header">
+      <div class="container site-header__bar">
+        <a class="brand" href="#haut">
+          <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M4 30V14l12-8 12 8v16h-8v-8h-8v8zM15 2h2v5h-2z" /></svg>
+          <span class="brand__text">École Anne-Marie Javouhey<small>Patrimoine catholique de la Nouvelle-Calédonie</small></span>
+        </a>
+        <div class="site-header__actions">
+          <button type="button" class="button button--quiet button--info" data-open-info>
+            <svg class="button__icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2" /><path d="M12 11v6M12 7.5v.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" /></svg>
+            <span class="button__label">Informations</span>
+            <span class="visually-hidden">(auteurs, sources et fiabilité)</span>
+          </button>
+        </div>
+      </div>
+      <nav class="container page-nav" aria-label="Parties de la page">
+        <ul>
+          <li><a href="#recit">Récit</a></li>
+          <li><a href="#jeu">Jeu</a></li>
+          <li><a href="#frise">Frise</a></li>
+          <li><a href="#personnes">Personnes</a></li>
+          <li><a href="#quiz">Quiz</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="contenu">
+      <section class="hero" id="haut">
+        <div class="container hero__inner">
+          <div class="hero__text">
+            <p class="kicker">2e Vallée-du-Tir · Nouméa</p>
+            <h1>Sur les traces de l’école Anne-Marie Javouhey</h1>
+            <p class="hero__lead">De l’arrivée des Sœurs de Cluny en 1860 jusqu’à aujourd’hui, remonte le temps et découvre comment est née une école de quartier.</p>
+            <a class="button button--large" href="#recit">Commencer le voyage ↓</a>
+          </div>
+          <div class="hero__badge" aria-hidden="true">
+            <span class="hero__year">1961</span>
+            <span class="hero__caption">L’école ouvre ses portes</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="recit" aria-labelledby="recit-titre">
+        <p class="kicker">Le récit</p>
+        <h2 id="recit-titre">L’histoire en 7 chapitres</h2>
+        <ol class="chapters" id="chapters"></ol>
+      </section>
+
+      <section class="section section--tinted" id="jeu" aria-labelledby="jeu-titre">
+        <div class="container">
+          <p class="kicker">À toi de jouer</p>
+          <h2 id="jeu-titre">Remets l’histoire dans l’ordre</h2>
+          <p>Touche les événements du plus ancien au plus récent.</p>
+          <div id="order-game"></div>
+        </div>
+      </section>
+
+      <section class="section container" id="frise" aria-labelledby="frise-titre">
+        <p class="kicker">La frise</p>
+        <h2 id="frise-titre">Toutes les dates</h2>
+        <p><span id="event-count"></span> événements, de 1812 à aujourd’hui. Choisis une période ou parcours tout.</p>
+        <div id="timeline"></div>
+      </section>
+
+      <section class="section section--tinted" id="personnes" aria-labelledby="personnes-titre">
+        <div class="container">
+          <p class="kicker">Ils ont fait l’école</p>
+          <h2 id="personnes-titre">Les personnes de l’histoire</h2>
+          <ul class="people" id="people-list"></ul>
+        </div>
+      </section>
+
+      <section class="section container" id="quiz" aria-labelledby="quiz-titre">
+        <p class="kicker">Pour finir</p>
+        <h2 id="quiz-titre">Le quiz de l’école</h2>
+        <p>As-tu bien tout retenu ? Touche la bonne réponse à chaque question.</p>
+        <div id="quiz-list"></div>
+      </section>
+
+      <noscript><p class="noscript container">Cette page a besoin de JavaScript pour afficher l’histoire. Active-le dans ton navigateur.</p></noscript>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p><strong>Patrimoine catholique de la Nouvelle-Calédonie</strong></p>
+        <p><button type="button" class="link-button" data-open-info>Informations, sources et fiabilité</button> · <a href="#haut">Revenir en haut</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
