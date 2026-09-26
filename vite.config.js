@@ -4,6 +4,7 @@ import { defineConfig } from 'vite';
 import { imagetools } from 'vite-imagetools';
 import { qrcode } from 'vite-plugin-qrcode';
 import { csvPlugin } from './src/build/csv-plugin.js';
+import { geoPlugin } from './src/build/geo-plugin.js';
 
 const root = resolve(import.meta.dirname, 'pages');
 
@@ -33,6 +34,7 @@ export default defineConfig({
   },
   plugins: [
     csvPlugin(),
+    geoPlugin(),
     imagetools({
       defaultDirectives: new URLSearchParams({ withoutEnlargement: 'true' }),
     }),
@@ -42,6 +44,8 @@ export default defineConfig({
     outDir: resolve(import.meta.dirname, 'dist'),
     emptyOutDir: true,
     assetsInlineLimit: 0,
+    // The map's terrain layer (~1.3 MB, ~230 KB compressed) is loaded lazily after the markers.
+    chunkSizeWarningLimit: 1500,
     rollupOptions: { input },
   },
 });
