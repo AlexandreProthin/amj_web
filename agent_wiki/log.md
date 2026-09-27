@@ -2,6 +2,11 @@
 
 ## 2026-09-27
 
+* **Publishing**: the site now deploys to GitHub Pages on every push to `master`,
+  with a `SITE_ONLINE` offline switch — [publishing reference](/references/publishing.md),
+  [decision](/decisions/offline-switch-repo-variable.md); steps 1 and 4 of the
+  [foundation plan](/plans/github-pages-foundation.md) done.
+
 * **Church map**: added the [church map experience](/components/church-map-experience.md)
   (Leaflet, local basemap, clustered pins, search, list fallback, deep links) and the
   [GeoJSON build plugin](/components/geo-build-plugin.md).
