@@ -29,7 +29,16 @@ const fonts = `
 @font-face { font-family: 'Atkinson'; font-weight: 700; font-display: block;
   src: ${font('@fontsource/atkinson-hyperlegible-next/files/atkinson-hyperlegible-next-latin-700-normal.woff2')}; }`;
 
-let html = readFileSync(resolve(here, 'qr_codes.template.html'), 'utf8').replace('/* {{FONTS}} */', fonts);
+// mm/pt become multiples of --mm, which the print stylesheet rescales to fit the paper.
+// The --mm definitions themselves are left alone.
+const scalable = (css) =>
+  css.split('\n').map((line) => line.includes('--mm:') ? line :
+    line.replace(/(?<![\w.-])(-?\d*\.?\d+)(mm|pt)(?![\w%])/g, (_, n, unit) =>
+      `calc(${unit === 'pt' ? +(n * 0.352778).toFixed(4) : n} * var(--mm))`)).join('\n');
+
+let html = readFileSync(resolve(here, 'qr_codes.template.html'), 'utf8')
+  .replace(/<style>([\s\S]*?)<\/style>/, (_, css) => `<style>${scalable(css)}</style>`)
+  .replace('/* {{FONTS}} */', fonts);
 for (const name of experiences) {
   html = html
     .replace(`{{QR:${name}}}`, qrSvg(`${site}${name}/`))

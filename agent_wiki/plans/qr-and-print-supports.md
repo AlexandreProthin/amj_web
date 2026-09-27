@@ -17,6 +17,9 @@ verified:
    Done 2026-09-27 (error correction Q), in a first A4 welcome sheet with all
    three codes: `print/qr_codes.html`, built from `print/qr_codes.template.html`
    by `npm run print` (QR codes and fonts inlined; decodes checked with OpenCV).
+   The build turns every mm/pt length into a multiple of `--mm`, which the
+   print stylesheet sets to fit the printable area, so the sheet stays on one
+   page even on Letter paper or with browser margins and headers.
 3. Test printed samples with multiple phones.
 4. Deliver the three raw QR assets.
 5. Following identity and design approval, create A4 and compact cartel layouts

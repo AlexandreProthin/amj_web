@@ -21,6 +21,7 @@
   --primary: #0d4f78;
   --accent: #c98a22;
   --accent-soft: #fbefd9;
+  --primary-soft: #e3eff6;
   --paper: #fffaf0;
   --stone: #efe7d8;
   --line: #d9d1c2;
@@ -34,103 +35,118 @@ html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 body { background: #8a949c; font-family: var(--body); color: var(--ink); }
 
 .sheet {
-  width: 210mm; height: 297mm; margin: 12mm auto; overflow: hidden;
+  width: calc(210 * var(--mm)); height: calc(297 * var(--mm)); margin: calc(12 * var(--mm)) auto; overflow: hidden;
   position: relative; background: #fff;
-  box-shadow: 0 6mm 20mm rgb(0 0 0 / .3);
-  padding: 12mm 15mm 10mm;
+  box-shadow: 0 calc(6 * var(--mm)) calc(20 * var(--mm)) rgb(0 0 0 / .3);
+  padding: calc(11 * var(--mm)) calc(15 * var(--mm)) calc(12 * var(--mm));
   display: flex; flex-direction: column;
 }
+/* Every length is written in mm/pt and turned into multiples of --mm by the
+   build. On screen --mm is calc(1 * var(--mm)); in print it is the largest unit that fits
+   210 x 297 into the printable area, so the sheet stays on one page whatever
+   the paper (A4, Letter) or the margins chosen in the print dialog. */
+:root { --mm: 1mm; }
 @media print {
+  :root { --mm: min(100vw / 210, 100vh / 297 * .99); }
+  html, body { height: 100%; overflow: hidden; }
   body { background: none; }
-  .sheet { margin: 0; box-shadow: none; }
+  .sheet { margin: 0 auto; box-shadow: none; break-inside: avoid; }
   .screen-only { display: none; }
 }
-.screen-only { text-align: center; color: #fff; font-size: 14px; margin-top: 8mm; }
+.screen-only { text-align: center; color: #fff; font-size: 14px; margin-top: calc(8 * var(--mm)); }
 
 /* Frame: thin double rule with gold corner marks */
 .sheet::before {
-  content: ''; position: absolute; inset: 6mm;
-  border: .35mm solid var(--line); outline: .2mm solid var(--line); outline-offset: -1.4mm;
+  content: ''; position: absolute; inset: calc(6 * var(--mm));
+  border: calc(.35 * var(--mm)) solid var(--line); outline: calc(.2 * var(--mm)) solid var(--line); outline-offset: calc(-1.4 * var(--mm));
   pointer-events: none;
 }
-.corner { position: absolute; width: 9mm; height: 9mm; border: .8mm solid var(--accent); }
-.corner--tl { top: 6mm; left: 6mm; border-right: 0; border-bottom: 0; }
-.corner--tr { top: 6mm; right: 6mm; border-left: 0; border-bottom: 0; }
-.corner--bl { bottom: 6mm; left: 6mm; border-right: 0; border-top: 0; }
-.corner--br { bottom: 6mm; right: 6mm; border-left: 0; border-top: 0; }
+.corner { position: absolute; width: calc(9 * var(--mm)); height: calc(9 * var(--mm)); border: calc(.8 * var(--mm)) solid var(--accent); }
+.corner--tl { top: calc(6 * var(--mm)); left: calc(6 * var(--mm)); border-right: 0; border-bottom: 0; }
+.corner--tr { top: calc(6 * var(--mm)); right: calc(6 * var(--mm)); border-left: 0; border-bottom: 0; }
+.corner--bl { bottom: calc(6 * var(--mm)); left: calc(6 * var(--mm)); border-right: 0; border-top: 0; }
+.corner--br { bottom: calc(6 * var(--mm)); right: calc(6 * var(--mm)); border-left: 0; border-top: 0; }
 
 /* Header */
-.head { text-align: center; padding: 3mm 6mm 0; }
-.emblem { width: 11mm; height: 11mm; color: var(--primary); }
+.head { text-align: center; padding: calc(1 * var(--mm)) calc(6 * var(--mm)) 0; }
+.emblem { width: calc(9 * var(--mm)); height: calc(9 * var(--mm)); color: var(--primary); }
 .eyebrow {
-  margin-top: 2.5mm; font-size: 9.5pt; font-weight: 700; letter-spacing: .28em;
+  margin-top: calc(2.5 * var(--mm)); font-size: calc(3.3514 * var(--mm)); font-weight: 700; letter-spacing: .28em;
   text-transform: uppercase; color: var(--accent);
 }
 h1 {
-  margin-top: 2mm; font-family: var(--display); font-weight: 600;
-  font-variation-settings: 'opsz' 144; font-size: 27pt; line-height: 1.08; letter-spacing: -.01em;
+  margin-top: calc(2 * var(--mm)); font-family: var(--display); font-weight: 600;
+  font-variation-settings: 'opsz' 144; font-size: calc(8.8194 * var(--mm)); line-height: 1.08; letter-spacing: -.01em;
   color: var(--ink); text-wrap: balance;
 }
-.lead { margin-top: 3mm; font-size: 12.5pt; color: var(--ink-soft); }
+.lead { margin-top: calc(2 * var(--mm)); font-size: calc(4.4097 * var(--mm)); color: var(--ink-soft); }
 
 /* How to scan */
 .steps {
-  display: flex; justify-content: center; gap: 7mm; list-style: none; padding: 0;
-  margin: 5.5mm auto 0; font-size: 10.5pt; color: var(--ink);
+  display: flex; justify-content: center; align-items: center; gap: calc(4 * var(--mm)); list-style: none;
+  margin: calc(4 * var(--mm)) auto 0; padding: calc(2 * var(--mm)) calc(7 * var(--mm)); width: fit-content; border-radius: calc(10 * var(--mm));
+  background: var(--primary-soft); font-size: calc(3.7042 * var(--mm)); line-height: 1.2; color: var(--ink); text-align: left;
 }
-.steps li { display: flex; align-items: center; gap: 2mm; }
-.steps b {
-  display: inline-grid; place-items: center; width: 5.6mm; height: 5.6mm; border-radius: 50%;
-  background: var(--primary); color: #fff; font-size: 9pt;
+.steps li { display: flex; align-items: center; gap: calc(2.4 * var(--mm)); }
+.steps li + li::before { content: '›'; margin-right: calc(1.6 * var(--mm)); font-size: calc(5.6444 * var(--mm)); color: var(--accent); }
+.step__icon { position: relative; flex: none; }
+.step__icon svg {
+  display: block; width: calc(11 * var(--mm)); height: calc(11 * var(--mm)); color: var(--primary);
+  fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round;
+}
+.step__icon b {
+  position: absolute; top: calc(-.8 * var(--mm)); left: calc(-1.2 * var(--mm));
+  display: grid; place-items: center; width: calc(4.4 * var(--mm)); height: calc(4.4 * var(--mm)); border-radius: 50%;
+  background: var(--accent); color: #fff; font-size: calc(2.6458 * var(--mm));
 }
 
 /* Experiences */
-.list { list-style: none; padding: 0; margin-top: 5mm; flex: 1; display: flex; flex-direction: column; gap: 4mm; }
+.list { list-style: none; padding: 0; margin-top: calc(4 * var(--mm)); flex: 1; display: flex; flex-direction: column; gap: calc(3.5 * var(--mm)); }
 .card {
-  flex: 1; display: grid; grid-template-columns: auto 1fr 46mm; align-items: center; gap: 6mm;
-  padding: 4mm 5mm 4mm 7mm; border-radius: 3.5mm;
-  background: var(--paper); border: .3mm solid var(--line);
+  flex: 1; display: grid; grid-template-columns: auto 1fr calc(44 * var(--mm)); align-items: center; gap: calc(6 * var(--mm));
+  padding: calc(4 * var(--mm)) calc(5 * var(--mm)) calc(4 * var(--mm)) calc(7 * var(--mm)); border-radius: calc(3.5 * var(--mm));
+  background: var(--paper); border: calc(.3 * var(--mm)) solid var(--line);
   position: relative;
 }
-.card:nth-child(even) { grid-template-columns: 46mm auto 1fr; padding: 4mm 7mm 4mm 5mm; }
+.card:nth-child(even) { grid-template-columns: calc(44 * var(--mm)) auto 1fr; padding: calc(4 * var(--mm)) calc(7 * var(--mm)) calc(4 * var(--mm)) calc(5 * var(--mm)); }
 .card:nth-child(even) .qr { order: -1; }
 .card::before {
-  content: ''; position: absolute; top: 5mm; bottom: 5mm; width: 1.2mm; border-radius: 1mm;
-  background: var(--accent); left: -.6mm;
+  content: ''; position: absolute; top: calc(5 * var(--mm)); bottom: calc(5 * var(--mm)); width: calc(1.2 * var(--mm)); border-radius: calc(1 * var(--mm));
+  background: var(--accent); left: calc(-.6 * var(--mm));
 }
-.card:nth-child(even)::before { left: auto; right: -.6mm; }
+.card:nth-child(even)::before { left: auto; right: calc(-.6 * var(--mm)); }
 
 .num {
   font-family: var(--display); font-variation-settings: 'opsz' 144; font-weight: 300;
-  width: 12mm; text-align: center;
-  font-size: 48pt; line-height: 1; color: var(--accent); align-self: start;
+  width: calc(12 * var(--mm)); text-align: center;
+  font-size: calc(16.9333 * var(--mm)); line-height: 1; color: var(--accent); align-self: start;
 }
 .tag {
-  display: inline-block; padding: .8mm 2.6mm; border-radius: 5mm;
-  background: var(--accent-soft); color: #8a5b10; font-size: 8.5pt; font-weight: 700;
+  display: inline-block; padding: calc(.8 * var(--mm)) calc(2.6 * var(--mm)); border-radius: calc(5 * var(--mm));
+  background: var(--accent-soft); color: #8a5b10; font-size: calc(2.9986 * var(--mm)); font-weight: 700;
   letter-spacing: .08em; text-transform: uppercase;
 }
 .card h2 {
-  margin-top: 2.2mm; font-family: var(--display); font-weight: 600;
-  font-variation-settings: 'opsz' 72; font-size: 17pt; line-height: 1.15; color: var(--ink);
+  margin-top: calc(2.2 * var(--mm)); font-family: var(--display); font-weight: 600;
+  font-variation-settings: 'opsz' 72; font-size: calc(5.9972 * var(--mm)); line-height: 1.15; color: var(--ink);
 }
-.card p { margin-top: 1.8mm; font-size: 11pt; line-height: 1.4; color: var(--ink-soft); }
+.card p { margin-top: calc(1.8 * var(--mm)); font-size: calc(3.8806 * var(--mm)); line-height: 1.4; color: var(--ink-soft); }
 
-.qr { text-decoration: none; display: flex; flex-direction: column; align-items: center; gap: 1.8mm; }
+.qr { text-decoration: none; display: flex; flex-direction: column; align-items: center; gap: calc(1.8 * var(--mm)); }
 .qr__frame {
-  width: 46mm; padding: 4mm; background: #fff; border-radius: 2.5mm;
-  border: .3mm solid var(--line);
+  width: calc(44 * var(--mm)); padding: calc(3.5 * var(--mm)); background: #fff; border-radius: calc(2.5 * var(--mm));
+  border: calc(.3 * var(--mm)) solid var(--line);
 }
 .qr__code { display: block; width: 100%; height: auto; fill: var(--qr); }
-.qr__url { font-size: 7pt; color: var(--ink-soft); text-align: center; line-height: 1.35; }
+.qr__url { font-size: calc(2.4694 * var(--mm)); color: var(--ink-soft); text-align: center; line-height: 1.35; }
 .qr__url b { display: block; color: var(--ink); }
 
 /* Footer */
 .foot {
-  margin-top: 5mm; display: flex; justify-content: center; align-items: center; gap: 3mm;
-  font-size: 9.5pt; color: var(--ink-soft);
+  margin-top: calc(5 * var(--mm)); display: flex; justify-content: center; align-items: center; gap: calc(3 * var(--mm));
+  font-size: calc(3.3514 * var(--mm)); color: var(--ink-soft);
 }
-.foot i { width: 1.2mm; height: 1.2mm; border-radius: 50%; background: var(--accent); }
+.foot i { width: calc(1.2 * var(--mm)); height: calc(1.2 * var(--mm)); border-radius: 50%; background: var(--accent); }
 </style>
 </head>
 <body>
@@ -144,9 +160,9 @@ h1 {
     <h1>Patrimoine catholique<br>de la Nouvelle-Calédonie</h1>
     <p class="lead">Trois découvertes à explorer sur ton téléphone.</p>
     <ol class="steps">
-      <li><b>1</b> Ouvre l’appareil photo</li>
-      <li><b>2</b> Vise un code</li>
-      <li><b>3</b> Touche le lien</li>
+      <li><span class="step__icon"><b>1</b><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="1.8" width="12" height="20.4" rx="2.4"/><path d="M10.6 4.2h2.8"/><rect x="8.6" y="9.6" width="6.8" height="5" rx="1"/><path d="M10.4 9.6l.6-1.1h2l.6 1.1"/><circle cx="12" cy="12.1" r="1.3"/></svg></span>Ouvre l’appareil<br>photo</li>
+      <li><span class="step__icon"><b>2</b><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="1.8" width="12" height="20.4" rx="2.4"/><path d="M10.6 4.2h2.8"/><path d="M8.4 10V8.4H10M14 8.4h1.6V10M15.6 14.4V16H14M10 16H8.4v-1.6"/><path d="M10.5 10.5h1v1h-1zM12.5 10.5h1v1h-1zM10.5 12.5h1v1h-1zM12.8 12.8h.4v.4h-.4z" fill="currentColor" stroke-width="1"/></svg></span>Vise un code<br>avec le téléphone</li>
+      <li><span class="step__icon"><b>3</b><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="1.8" width="12" height="20.4" rx="2.4"/><path d="M10.6 4.2h2.8"/><path d="M8.6 9.4h6.8M8.6 16.6h3.4"/><rect x="8.4" y="11.6" width="7.2" height="2.8" rx="1.4"/><circle cx="13.6" cy="13" r=".7" fill="currentColor" stroke="none"/><circle cx="13.6" cy="13" r="2.4" stroke-width="1"/></svg></span>Touche le lien<br>qui s’affiche</li>
     </ol>
   </header>
 
