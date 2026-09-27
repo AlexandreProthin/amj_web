@@ -23,9 +23,6 @@ function renderChapter(chapter, index) {
       h('p', { class: 'chapter__period' }, chapter.period),
       h('h3', {}, chapter.title),
       h('p', {}, chapter.text),
-      chapter.mystery
-        ? h('aside', { class: 'mystery' }, h('span', { class: 'mystery__title' }, 'Un mystère à résoudre'), h('p', {}, chapter.mystery))
-        : null,
     ),
   );
 }

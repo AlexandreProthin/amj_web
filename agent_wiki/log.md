@@ -2,6 +2,10 @@
 
 ## 2026-09-27
 
+* **School history**: directors 1967 → today added from the owner's handwritten
+  list, and the « Un mystère à résoudre » boxes removed — see the
+  [school history experience](/components/school-history-experience.md).
+
 * **Root page**: the site root now shows the QR-code welcome sheet
   ([decision](/decisions/root-page-is-qr-sheet.md)); deployed by merging `develop` into `master`.
 

@@ -22,7 +22,7 @@ export const periods = [
 ];
 
 /** Timeline dates shown as key moments. */
-const KEY_DATES = new Set(['1860-08-26', '1961', '2015-02']);
+const KEY_DATES = new Set(['1860-08-26', '1961', '2015-02-13']);
 
 /** Order game: timeline dates to put in order, with a short label for each. */
 const ORDER_GAME = [
@@ -30,11 +30,21 @@ const ORDER_GAME = [
   { date: '1926', label: 'Le père Mulsant construit la chapelle du Bon-Pasteur' },
   { date: '1961', label: 'L’école Anne-Marie Javouhey ouvre ses portes' },
   { date: '1976-08-25', label: 'Les parents déclarent leur association' },
-  { date: '2015-02', label: 'Thérèse Pham devient directrice' },
+  { date: '2015-02-13', label: 'Thérèse Pham devient directrice' },
 ];
 
 /** People shown first, in this order; other « personnes » rows follow. */
-const PEOPLE_ORDER = ['Anne-Marie Javouhey et la congrégation', 'Père Bichon', 'Jean Lèques', 'Marie-Chanel Ukajo', 'Thérèse Pham'];
+const PEOPLE_ORDER = [
+  'Anne-Marie Javouhey et la congrégation',
+  'Père Bichon',
+  'Jean Lèques',
+  'Sœurs Bernard, Claude, Marcelle et Andrée',
+  'Marie-Rose Jarre',
+  'Marie-Chanel Ukajo',
+  'Thérèse Pham',
+  'Monique Purini',
+  'Marie-Anne Hnaissilin',
+];
 
 /** 02 rows never shown: raw conversation transcripts. */
 const HIDDEN_CATEGORIES = new Set(['transcription_integrale']);
@@ -43,7 +53,6 @@ export const chapters = recit.map((row) => ({
   period: row.periode,
   title: row.titre,
   text: row.texte,
-  mystery: row.mystere || null,
   icon: row.icone,
 }));
 
