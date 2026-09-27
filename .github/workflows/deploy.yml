@@ -1,0 +1,52 @@
+name: Deploy to GitHub Pages
+
+# Publishes the site on every push to master.
+# Repo variable SITE_ONLINE=false publishes maintenance/ instead (take the site down
+# without touching master); set it back to true and re-run this workflow to restore it.
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        if: vars.SITE_ONLINE != 'false'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Build site
+        if: vars.SITE_ONLINE != 'false'
+        run: npm ci && npm run build
+
+      - name: Use maintenance page
+        if: vars.SITE_ONLINE == 'false'
+        run: rm -rf dist && cp -r maintenance dist
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

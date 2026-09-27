@@ -37,6 +37,20 @@ npm test
 Builds the site and checks every experience on phone, tablet and desktop
 sizes with Playwright (first time on a machine: `npx playwright install chromium`).
 
+## Publish it
+
+Every push to `master` builds the site and publishes it to GitHub Pages
+(`.github/workflows/deploy.yml`): https://alexandreprothin.github.io/amj_web/
+
+To take the site down, publish the maintenance page (`maintenance/`) instead:
+
+```bash
+gh variable set SITE_ONLINE --body false
+gh workflow run deploy.yml
+```
+
+Run the same with `--body true` to bring the site back.
+
 ## Folder layout
 
 ```
