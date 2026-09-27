@@ -51,6 +51,14 @@ gh workflow run deploy.yml
 
 Run the same with `--body true` to bring the site back.
 
+Day-to-day work happens on `develop`; merge into `master` to publish.
+
+## Print
+
+`npm run print` builds `print/qr_codes.html`, an A4 welcome sheet with the
+three QR codes (edit `print/qr_codes.template.html`). Open it in a browser and
+print at A4, no margins, 100 % scale.
+
 ## Folder layout
 
 ```

@@ -14,6 +14,11 @@ resource: /.github/workflows/deploy.yml
 * Site: https://alexandreprothin.github.io/amj_web/
 * Pages source: **GitHub Actions** (enabled 2026-09-27).
 
+# Branches
+
+Work happens on `develop`; merging into `master` is what publishes. Pushing
+`develop` never deploys.
+
 # How it deploys
 
 `.github/workflows/deploy.yml` runs on every push to `master` and on manual

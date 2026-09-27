@@ -1,0 +1,190 @@
+<!doctype html>
+<!-- Source of qr_codes.html — edit this file, then run `npm run print`. -->
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Affiche A4 — QR codes</title>
+<style>
+/* {{FONTS}} */
+
+:root {
+  --ink: #17324d;
+  --ink-soft: #4d6275;
+  --qr: #0f2236;
+  --primary: #0d4f78;
+  --accent: #c98a22;
+  --accent-soft: #fbefd9;
+  --paper: #fffaf0;
+  --stone: #efe7d8;
+  --line: #d9d1c2;
+  --display: 'Fraunces', Georgia, serif;
+  --body: 'Atkinson', system-ui, sans-serif;
+}
+
+@page { size: A4 portrait; margin: 0; }
+* { box-sizing: border-box; margin: 0; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { background: #8a949c; font-family: var(--body); color: var(--ink); }
+
+.sheet {
+  width: 210mm; height: 297mm; margin: 12mm auto; overflow: hidden;
+  position: relative; background: #fff;
+  box-shadow: 0 6mm 20mm rgb(0 0 0 / .3);
+  padding: 12mm 15mm 10mm;
+  display: flex; flex-direction: column;
+}
+@media print {
+  body { background: none; }
+  .sheet { margin: 0; box-shadow: none; }
+  .screen-only { display: none; }
+}
+.screen-only { text-align: center; color: #fff; font-size: 14px; margin-top: 8mm; }
+
+/* Frame: thin double rule with gold corner marks */
+.sheet::before {
+  content: ''; position: absolute; inset: 6mm;
+  border: .35mm solid var(--line); outline: .2mm solid var(--line); outline-offset: -1.4mm;
+  pointer-events: none;
+}
+.corner { position: absolute; width: 9mm; height: 9mm; border: .8mm solid var(--accent); }
+.corner--tl { top: 6mm; left: 6mm; border-right: 0; border-bottom: 0; }
+.corner--tr { top: 6mm; right: 6mm; border-left: 0; border-bottom: 0; }
+.corner--bl { bottom: 6mm; left: 6mm; border-right: 0; border-top: 0; }
+.corner--br { bottom: 6mm; right: 6mm; border-left: 0; border-top: 0; }
+
+/* Header */
+.head { text-align: center; padding: 3mm 6mm 0; }
+.emblem { width: 11mm; height: 11mm; color: var(--primary); }
+.eyebrow {
+  margin-top: 2.5mm; font-size: 9.5pt; font-weight: 700; letter-spacing: .28em;
+  text-transform: uppercase; color: var(--accent);
+}
+h1 {
+  margin-top: 2mm; font-family: var(--display); font-weight: 600;
+  font-variation-settings: 'opsz' 144; font-size: 27pt; line-height: 1.08; letter-spacing: -.01em;
+  color: var(--ink); text-wrap: balance;
+}
+.lead { margin-top: 3mm; font-size: 12.5pt; color: var(--ink-soft); }
+
+/* How to scan */
+.steps {
+  display: flex; justify-content: center; gap: 7mm; list-style: none; padding: 0;
+  margin: 5.5mm auto 0; font-size: 10.5pt; color: var(--ink);
+}
+.steps li { display: flex; align-items: center; gap: 2mm; }
+.steps b {
+  display: inline-grid; place-items: center; width: 5.6mm; height: 5.6mm; border-radius: 50%;
+  background: var(--primary); color: #fff; font-size: 9pt;
+}
+
+/* Experiences */
+.list { list-style: none; padding: 0; margin-top: 5mm; flex: 1; display: flex; flex-direction: column; gap: 4mm; }
+.card {
+  flex: 1; display: grid; grid-template-columns: auto 1fr 46mm; align-items: center; gap: 6mm;
+  padding: 4mm 5mm 4mm 7mm; border-radius: 3.5mm;
+  background: var(--paper); border: .3mm solid var(--line);
+  position: relative;
+}
+.card:nth-child(even) { grid-template-columns: 46mm auto 1fr; padding: 4mm 7mm 4mm 5mm; }
+.card:nth-child(even) .qr { order: -1; }
+.card::before {
+  content: ''; position: absolute; top: 5mm; bottom: 5mm; width: 1.2mm; border-radius: 1mm;
+  background: var(--accent); left: -.6mm;
+}
+.card:nth-child(even)::before { left: auto; right: -.6mm; }
+
+.num {
+  font-family: var(--display); font-variation-settings: 'opsz' 144; font-weight: 300;
+  width: 12mm; text-align: center;
+  font-size: 48pt; line-height: 1; color: var(--accent); align-self: start;
+}
+.tag {
+  display: inline-block; padding: .8mm 2.6mm; border-radius: 5mm;
+  background: var(--accent-soft); color: #8a5b10; font-size: 8.5pt; font-weight: 700;
+  letter-spacing: .08em; text-transform: uppercase;
+}
+.card h2 {
+  margin-top: 2.2mm; font-family: var(--display); font-weight: 600;
+  font-variation-settings: 'opsz' 72; font-size: 17pt; line-height: 1.15; color: var(--ink);
+}
+.card p { margin-top: 1.8mm; font-size: 11pt; line-height: 1.4; color: var(--ink-soft); }
+
+.qr { text-decoration: none; display: flex; flex-direction: column; align-items: center; gap: 1.8mm; }
+.qr__frame {
+  width: 46mm; padding: 4mm; background: #fff; border-radius: 2.5mm;
+  border: .3mm solid var(--line);
+}
+.qr__code { display: block; width: 100%; height: auto; fill: var(--qr); }
+.qr__url { font-size: 7pt; color: var(--ink-soft); text-align: center; line-height: 1.35; }
+.qr__url b { display: block; color: var(--ink); }
+
+/* Footer */
+.foot {
+  margin-top: 5mm; display: flex; justify-content: center; align-items: center; gap: 3mm;
+  font-size: 9.5pt; color: var(--ink-soft);
+}
+.foot i { width: 1.2mm; height: 1.2mm; border-radius: 50%; background: var(--accent); }
+</style>
+</head>
+<body>
+<main class="sheet">
+  <span class="corner corner--tl"></span><span class="corner corner--tr"></span>
+  <span class="corner corner--bl"></span><span class="corner corner--br"></span>
+
+  <header class="head">
+    <svg class="emblem" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M4 30V10l3-6 3 6v4l6-5 6 5v-4l3-6 3 6v20z"/></svg>
+    <p class="eyebrow">Bienvenue</p>
+    <h1>Patrimoine catholique<br>de la Nouvelle-Calédonie</h1>
+    <p class="lead">Trois découvertes à explorer sur ton téléphone.</p>
+    <ol class="steps">
+      <li><b>1</b> Ouvre l’appareil photo</li>
+      <li><b>2</b> Vise un code</li>
+      <li><b>3</b> Touche le lien</li>
+    </ol>
+  </header>
+
+  <ol class="list">
+    <li class="card">
+      <div class="num">1</div>
+      <div>
+        <span class="tag">Visite · 8 étapes</span>
+        <h2>La cathédrale Saint-Joseph de Nouméa</h2>
+        <p>Une visite en 8 étapes, avec des jeux et un quiz.</p>
+      </div>
+      <a class="qr" href="{{HREF:cathedrale_de_noumea}}" target="_blank" rel="noopener">
+        <div class="qr__frame">{{QR:cathedrale_de_noumea}}</div>
+        <span class="qr__url">{{URL:cathedrale_de_noumea}}</span>
+      </a>
+    </li>
+    <li class="card">
+      <div class="num">2</div>
+      <div>
+        <span class="tag">Récit · frise</span>
+        <h2>L’histoire de l’école Anne-Marie Javouhey</h2>
+        <p>Un récit, une frise, un jeu et un quiz.</p>
+      </div>
+      <a class="qr" href="{{HREF:histoire_ecole_amj}}" target="_blank" rel="noopener">
+        <div class="qr__frame">{{QR:histoire_ecole_amj}}</div>
+        <span class="qr__url">{{URL:histoire_ecole_amj}}</span>
+      </a>
+    </li>
+    <li class="card">
+      <div class="num">3</div>
+      <div>
+        <span class="tag">Carte · 111 lieux</span>
+        <h2>Les églises de Nouvelle-Calédonie</h2>
+        <p>La carte des 111 églises et chapelles.</p>
+      </div>
+      <a class="qr" href="{{HREF:eglises_nc}}" target="_blank" rel="noopener">
+        <div class="qr__frame">{{QR:eglises_nc}}</div>
+        <span class="qr__url">{{URL:eglises_nc}}</span>
+      </a>
+    </li>
+  </ol>
+
+  <footer class="foot">Gratuit <i></i> Sans application à installer <i></i> Sans inscription</footer>
+</main>
+<p class="screen-only">Aperçu A4 — imprimer avec Ctrl+P (format A4, marges : aucune, échelle 100 %).</p>
+</body>
+</html>

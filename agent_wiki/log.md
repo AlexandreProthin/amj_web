@@ -2,6 +2,11 @@
 
 ## 2026-09-27
 
+* **Workflow**: development moves to `develop`; merge into `master` to deploy
+  ([publishing](/references/publishing.md)).
+* **Print**: first A4 welcome sheet with the three QR codes — progress in the
+  [QR and print plan](/plans/qr-and-print-supports.md).
+
 * **Publishing**: the site now deploys to GitHub Pages on every push to `master`,
   with a `SITE_ONLINE` offline switch — [publishing reference](/references/publishing.md),
   [decision](/decisions/offline-switch-repo-variable.md); steps 1 and 4 of the
