@@ -2,6 +2,9 @@
 
 ## 2026-09-27
 
+* **Root page**: the site root now shows the QR-code welcome sheet
+  ([decision](/decisions/root-page-is-qr-sheet.md)); deployed by merging `develop` into `master`.
+
 * **Workflow**: development moves to `develop`; merge into `master` to deploy
   ([publishing](/references/publishing.md)).
 * **Print**: first A4 welcome sheet with the three QR codes — progress in the

@@ -42,6 +42,22 @@ for (const page of PAGES) {
   });
 }
 
+test('root page: QR-code welcome sheet links to the three experiences', async ({ page }) => {
+  const errors = [];
+  page.on('pageerror', (error) => errors.push(error.message));
+  await page.goto('./');
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText(/Patrimoine catholique/);
+  const links = page.locator('a.qr');
+  await expect(links).toHaveCount(3);
+  await expect(links.locator('svg')).toHaveCount(3);
+  for (const name of ['cathedrale_de_noumea', 'histoire_ecole_amj', 'eglises_nc']) {
+    await expect(page.locator(`a.qr[href="./${name}/"]`)).toHaveCount(1);
+  }
+  const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
+  expect(overflow).toBeLessThanOrEqual(0);
+  expect(errors).toEqual([]);
+});
+
 test('school history: order game can be completed', async ({ page }) => {
   await page.goto('histoire_ecole_amj/');
   for (const text of ['Sœurs de Cluny', 'Mulsant', 'ouvre ses portes', 'parents', 'Thérèse Pham']) {

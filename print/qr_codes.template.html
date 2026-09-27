@@ -4,7 +4,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Affiche A4 — QR codes</title>
+<title>Patrimoine catholique de la Nouvelle-Calédonie</title>
+<meta name="description" content="Trois découvertes du patrimoine catholique de la Nouvelle-Calédonie.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%230d4f78' d='M4 30V10l3-6 3 6v4l6-5 6 5v-4l3-6 3 6v20z'/%3E%3C/svg%3E">
 <style>
 /* {{FONTS}} */
 
@@ -36,10 +38,11 @@ body { background: #8a949c; font-family: var(--body); color: var(--ink); }
   display: flex; flex-direction: column;
 }
 /* Every length is written in mm/pt and turned into multiples of --mm by the
-   build. On screen --mm is 1mm; in print it is the largest unit that fits
-   210 x 297 into the printable area, so the sheet stays on one page whatever
-   the paper (A4, Letter) or the margins chosen in the print dialog. */
-:root { --mm: 1mm; }
+   build. On screen --mm is 1mm, shrunk on narrow screens so the sheet fits;
+   in print it is the largest unit that fits 210 x 297 into the printable area,
+   so the sheet stays on one page whatever the paper (A4, Letter) or the
+   margins chosen in the print dialog. */
+:root { --mm: min(1mm, (100vw - 24px) / 210); }
 @media print {
   :root { --mm: min(100vw / 210, 100vh / 297 * .99); }
   html, body { height: 100%; overflow: hidden; }

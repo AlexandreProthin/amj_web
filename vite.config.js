@@ -5,6 +5,7 @@ import { imagetools } from 'vite-imagetools';
 import { qrcode } from 'vite-plugin-qrcode';
 import { csvPlugin } from './src/build/csv-plugin.js';
 import { geoPlugin } from './src/build/geo-plugin.js';
+import { qrSheetPlugin } from './src/build/qr-sheet-plugin.js';
 
 const root = resolve(import.meta.dirname, 'pages');
 
@@ -35,6 +36,7 @@ export default defineConfig({
   plugins: [
     csvPlugin(),
     geoPlugin(),
+    qrSheetPlugin(resolve(root, 'index.html')),
     imagetools({
       defaultDirectives: new URLSearchParams({ withoutEnlargement: 'true' }),
     }),

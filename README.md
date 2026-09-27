@@ -56,7 +56,8 @@ Day-to-day work happens on `develop`; merge into `master` to publish.
 ## Print
 
 `npm run print` builds `print/qr_codes.html`, an A4 welcome sheet with the
-three QR codes (edit `print/qr_codes.template.html`). Open it in a browser and
+three QR codes (edit `print/qr_codes.template.html`). The same sheet is the
+site's root page. Open it in a browser and
 print at A4, no margins, 100 % scale.
 
 ## Folder layout
@@ -67,7 +68,7 @@ amj_web/
 │   ├── site/site.json    Site-wide information (name, authors, privacy text)
 │   └── <experience>/     One folder per experience
 ├── pages/                Page source — one folder per experience
-│   ├── index.html        Plain list of the experiences (not the QR target)
+│   ├── index.html        Root page: replaced by the QR-code sheet (print/)
 │   └── <experience>/
 │       ├── index.html    Page shell
 │       ├── main.js       Entry point: renders the page from content.js

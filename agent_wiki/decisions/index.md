@@ -19,3 +19,4 @@ mark it `status: deprecated` and have the replacement link back to it.
 * [Device layouts through CSS breakpoints](css-breakpoints-for-device-layouts.md)
 * [Take the site offline with a repository variable](offline-switch-repo-variable.md) —
   `SITE_ONLINE=false` publishes a maintenance page; `master` stays untouched.
+* [The root page is the printable QR-code sheet](root-page-is-qr-sheet.md)

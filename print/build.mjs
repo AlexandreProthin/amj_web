@@ -1,9 +1,10 @@
-// Builds print/qr_codes.html from print/qr_codes.template.html:
-// inlines one QR code per experience and embeds the fonts, so the page prints
-// identically from any computer (open it in a browser, then Ctrl+P, A4).
-//   npm run print
+// Renders the A4 welcome sheet from print/qr_codes.template.html: one inline QR
+// code per experience and embedded fonts, so it prints identically anywhere.
+// Used twice: `npm run print` writes print/qr_codes.html (open it, Ctrl+P), and
+// src/build/qr-sheet-plugin.js serves the same sheet as the site's root page.
 import { readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
+import { pathToFileURL } from 'node:url';
 import { encode } from 'uqr';
 
 const here = import.meta.dirname;
@@ -36,14 +37,21 @@ const scalable = (css) =>
     line.replace(/(?<![\w.-])(-?\d*\.?\d+)(mm|pt)(?![\w%])/g, (_, n, unit) =>
       `calc(${unit === 'pt' ? +(n * 0.352778).toFixed(4) : n} * var(--mm))`)).join('\n');
 
-let html = readFileSync(resolve(here, 'qr_codes.template.html'), 'utf8')
-  .replace(/<style>([\s\S]*?)<\/style>/, (_, css) => `<style>${scalable(css)}</style>`)
-  .replace('/* {{FONTS}} */', fonts);
-for (const name of experiences) {
-  html = html
-    .replace(`{{QR:${name}}}`, qrSvg(`${site}${name}/`))
-    .replaceAll(`{{HREF:${name}}}`, `${site}${name}/`)
-    .replaceAll(`{{URL:${name}}}`, `${site.replace('https://', '')}<b>${name}/</b>`);
+// relativeLinks: on the site, link to ./<experience>/ so local previews stay local.
+export function renderSheet({ relativeLinks = false } = {}) {
+  let html = readFileSync(resolve(here, 'qr_codes.template.html'), 'utf8')
+    .replace(/<style>([\s\S]*?)<\/style>/, (_, css) => `<style>${scalable(css)}</style>`)
+    .replace('/* {{FONTS}} */', fonts);
+  for (const name of experiences) {
+    html = html
+      .replace(`{{QR:${name}}}`, qrSvg(`${site}${name}/`))
+      .replaceAll(`{{HREF:${name}}}`, relativeLinks ? `./${name}/` : `${site}${name}/`)
+      .replaceAll(`{{URL:${name}}}`, `${site.replace('https://', '')}<b>${name}/</b>`);
+  }
+  return html;
 }
-writeFileSync(resolve(here, 'qr_codes.html'), html);
-console.log('print/qr_codes.html written');
+
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+  writeFileSync(resolve(here, 'qr_codes.html'), renderSheet());
+  console.log('print/qr_codes.html written');
+}
