@@ -4,13 +4,18 @@ import './histoire.css';
 
 import { h } from '@shared/js/dom.js';
 import { setupInfoDialog } from '@shared/js/info-dialog.js';
+import { picture } from '@shared/js/picture.js';
 import { createQuiz } from '@shared/js/quiz.js';
 import { watchSections } from '@shared/js/scroll-spy.js';
-import { chapters, events, methodology, orderGame, people, periods, quiz, researchLeads, researchNotes, sources } from './content.js';
+import { chapters, credits, events, methodology, orderGame, people, periods, quiz, researchLeads, researchNotes, sources } from './content.js';
 import { icon } from './icons.js';
 import { createOrderGame } from './order-game.js';
 
 const TITLE = 'L’histoire de l’école Anne-Marie Javouhey';
+
+function figure({ meta, alt, caption }, className, sizes) {
+  return h('figure', { class: `figure ${className}` }, picture(meta, { alt, sizes }), h('figcaption', {}, caption));
+}
 
 function renderChapter(chapter, index) {
   return h(
@@ -23,9 +28,14 @@ function renderChapter(chapter, index) {
       h('p', { class: 'chapter__period' }, chapter.period),
       h('h3', {}, chapter.title),
       h('p', {}, chapter.text),
+      chapter.photos.length
+        ? h('div', { class: 'chapter__photos' }, chapter.photos.map((photo) => figure(photo, 'chapter__photo', '(min-width: 64rem) 16rem, (min-width: 48rem) 20rem, 100vw')))
+        : null,
     ),
   );
 }
+
+const timelinePhoto = (photo) => figure(photo, 'timeline-photo', '(min-width: 64rem) 22rem, (min-width: 48rem) 44rem, 100vw');
 
 function renderTimeline() {
   const groups = periods.map((period) => {
@@ -33,6 +43,7 @@ function renderTimeline() {
     return h(
       'section',
       { class: `period period--${period.id}`, dataset: { period: period.id }, 'aria-labelledby': `periode-${period.id}` },
+      period.photo ? timelinePhoto(period.photo) : null,
       h('h3', { class: 'period__title', id: `periode-${period.id}` }, period.label, h('small', {}, period.range)),
       h(
         'ol',
@@ -43,6 +54,7 @@ function renderTimeline() {
             { class: `event${event.key ? ' event--key' : ''}` },
             h('p', { class: 'event__date' }, event.label),
             h('p', { class: 'event__text' }, event.text),
+            event.photo ? timelinePhoto(event.photo) : null,
             event.note ? h('details', { class: 'event__note' }, h('summary', {}, 'Une précision'), h('p', {}, event.note)) : null,
           ),
         ),
@@ -121,4 +133,4 @@ document.querySelector('#people-list').replaceChildren(...renderPeople());
 document.querySelector('#quiz-list').replaceChildren(createQuiz(quiz));
 document.querySelector('#event-count').textContent = String(events.length);
 watchSections(document.querySelectorAll('.page-nav a'), { current: 'location' });
-setupInfoDialog({ title: TITLE, sources, credits: [], extra: infoExtras() });
+setupInfoDialog({ title: TITLE, sources, credits, extra: infoExtras() });

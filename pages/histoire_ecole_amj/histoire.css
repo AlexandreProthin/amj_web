@@ -131,6 +131,19 @@
   margin-bottom: 0;
 }
 
+.chapter__photos {
+  display: grid;
+  gap: var(--space-4);
+  margin-top: var(--space-4);
+}
+
+/* Tablet and up: the chapter photos side by side. */
+@media (min-width: 48rem) {
+  .chapter__photos {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 .chapter__period {
   margin-bottom: var(--space-1);
   color: var(--color-primary);
@@ -368,6 +381,15 @@
 
 .event--key .event__text {
   font-weight: 700;
+}
+
+/* Photos in the timeline. */
+.timeline-photo {
+  margin-block: var(--space-3);
+}
+
+.period > .timeline-photo {
+  margin-top: 0;
 }
 
 /* Computer: the three periods side by side. */

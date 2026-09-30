@@ -60,7 +60,7 @@ test('root page: QR-code welcome sheet links to the three experiences', async ({
 
 test('school history: order game can be completed', async ({ page }) => {
   await page.goto('histoire_ecole_amj/');
-  for (const text of ['Sœurs de Cluny', 'Mulsant', 'ouvre ses portes', 'parents', 'Thérèse Pham']) {
+  for (const text of ['Sœurs de Cluny', 'Mulsant', 'ouvre ses portes', 'parents', 'Monique Purini']) {
     await page.locator('.order-card', { hasText: text }).click();
   }
   await expect(page.locator('.order-game__feedback')).toContainText('Bravo');
