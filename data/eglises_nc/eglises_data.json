@@ -1071,7 +1071,7 @@
     "lon": 166.446813,
     "precision": "précise",
     "geocodage": "Église du Bon-Pasteur",
-    "photo": null
+    "photo": { "path": "assets/images/eglise_bon_pasteur.jpg" }
   },
   {
     "id": 62,
