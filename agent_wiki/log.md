@@ -2,6 +2,8 @@
 
 ## 2026-10-03
 
+* Recorded [information panel presentation](/decisions/information-panel-presentation.md) after public review: simplify research wording, author/contact presentation and image credits; republish.
+
 * Recorded [public release approval](/decisions/public-release-approval.md): owner confirms image permissions and requests only attribution/source corrections before publication at the existing QR destinations.
 
 

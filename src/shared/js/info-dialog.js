@@ -12,7 +12,7 @@ const TODO = 'à compléter';
  * @param {(string|{url?: string, text?: string})[]} page.sources
  *   URLs or free-text references; duplicates are removed.
  * @param {{ subject: string, author?: string, licence?: string, url?: string }[]} [page.credits]
- *   One entry per image; a missing author or licence shows « à compléter ».
+ *   One entry per image; only recorded authors and licences are displayed.
  *   An empty list states that the page has no photograph.
  * @param {Node[]} [page.extra]               Extra sections appended at the end.
  */
@@ -27,9 +27,8 @@ export function setupInfoDialog({ title, sources = [], credits = [], extra = [] 
       { class: 'info-dialog__body' },
       h('h3', {}, 'À propos'),
       h('p', {}, `« ${title} » fait partie du site ${site.nom}.`),
-      h('p', {}, 'Auteur : ', site.contact
-        ? h('a', { href: `mailto:${site.contact}` }, site.auteurs.join(', '))
-        : site.auteurs.length ? site.auteurs.join(', ') : todo()),
+      h('p', {}, 'Auteur : ', site.auteurs.length ? site.auteurs.join(', ') : todo()),
+      site.contact ? h('p', {}, 'Contact : ', h('a', { href: `mailto:${site.contact}` }, site.contact)) : null,
       h('h3', {}, 'Sources'),
       sourceList(sources),
       h('h3', {}, 'Crédits des images'),
@@ -122,10 +121,8 @@ function creditList(credits) {
         'li',
         {},
         h('strong', {}, subject),
-        ' — ',
-        author ?? todo(),
-        ', ',
-        licence ?? todo(),
+        author ? [' — ', author] : null,
+        licence ? [author ? ', ' : ' — ', licence] : null,
         url ? [' (', h('a', { href: url, target: '_blank', rel: 'noopener' }, 'source'), ')'] : null,
       ),
     ),

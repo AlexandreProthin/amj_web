@@ -69,7 +69,6 @@ export const periods = PERIODS.map((period) => ({ ...period, photo: PERIOD_PHOTO
 export const credits = [{
   subject: 'Toutes les photographies',
   author: 'école Anne Marie Javouhey',
-  licence: 'Publication autorisée',
 }];
 
 /** Timeline dates shown as key moments. */

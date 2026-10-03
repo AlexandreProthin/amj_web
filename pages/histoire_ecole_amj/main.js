@@ -7,7 +7,7 @@ import { setupInfoDialog } from '@shared/js/info-dialog.js';
 import { picture } from '@shared/js/picture.js';
 import { createQuiz } from '@shared/js/quiz.js';
 import { watchSections } from '@shared/js/scroll-spy.js';
-import { chapters, credits, events, methodology, orderGame, people, periods, quiz, researchLeads, researchNotes, sources } from './content.js';
+import { chapters, credits, events, orderGame, people, periods, quiz, researchLeads, researchNotes, sources } from './content.js';
 import { icon } from './icons.js';
 import { createOrderGame } from './order-game.js';
 
@@ -103,10 +103,9 @@ function infoExtras() {
     h(
       'p',
       {},
-      'Ces informations ont été rassemblées lors d’une recherche documentaire assistée par une intelligence artificielle. ' +
-        'La plupart n’ont pas encore été revérifiées dans les archives. Les adresses web d’origine n’ont pas été conservées.',
+      'Ces informations ont été rassemblées lors d’une recherche documentaire assistée par une intelligence artificielle.',
     ),
-    noteList(methodology),
+    h('p', {}, 'Estimé / Hypothèse : inférence.'),
     h(
       'details',
       {},
@@ -115,7 +114,7 @@ function infoExtras() {
         'ul',
         {},
         events.map((event) =>
-          h('li', {}, h('strong', {}, event.label), ` — ${event.reliability}. `, h('small', {}, `${event.sourceType} : ${event.source.replace(/ — URL absente.*$/, '')}`)),
+          h('li', {}, h('strong', {}, event.label), ` — ${event.reliability.replace(/\s*—\s*non revérifié/gi, '')}. `, h('small', {}, `${event.sourceType} : ${event.source.replace(/ — URL absente.*$/, '').replace(/\s*[—–-]?\s*URL non disponible/gi, '')}`)),
         ),
       ),
     ),

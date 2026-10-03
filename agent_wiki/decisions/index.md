@@ -1,5 +1,7 @@
 # Decisions
 
+* [Information panel presentation](information-panel-presentation.md) — plain author, separate email contact and simplified image credits.
+
 * [Public release approval](public-release-approval.md) — current content and images approved; attribution cleanup only, stable URLs and QR codes.
 
 Choices that were made and the reasoning that produced them, ADR-style: the
