@@ -27,7 +27,7 @@ const PERIODS = [
   { id: 'recent', label: 'Jusqu’à aujourd’hui', range: 'depuis 1989', to: Infinity },
 ];
 
-/** Photos supplied by the owner; author and licence not yet recorded. */
+/** Photos supplied by the school, with public use authorized by the owner. */
 const PHOTOS = {
   soeurs: {
     meta: soeurs,
@@ -66,7 +66,11 @@ const EVENT_PHOTOS = { '1983-03-01': PHOTOS.ecole1983, '2026-2027': PHOTOS.ecole
 export const periods = PERIODS.map((period) => ({ ...period, photo: PERIOD_PHOTOS[period.id] ?? null }));
 
 /** Image credits shown in « Informations ». */
-export const credits = Object.values(PHOTOS).map((photo) => ({ subject: photo.credit }));
+export const credits = [{
+  subject: 'Toutes les photographies',
+  author: 'école Anne Marie Javouhey',
+  licence: 'Publication autorisée',
+}];
 
 /** Timeline dates shown as key moments. */
 const KEY_DATES = new Set(['1860-08-26', '1961', '2015-02-13']);

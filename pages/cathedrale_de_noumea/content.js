@@ -25,7 +25,7 @@ import stalles from '@data/cathedrale_de_noumea/assets/images/05_statues/saint-j
 import confessionnal from '@data/cathedrale_de_noumea/assets/images/06_boiseries/mobilier.jpg?w=1000&format=webp;jpg&as=picture';
 import orgue from '@data/cathedrale_de_noumea/assets/images/07_orgue/orgue.jpg?w=1000&format=webp;jpg&as=picture';
 
-const PHOTO_CREDIT = { author: 'Jeff Vergne (signature sur la photo)' };
+const PHOTO_CREDIT = { author: 'Jeff Vergne' };
 
 /** Image credits shown in « Informations ». */
 export const credits = [

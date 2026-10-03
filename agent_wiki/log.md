@@ -1,5 +1,10 @@
 # Wiki Update Log
 
+## 2026-10-03
+
+* Recorded [public release approval](/decisions/public-release-approval.md): owner confirms image permissions and requests only attribution/source corrections before publication at the existing QR destinations.
+
+
 ## 2026-09-27
 
 * **School history**: directors 1967 → today added from the owner's handwritten

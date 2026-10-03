@@ -27,7 +27,9 @@ export function setupInfoDialog({ title, sources = [], credits = [], extra = [] 
       { class: 'info-dialog__body' },
       h('h3', {}, 'À propos'),
       h('p', {}, `« ${title} » fait partie du site ${site.nom}.`),
-      h('p', {}, 'Auteurs : ', site.auteurs.length ? site.auteurs.join(', ') : todo()),
+      h('p', {}, 'Auteur : ', site.contact
+        ? h('a', { href: `mailto:${site.contact}` }, site.auteurs.join(', '))
+        : site.auteurs.length ? site.auteurs.join(', ') : todo()),
       h('h3', {}, 'Sources'),
       sourceList(sources),
       h('h3', {}, 'Crédits des images'),
@@ -58,7 +60,7 @@ function sourceList(sources) {
   const seen = new Set();
   const items = [];
   for (const source of sources.flatMap(splitSources)) {
-    const key = source.url ?? source.text;
+    const key = source.url ? sourceKey(source.url) : source.text?.normalize('NFC').toLocaleLowerCase('fr').replace(/\s+/g, ' ');
     if (!key || seen.has(key)) continue;
     seen.add(key);
     items.push(source);
@@ -81,10 +83,23 @@ function sourceList(sources) {
 
 /** Accepts a URL, free text, or a CSV cell holding several URLs. */
 function splitSources(source) {
-  if (typeof source !== 'string') return [source];
+  if (typeof source !== 'string') return source.url
+    ? [source]
+    : splitSources(source.text ?? '');
+  source = source.replace(/\s*[—–-]?\s*URL non disponible/gi, '').trim();
   const urls = source.match(/https?:\/\/[^\s|;,]+/g);
   if (urls) return urls.map((url) => ({ url }));
-  return source.trim() ? [{ text: source.trim() }] : [];
+  return source.split(/[;|]/).map((text) => text.trim()).filter(Boolean).map((text) => ({ text }));
+}
+
+function sourceKey(value) {
+  try {
+    const url = new URL(value);
+    return url.hostname.replace(/^www\./, '').toLowerCase()
+      + decodeURI(url.pathname).replace(/\/$/, '') + url.search + url.hash;
+  } catch {
+    return value;
+  }
 }
 
 function readableUrl(url) {

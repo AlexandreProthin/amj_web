@@ -1,5 +1,7 @@
 # Decisions
 
+* [Public release approval](public-release-approval.md) — current content and images approved; attribution cleanup only, stable URLs and QR codes.
+
 Choices that were made and the reasoning that produced them, ADR-style: the
 context, the options considered, what was chosen, and what it costs. This is
 the directory that pays for the whole wiki — code shows what was decided, never
