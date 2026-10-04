@@ -6,8 +6,8 @@
 
 // Two chords: F major then C major (a "plagal" cadence often heard in churches).
 const CHORDS = [
-  { notes: [53, 57, 60, 65], start: 0, length: 1.6 },
-  { notes: [48, 55, 60, 64], start: 1.6, length: 2.2 },
+  { notes: [53, 57, 60, 65], start: 0, length: 4 },
+  { notes: [48, 55, 60, 64], start: 4, length: 6 },
 ];
 // Relative loudness of the fundamental and its harmonics.
 const HARMONICS = [1, 0.5, 0.33, 0.22, 0.12, 0.08];
